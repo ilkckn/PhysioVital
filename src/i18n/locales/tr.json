@@ -14,6 +14,28 @@
     },
     "mobile-appointment": "Randevu Al"
   },
+  "footer": {
+    "logo1": "Physio",
+    "logo2": "Vital",
+    "desc": "Hareketin gücünü yeniden keşfedin. Uzman fizyoterapi hizmetleriyle sağlığınıza kavuşun.",
+    "services": {
+      "services": "Hizmetler",
+      "manual-therapy": "Elle Terapi",
+      "sports-rehabilitation": "Spor Terapi",
+      "neurological-physiotherapy": "Nörolojik Fizyoterapi",
+      "orthopedic-rehabilitation": "Ortopedik Terapi"
+    },
+    "institutional": {
+      "institutional-header": "Kurumsal",
+      "about": "Hakkımızda",
+      "areas-of-treatment": "Tedavi Alanları",
+      "contact": "İletişim"
+    },
+    "contact": "İletişim",
+    "email": "info@fizyovital.com",
+    "address": "Musterstraße 12, 79588 Efringen-Kirchen",
+    "rights": "© 2025 FizyoVital. Tüm hakları saklıdır."
+  },
   "landing": {
     "tag": "Fizyoterapi & Rehabilitasyon",
     "main-header": {
@@ -125,6 +147,201 @@
         "Dupuytren"
       ],
       "description4": "İnce motor becerileri ve günlük kullanım yetisini geri kazandırma."
+    }
+  },
+  "treatments": {
+    "hero": {
+      "tag": "Tedavi Hizmetlerimiz",
+      "headers": {
+        "header1": "Sağlığınıza Kavuşmanız",
+        "header2": "İçin Doğru Tedavi"
+      },
+      "desc": "Her bireyin ihtiyacı farklıdır. Uzman ekibimiz, size özel tedavi planlarıyla sağlığınıza kavuşmanızı sağlar.",
+      "btns": {
+        "btn1": "Tedavileri Keşfet",
+        "btn2": "Hemen Randevu Al"
+      }
+    },
+    "category": {
+      "tag": "Tedavi Kategorileri",
+      "header": "İhtiyacınıza Uygun Tedaviyi Bulun",
+      "desc": "Geniş yelpazede uzmanlık alanlarıyla size en uygun tedavi yöntemini sunuyoruz.",
+      "box": {
+        "header1": "Ortopedik Rehabilitasyon",
+        "desc1": "Kırık, çıkık, eklem protezi ve kas-iskelet sistemi yaralanmaları sonrası kapsamlı iyileşme programları.",
+        "tag1": "12+ tedavi yöntemi",
+        "header2": "Nörolojik Rehabilitasyon",
+        "desc2": "Inme, beyin hasarı ve sinir sistemi hastalıklarında fonksiyonel kazanım ve bağımsızlık odaklı terapiler.",
+        "tag2": "Özel eğitimli ekip",
+        "header3": "Spor Rehabilitasyonu",
+        "desc3": "Sporculara özel ağrı yönetimi, sakatlık önleme ve performans artırma programları.",
+        "tag3": "Spor hekimi eşliğinde",
+        "header4": "Manuel Terapi",
+        "desc4": "Ellerle uygulanan özel tekniklerle eklem hareket açıklığını artırma, ağrıları azaltma ve dokuları onarma.",
+        "tag4": "El becerisi odaklı",
+        "header5": "Kuru İğne",
+        "desc5": "Kas spazmları ve tetik noktaların hedefli iğne tedavisiyle serbest bırakılması. Kronik ağrıda etkili çözüm.",
+        "tag5": "Kanıt temelli",
+        "header6": "Bireysel Egzersiz Programları",
+        "desc6": "Kişiselleştirilmiş egzersiz planlarıyla güç, esneklik ve denge kazanımı. Evde devam programları dahil.",
+        "tag6": "Kişiye özel plan"
+      }
+    },
+    "details": {
+      "tag": "Tedavi Detayları",
+      "header": "Her Tedavinin Arkasında Bilimsel Yaklaşım",
+      "desc": "Kullandığımız yöntemler, uluslararası kanıtlara dayalı protokollerle desteklenmektedir.",
+      "detail-boxes": {
+        "orthopedic": {
+          "tag": "01 - Ortopedik",
+          "header": "Ortopedik Rehabilitasyon",
+          "desc": "Ameliyat sonrası veya travmatik yaralanmalarda, eklem protezi takılmasında, kırık ve çıkık tedavilerinde uzman fizyoterapistler eşliğinde birebir rehabilitasyon süreci yürütüyoruz. Her aşamada fonksiyonel hedefler belirlenir ve ilerleme düzenli olarak değerlendirilir.",
+          "list": {
+            "li1": "Diz ve kalça protezi sonrası erken mobilizasyon",
+            "li2": "Omuz cerrahisi (SLAP, rotator cuff) rehabilitasyonu",
+            "li3": "Dirsek ve el bileği yaralanmalarında fonksiyonel kazanım",
+            "li4": "Bel ve boyun fıtıklarında konservatif tedavi",
+            "li5": "Spor yaralanmalarında hızlı dönüş protokolleri"
+          },
+          "btn": "Randevu Al"
+        },
+        "neurological": {
+          "tag": "02 - Nörolojik",
+          "header": "Nörolojik Rehabilitasyon",
+          "desc": "İnme, beyin ve omurilik yaralanmaları ile nörolojik hastalıklarda, hastanın günlük yaşam bağımsızlığını yeniden kazanmasına odaklanıyoruz. Özel eğitimli ekibimiz, sinir sisteminin öğrenme kapasitesini (nöroplastisite) temel alan güncel yöntemlerle çalışır.",
+          "list": {
+            "li1": "İnme sonrası yürüme ve denge eğitimi",
+            "li2": "Bobath ve PNF konseptleriyle fonksiyonel terapi",
+            "li3": "Multipl skleroz ve Parkinson'da hareket yönetimi",
+            "li4": "Spastisite ve koordinasyon bozukluklarında tedavi",
+            "li5": "Günlük yaşam aktivitelerinde bağımsızlık çalışması"
+          },
+          "btn": "Randevu Al"
+        },
+        "sports": {
+          "tag": "03 - Spor",
+          "header": "Spor Rehabilitasyonu",
+          "desc": "Amatör ve profesyonel sporcular için sakatlık sonrası sahaya dönüş, sakatlık önleme ve performans artırma programları sunuyoruz. Süreç spor hekimi eşliğinde planlanır ve her sporcunun branşına özel olarak şekillendirilir.",
+          "list": {
+            "li1": "Ön çapraz bağ (ACL) sonrası sahaya dönüş programı",
+            "li2": "Kas ve tendon yaralanmalarında yüklenme yönetimi",
+            "li3": "Sakatlık önleyici hareket analizi ve tarama",
+            "li4": "Kuvvet, çeviklik ve dayanıklılık geliştirme",
+            "li5": "Branşa özel performans optimizasyonu"
+          },
+          "btn": "Randevu Al"
+        },
+        "manual": {
+          "tag": "04 - Manuel Terapi",
+          "header": "Manuel Terapi",
+          "desc": "Ellerle uygulanan özel mobilizasyon ve manipülasyon teknikleriyle eklem hareketliliğini artırıyor, ağrıyı azaltıyor ve kas gerginliğini gideriyoruz. Her seans, ayrıntılı bir değerlendirmenin ardından kişiye özel olarak uygulanır.",
+          "list": {
+            "li1": "Eklem mobilizasyonu ve manipülasyon teknikleri",
+            "li2": "Yumuşak doku ve fasya gevşetme uygulamaları",
+            "li3": "Tetik nokta tedavisi ve miyofasyal teknikler",
+            "li4": "Boyun ve bel kaynaklı ağrılarda elle tedavi",
+            "li5": "Duruş bozukluklarında manuel düzeltme"
+          },
+          "btn": "Randevu Al"
+        }
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "small-header": "İletişim",
+      "main-header": {
+        "title1": "Sizinle Tanışmak",
+        "title2": "İsteriz"
+      },
+      "description": "Sorularınız, randevu talepleriniz veya işbirliği önerileriniz için bize ulaşın. Sağlığınız bizim için önemli.",
+      "contact-info": {
+        "phone": {
+          "tool": "Telefon",
+          "description": "Pzt-Cum 09:00 - 18:00"
+        },
+        "email": {
+          "tool": "E-posta",
+          "label": "info@fizyovital.com",
+          "description": "24 saat içinde yanıt."
+        },
+        "location": {
+          "tool": "Adres",
+          "label": "Feldberg Str. 123, 06500",
+          "description": "Freiburg, Baden Württemberg"
+        }
+      },
+      "contact-form": {
+        "small-header": "Bise Ulaşın",
+        "main-header": "Mesaj Gönderin",
+        "description": "Formu doldurun, size en kısa sürede dönüş yapalım.",
+        "form": {
+          "name": "Adınız Soyadınız",
+          "phone": "Telefon",
+          "email": "E-posta",
+          "subject": {
+            "subject-title": "Konu",
+            "options": {
+              "option1": "Bir konu seçin",
+              "option2": "Randevu Talebi",
+              "option3": "Bilgi Talebi",
+              "option4": "İşbirliği Önerisi",
+              "option5": "Diğer"
+            }
+          },
+          "message": "Mesajınız",
+          "submit": "Mesajı Gönder",
+          "name-placeholder": "Adınızı girin",
+          "phone-placeholder": "0 (170) XXX XX XX",
+          "email-placeholder": "ornek@email.com",
+          "subject-placeholder": "Bir konu seçin",
+          "message-placeholder": "Mesajınızı yazın..",
+          "submitted": "Mesajınız başarıyla gönderildi.",
+          "error": {
+            "name": "Adınızı girin",
+            "phone": "Telefon numaranızı girin",
+            "email": "E-posta adresinizi girin",
+            "email-invalid": "Geçerli bir e-posta adresi girin",
+            "subject": "Konu seçin",
+            "message": "Mesajınızı girin"
+          }
+        },
+        "working-hours": {
+          "tag": "Çalışma Saatleri",
+          "header": "Ziyaret Saatlerimiz",
+          "hours": {
+            "week": {
+              "header": "Hafta İçi",
+              "days": {
+                "monday": "Pazartesi",
+                "tuesday": "Salı",
+                "wednesday": "Çarşamba",
+                "thursday": "Perşembe",
+                "friday": "Cuma",
+                "saturday": "Cumartesi",
+                "sunday": "Pazar"
+              }
+            },
+            "weekend": {
+              "header": "Hafta Sonu",
+              "days": {
+                "saturday": "Cumartesi",
+                "sunday": "Pazar"
+              },
+              "close": "Kapalı",
+              "tag": "Acil durumlar için 7/24 ulaşabilirsiniz."
+            }
+          }
+        },
+        "first-step": {
+          "header": "Sağlığınız için ilk adımı atın",
+          "paragraph": "Hemen randevu alın veya bizi arayın. Uzman ekibimiz sizin için hazır.",
+          "btns": {
+            "btn1": "Hemen Ara",
+            "btn2": "Online Randevu"
+          }
+        }
+      }
     }
   }
 }

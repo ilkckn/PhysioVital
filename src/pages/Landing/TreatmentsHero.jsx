@@ -1,11 +1,16 @@
-import "./TreatmentsHero.css"
-import { useTranslation } from "react-i18next"
+import "./TreatmentsHero.css";
+import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 
 const TreatmentsHero = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
-  
+
+  const handleLinkClick = () => {
+    navigate("/contact");
+    window.scrollTo(0, 0);
+  };
+
   const treatments = [
     {
       title: t("landing.treatments.title1"),
@@ -27,7 +32,6 @@ const TreatmentsHero = () => {
       tags: t("landing.treatments.tag4", { returnObjects: true }),
       description: t("landing.treatments.description4"),
     },
-    
   ];
   return (
     <section className="treatments-hero">
@@ -41,27 +45,28 @@ const TreatmentsHero = () => {
             <p>{t("landing.treatments.description")}</p>
           </div>
           <div className="treatments">
-            
-              {treatments.map((treatment, index) => (
-                <div key={index} className="treatment">
-                  <h3>{treatment.title}</h3>
-                  <div className="tags">
-                    {treatment.tags.map((tag, index) => (
-                      <span key={index}>{tag}</span>
-                    ))}
-                  </div>
-                  <p>{treatment.description}</p>
+            {treatments.map((treatment, index) => (
+              <div key={index} className="treatment">
+                <h3>{treatment.title}</h3>
+                <div className="tags">
+                  {treatment.tags.map((tag, index) => (
+                    <span key={index}>{tag}</span>
+                  ))}
                 </div>
-              ))}
+                <p>{treatment.description}</p>
+              </div>
+            ))}
           </div>
           <div className="consult">
             <p>{t("landing.treatments.consult")}</p>
-            <button onClick={() => navigate("/contact")}>{t("landing.treatments.consultButton")}</button>
+            <button onClick={handleLinkClick}>
+              {t("landing.treatments.consultButton")}
+            </button>
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default TreatmentsHero
+export default TreatmentsHero;

@@ -1,0 +1,107 @@
+.contact {
+  width: 100%;
+  padding-bottom: 6rem;
+
+  .container {
+    width: 100%;
+    position: relative;
+
+    .bg-orbs {
+      z-index: -1;
+    }
+
+    .hero {
+      width: 100%;
+      padding-block: 10rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .small-header {
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--accent-soft);
+        padding-inline: 3rem;
+        padding-block: 0.5rem;
+        border-radius: 3rem;
+        corner-shape: round;
+
+        & > p {
+          font-size: clamp(1.2rem, 5vw, 1.4rem);
+          font-weight: 600;
+          font-family: var(--font-body);
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          color: var(--accent);
+        }
+      }
+
+      .main-header {
+        z-index: 2;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-block: 2rem;
+
+        & > h1 {
+            font-family: var(--font-display);
+            font-weight: 700;
+            font-size: clamp(2.8rem, 1.8rem + 3.5vw, 5rem);
+            line-height: 1.1;
+            letter-spacing: -0.5px;
+            text-align: center;
+            text-wrap: balance;
+          }
+      }
+
+      & > p {
+        text-align: center;
+        max-width: 55ch;
+        font-size: clamp(1.4rem, 1.25rem + 0.5vw, 1.8rem);
+        line-height: 1.6;                 /* 2.5rem yerine */
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .contact .container .hero {
+    padding-block: 8rem 6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding-bottom: 4rem;
+
+    .container .hero {
+      padding-block: 6rem 4rem;
+
+      .small-header {
+        padding-inline: 2rem;
+      }
+
+      .main-header {
+        margin-block: 1.5rem;
+      }
+
+      & > p {
+        max-width: 100%;
+        padding-inline: 1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .contact .container .hero {
+    padding-block: 5rem 3rem;
+
+    .main-header {
+      margin-block: 1.2rem;
+    }
+  }
+}

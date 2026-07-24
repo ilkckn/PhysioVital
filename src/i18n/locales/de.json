@@ -14,6 +14,28 @@
     },
     "mobile-appointment": "Termin buchen"
   },
+  "footer": {
+    "logo1": "Physio",
+    "logo2": "Vital",
+    "desc": "Entdecken Sie die Kraft der Bewegung neu. Mit fachkundiger Physiotherapie zurück zu Ihrer Gesundheit.",
+    "services": {
+      "services": "Leistungen",
+      "manual-therapy": "Manuelle Therapie",
+      "sports-rehabilitation": "Sportphysiotherapie",
+      "neurological-physiotherapy": "Neurologische Physiotherapie",
+      "orthopedic-rehabilitation": "Orthopädische Rehabilitation"
+    },
+    "institutional": {
+      "institutional-header": "Unternehmen",
+      "about": "Über uns",
+      "areas-of-treatment": "Behandlungsbereiche",
+      "contact": "Kontakt"
+    },
+    "contact": "Kontakt",
+    "email": "info@fizyovital.com",
+    "address": "Musterstraße 12, 79588 Efringen-Kirchen",
+    "rights": "© 2025 FizyoVital. Alle Rechte vorbehalten."
+  },
   "landing": {
     "tag": "Physiotherapie & Rehabilitation",
     "main-header": {
@@ -130,6 +152,199 @@
         "Dupuytren"
       ],
       "description4": "Wiederherstellung der Feinmotorik und alltäglichen Funktionsfähigkeit."
+    }
+  },
+  "treatments": {
+    "hero": {
+      "tag": "Unsere Behandlungen",
+      "headers": {
+        "header1": "Die richtige Behandlung",
+        "header2": "für Ihre Genesung"
+      },
+      "desc": "Jeder Mensch hat andere Bedürfnisse. Unser Expertenteam unterstützt Sie mit individuell abgestimmten Behandlungsplänen auf dem Weg zurück zu Ihrer Gesundheit.",
+      "btns": {
+        "btn1": "Behandlungen entdecken",
+        "btn2": "Jetzt Termin buchen"
+      }
+    },
+    "category": {
+      "tag": "Behandlungskategorien",
+      "header": "Finden Sie die passende Behandlung für Ihre Bedürfnisse",
+      "desc": "Mit einem breiten Spektrum an Fachbereichen bieten wir Ihnen die für Sie am besten geeignete Behandlungsmethode.",
+      "box": {
+        "header1": "Orthopädische Rehabilitation",
+        "desc1": "Umfassende Rehabilitationsprogramme nach Brüchen, Luxationen, Gelenkprothesen und Verletzungen des Bewegungsapparats.",
+        "tag1": "12+ Behandlungsmethoden",
+        "header2": "Neurologische Rehabilitation",
+        "desc2": "Auf funktionelle Fortschritte und Selbstständigkeit ausgerichtete Therapien bei Schlaganfall, Hirnverletzungen und Erkrankungen des Nervensystems.",
+        "tag2": "Speziell geschultes Team",
+        "header3": "Sportrehabilitation",
+        "desc3": "Auf Sportler zugeschnittene Programme zur Schmerzbehandlung, Verletzungsprävention und Leistungssteigerung.",
+        "tag3": "Begleitet durch einen Sportarzt",
+        "header4": "Manuelle Therapie",
+        "desc4": "Mit den Händen ausgeführte Techniken zur Verbesserung der Gelenkbeweglichkeit, Schmerzlinderung und Geweberegeneration.",
+        "tag4": "Mit den Händen ausgeführt",
+        "header5": "Dry Needling",
+        "desc5": "Gezielte Nadeltherapie zur Lösung von Muskelverspannungen und Triggerpunkten. Eine wirksame Lösung bei chronischen Schmerzen.",
+        "tag5": "Evidenzbasiert",
+        "header6": "Individuelle Trainingsprogramme",
+        "desc6": "Aufbau von Kraft, Beweglichkeit und Gleichgewicht durch personalisierte Trainingspläne. Inklusive Programmen für zu Hause.",
+        "tag6": "Individueller Plan"
+      }
+    },
+    "details": {
+      "tag": "Behandlungsdetails",
+      "header": "Ein wissenschaftlicher Ansatz hinter jeder Behandlung",
+      "desc": "Die von uns eingesetzten Methoden werden durch international evidenzbasierte Protokolle gestützt.",
+      "detail-boxes": {
+        "orthopedic": {
+          "tag": "01 - Orthopädie",
+          "header": "Orthopädische Rehabilitation",
+          "desc": "Nach Operationen oder traumatischen Verletzungen, beim Einsatz von Gelenkprothesen sowie bei der Behandlung von Brüchen und Luxationen führen wir eine individuelle Rehabilitation unter Begleitung erfahrener Physiotherapeuten durch. In jeder Phase werden funktionelle Ziele festgelegt und die Fortschritte regelmäßig bewertet.",
+          "list": {
+            "li1": "Frühmobilisation nach Knie- und Hüftprothese",
+            "li2": "Rehabilitation nach Schulteroperationen (SLAP, Rotatorenmanschette)",
+            "li3": "Funktionelle Wiederherstellung bei Ellenbogen- und Handgelenksverletzungen",
+            "li4": "Konservative Behandlung bei Bandscheibenvorfällen an Lende und Nacken",
+            "li5": "Schnelle Return-to-Sport-Protokolle bei Sportverletzungen"
+          },
+          "btn": "Termin buchen"
+        },
+        "neurological": {
+          "tag": "02 - Neurologie",
+          "header": "Neurologische Rehabilitation",
+          "desc": "Bei Schlaganfall, Hirn- und Rückenmarksverletzungen sowie neurologischen Erkrankungen konzentrieren wir uns darauf, den Patienten zu mehr Selbstständigkeit im Alltag zu verhelfen. Unser speziell geschultes Team arbeitet mit aktuellen Methoden, die auf der Lernfähigkeit des Nervensystems (Neuroplastizität) beruhen.",
+          "list": {
+            "li1": "Gang- und Gleichgewichtstraining nach Schlaganfall",
+            "li2": "Funktionelle Therapie mit Bobath- und PNF-Konzepten",
+            "li3": "Bewegungsmanagement bei Multipler Sklerose und Parkinson",
+            "li4": "Behandlung von Spastik und Koordinationsstörungen",
+            "li5": "Förderung der Selbstständigkeit im Alltag"
+          },
+          "btn": "Termin buchen"
+        },
+        "sports": {
+          "tag": "03 - Sport",
+          "header": "Sportrehabilitation",
+          "desc": "Für Amateur- und Profisportler bieten wir Programme zur Rückkehr in den Sport, zur Verletzungsprävention und zur Leistungssteigerung an. Der Prozess wird gemeinsam mit einem Sportarzt geplant und individuell auf die jeweilige Sportart abgestimmt.",
+          "list": {
+            "li1": "Return-to-Sport-Programm nach Kreuzband-OP (ACL)",
+            "li2": "Belastungssteuerung bei Muskel- und Sehnenverletzungen",
+            "li3": "Präventive Bewegungsanalyse und Screening",
+            "li4": "Aufbau von Kraft, Schnelligkeit und Ausdauer",
+            "li5": "Sportartspezifische Leistungsoptimierung"
+          },
+          "btn": "Termin buchen"
+        },
+        "manual": {
+          "tag": "04 - Manuelle Therapie",
+          "header": "Manuelle Therapie",
+          "desc": "Mit gezielten Mobilisations- und Manipulationstechniken, die mit den Händen ausgeführt werden, verbessern wir die Gelenkbeweglichkeit, lindern Schmerzen und lösen muskuläre Verspannungen. Jede Sitzung wird nach einer ausführlichen Befundung individuell gestaltet.",
+          "list": {
+            "li1": "Gelenkmobilisation und Manipulationstechniken",
+            "li2": "Weichteil- und Faszienbehandlung",
+            "li3": "Triggerpunkttherapie und myofasziale Techniken",
+            "li4": "Manuelle Behandlung bei Nacken- und Rückenschmerzen",
+            "li5": "Manuelle Korrektur von Haltungsstörungen"
+          },
+          "btn": "Termin buchen"
+        }
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "small-header": "Kontakt",
+      "main-header": {
+        "title1": "Kontaktieren Sie uns",
+        "title2": "Lassen Sie uns zusammenarbeiten"
+      },
+      "description": "Bei Fragen, Terminwünschen oder Kooperationsvorschlägen kontaktieren Sie uns bitte. Ihre Gesundheit liegt uns am Herzen.",
+      "contact-info": {
+        "phone": {
+          "tool": "Telefon",
+          "description": "Mo-Fr 09:00 - 18:00"
+        },
+        "email": {
+          "tool": "E-Mail",
+          "label": "info@fizyovital.com",
+          "description": "Antwort innerhalb von 24 Stunden."
+        },
+        "location": {
+          "tool": "Adresse",
+          "label": "Feldberg Str. 123, 06500",
+          "description": "Freiburg, Baden-Württemberg"
+        }
+      },
+      "contact-form": {
+        "small-header": "Kontakt aufnehmen",
+        "main-header": "Nachricht senden",
+        "description": "Füllen Sie das Formular aus und wir melden uns so schnell wie möglich bei Ihnen.",
+        "form": {
+          "name": "Vor- und Nachname",
+          "phone": "Telefon",
+          "email": "E-Mail",
+          "subject": {
+            "subject-title": "Betreff",
+            "options": {
+              "option1": "Wählen Sie einen Betreff",
+              "option2": "Terminanfrage",
+              "option3": "Informationsanfrage",
+              "option4": "Kooperationsanfrage",
+              "option5": "Sonstiges"
+            }
+          },
+          "message": "Ihre Nachricht",
+          "submit": "Nachricht senden",
+          "name-placeholder": "Geben Sie Ihren Namen ein",
+          "phone-placeholder": "+49 170 XXX XX XX",
+          "email-placeholder": "beispiel@email.com",
+          "subject-placeholder": "Wählen Sie einen Betreff",
+          "message-placeholder": "Schreiben Sie Ihre Nachricht..",
+          "submitted": "Ihre Nachricht wurde erfolgreich gesendet.",
+          "error": {
+            "name": "Name ist erforderlich.",
+            "phone": "Telefonnummer erforderlich",
+            "email": "E-Mail ist erforderlich.",
+            "email-invalid": "E-Mail ist ungültig.",
+            "subject": "Betreff ist erforderlich.",
+            "message": "Nachricht ist erforderlich."
+          }
+        },
+        "working-hours": {
+          "tag": "Arbeitszeit",
+          "header": "Unsere Besuchszeiten",
+          "hours": {
+            "week": {
+              "header": "Wochentag",
+              "days": {
+                "monday": "Montag",
+                "tuesday": "Dienstag",
+                "wednesday": "Mittwoch",
+                "thursday": "Donnerstag",
+                "friday": "Freitag"
+              }
+            },
+            "weekend": {
+              "header": "Wochenende",
+              "days": {
+                "saturday": "Samstag",
+                "sunday": "Sonntag"
+              },
+              "close": "Geschlossen",
+              "tag": "Sie können uns im Notfall rund um die Uhr erreichen."
+            }
+          }
+        },
+        "first-step": {
+          "header": "Machen Sie den ersten Schritt für Ihre Gesundheit",
+          "paragraph": "Vereinbaren Sie jetzt einen Termin oder rufen Sie uns an. Unser Expertenteam steht für Sie bereit.",
+          "btns": {
+            "btn1": "Jetzt anrufen",
+            "btn2": "Online-Termin"
+          }
+        }
+      }
     }
   }
 }

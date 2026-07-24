@@ -1,11 +1,50 @@
-import "./Treatments.css"
+import "./Treatments.css";
+import { useTranslation } from "react-i18next";
+import { NavLink } from "react-router-dom";
+import Category from "./Category";
+import Details from "./Details";
 
 const Treatments = () => {
+  const { t } = useTranslation();
+
+
   return (
     <section className="treatments">
-      
-    </section>
-  )
-}
+      <div className="container">
+        <div className="hero">
+          <div className="tag">
+            <span>{t("treatments.hero.tag")}</span>
+          </div>
+          <div className="header">
+            <div className="main-header">
+              <h1>{t("treatments.hero.headers.header1")}</h1>
+              <h1>{t("treatments.hero.headers.header2")}</h1>
+            </div>
+            <p>{t("treatments.hero.desc")}</p>
+          </div>
+          <div className="btns">
+            <button>
+              <NavLink to="/services">
+                {t("treatments.hero.btns.btn1")}
+              </NavLink>
+            </button>
+            <button>
+              <NavLink to="/appointment">
+                {t("treatments.hero.btns.btn2")}
+              </NavLink>
+            </button>
+          </div>
+        </div>
 
-export default Treatments
+        <div className="category-component">
+          <Category />
+        </div>
+        <div className="details-component">
+          <Details />
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Treatments;

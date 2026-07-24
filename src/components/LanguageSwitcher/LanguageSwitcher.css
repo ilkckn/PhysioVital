@@ -61,13 +61,20 @@
     flex-direction: row;
 
     .btns {
+      .lang-switcher-icon {
+        font-size: 2.5rem;
+      }
       .lang-switcher-dropdown {
         flex-direction: row;
         top: -0.3rem;
         left: 2rem;
         background-color: transparent;
         padding: 0;
-        padding-left: 1rem;
+        padding-left: 1.5rem;
+
+        & > button {
+          font-size: 1.45rem;
+        }
       }
     }
   }

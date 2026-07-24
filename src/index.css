@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@300..700&display=swap");
 
 :root {
-  --navbar-height: 8rem;
+  --navbar-height: 10rem;
   
   --bg: oklch(97.5% 0.008 160);
   --bg-white: oklch(98.5% 0 0); 
@@ -10,10 +10,15 @@
   --muted: oklch(48% 0.025 180);
   --border: oklch(90% 0 0);
   --border-dark: oklch(70% 0 0);
+  --border-darker: oklch(40% 0 0);
   --border-greenish: oklch(90% 0.012 170);
+  --border-greenish-darker: oklch(40% 0.012 170);
   --accent: oklch(42% 0.15 175);
+  --accent-lighter: oklch(50% 0.1 175);
   --accent-soft: oklch(92% 0.04 175);
+  --accent-soft-lighter: oklch(90% 0.04 175);
   --accent-warm: oklch(45% 0.13 40);
+  --accent-warm-lighter: oklch(55% 0.13 40);
   --accent-warm-soft: oklch(93% 0.035 40);
   --accent-cool: oklch(55% 0.12 250);
   --accent-cool-soft: oklch(92% 0.04 250);
@@ -25,6 +30,11 @@
   --font-accent: "Space Grotesk", -apple-system, system-ui, sans-serif;
 
   --font-text-white: oklch(100% 0 0);
+  --font-text-gray: oklch(70% 0 0);
+  --font-text-gray-darker: oklch(40% 0 0);
+  --font-greenish: oklch(60% 0.01 210);
+  --font-greenish-lighter: oklch(70% 0.01 210);
+  --font-greenish-darker: oklch(40% 0.01 210);
   --font-text-black: oklch(20% 0 0);
 
   --radius-sm: 0.8rem;
@@ -67,6 +77,16 @@ body {
   overflow-x: hidden;
 }
 
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100dvh - var(--navbar-height));
+}
+
+main {
+  flex: 1;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -100,7 +120,7 @@ h6 {
 }
 
 h1 {
-  font-size: clamp(2.8rem, 5vw, 5rem);
+  font-size: clamp(2.8rem, 5vw, 5.5rem);
 }
 
 h2 {

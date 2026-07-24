@@ -14,6 +14,28 @@
     },
     "mobile-appointment": "Appointment"
   },
+  "footer": {
+    "logo1": "Physio",
+    "logo2": "Vital",
+    "desc": "Rediscover the power of movement. Regain your health with expert physiotherapy care.",
+    "services": {
+      "services": "Services",
+      "manual-therapy": "Manual Therapy",
+      "sports-rehabilitation": "Sports Rehabilitation",
+      "neurological-physiotherapy": "Neurological Physiotherapy",
+      "orthopedic-rehabilitation": "Orthopedic Rehabilitation"
+    },
+    "institutional": {
+      "institutional-header": "Company",
+      "about": "About Us",
+      "areas-of-treatment": "Areas of Treatment",
+      "contact": "Contact"
+    },
+    "contact": "Contact",
+    "email": "info@fizyovital.com",
+    "address": "Musterstraße 12, 79588 Efringen-Kirchen",
+    "rights": "© 2025 FizyoVital. All rights reserved."
+  },
   "landing": {
     "tag": "Physiotherapy & Rehabilitation",
     "main-header": {
@@ -130,6 +152,199 @@
         "Dupuytren"
       ],
       "description4": "Restoring fine motor skills and everyday functional ability."
+    }
+  },
+  "treatments": {
+    "hero": {
+      "tag": "Our Treatment Services",
+      "headers": {
+        "header1": "The Right Treatment",
+        "header2": "For Your Recovery"
+      },
+      "desc": "Every individual's needs are different. Our expert team helps you regain your health with treatment plans tailored to you.",
+      "btns": {
+        "btn1": "Explore Treatments",
+        "btn2": "Book an Appointment"
+      }
+    },
+    "category": {
+      "tag": "Treatment Categories",
+      "header": "Find the Right Treatment for Your Needs",
+      "desc": "With a wide range of specialties, we offer you the treatment method best suited to you.",
+      "box": {
+        "header1": "Orthopedic Rehabilitation",
+        "desc1": "Comprehensive recovery programs following fractures, dislocations, joint replacements, and musculoskeletal injuries.",
+        "tag1": "12+ treatment methods",
+        "header2": "Neurological Rehabilitation",
+        "desc2": "Therapies focused on functional gains and independence in stroke, brain injury, and nervous system disorders.",
+        "tag2": "Specially trained team",
+        "header3": "Sports Rehabilitation",
+        "desc3": "Pain management, injury prevention, and performance enhancement programs tailored to athletes.",
+        "tag3": "Supervised by a sports physician",
+        "header4": "Manual Therapy",
+        "desc4": "Hands-on techniques to improve joint range of motion, reduce pain, and restore tissue.",
+        "tag4": "Hands-on focused",
+        "header5": "Dry Needling",
+        "desc5": "Targeted needle therapy to release muscle spasms and trigger points. An effective solution for chronic pain.",
+        "tag5": "Evidence-based",
+        "header6": "Individual Exercise Programs",
+        "desc6": "Building strength, flexibility, and balance through personalized exercise plans. Home continuation programs included.",
+        "tag6": "Personalized plan"
+      }
+    },
+    "details": {
+      "tag": "Treatment Details",
+      "header": "A Scientific Approach Behind Every Treatment",
+      "desc": "The methods we use are backed by internationally evidence-based protocols.",
+      "detail-boxes": {
+        "orthopedic": {
+          "tag": "01 - Orthopedic",
+          "header": "Orthopedic Rehabilitation",
+          "desc": "Following surgery or traumatic injuries, joint replacements, and fracture or dislocation treatments, we carry out one-on-one rehabilitation guided by expert physiotherapists. Functional goals are set at every stage and progress is assessed regularly.",
+          "list": {
+            "li1": "Early mobilization after knee and hip replacement",
+            "li2": "Shoulder surgery (SLAP, rotator cuff) rehabilitation",
+            "li3": "Functional recovery in elbow and wrist injuries",
+            "li4": "Conservative treatment for lower back and neck hernias",
+            "li5": "Rapid return-to-sport protocols for sports injuries"
+          },
+          "btn": "Book an Appointment"
+        },
+        "neurological": {
+          "tag": "02 - Neurological",
+          "header": "Neurological Rehabilitation",
+          "desc": "In stroke, brain and spinal cord injuries, and neurological conditions, we focus on helping patients regain independence in daily life. Our specially trained team works with current methods based on the nervous system's capacity to learn (neuroplasticity).",
+          "list": {
+            "li1": "Gait and balance training after stroke",
+            "li2": "Functional therapy with Bobath and PNF concepts",
+            "li3": "Movement management in multiple sclerosis and Parkinson's",
+            "li4": "Treatment of spasticity and coordination disorders",
+            "li5": "Building independence in activities of daily living"
+          },
+          "btn": "Book an Appointment"
+        },
+        "sports": {
+          "tag": "03 - Sports",
+          "header": "Sports Rehabilitation",
+          "desc": "For amateur and professional athletes, we offer return-to-play, injury prevention, and performance enhancement programs. The process is planned together with a sports physician and shaped specifically around each athlete's discipline.",
+          "list": {
+            "li1": "Return-to-play program after ACL reconstruction",
+            "li2": "Load management in muscle and tendon injuries",
+            "li3": "Preventive movement analysis and screening",
+            "li4": "Developing strength, agility, and endurance",
+            "li5": "Sport-specific performance optimization"
+          },
+          "btn": "Book an Appointment"
+        },
+        "manual": {
+          "tag": "04 - Manual Therapy",
+          "header": "Manual Therapy",
+          "desc": "Using hands-on mobilization and manipulation techniques, we improve joint mobility, reduce pain, and relieve muscle tension. Each session is tailored to the individual following a detailed assessment.",
+          "list": {
+            "li1": "Joint mobilization and manipulation techniques",
+            "li2": "Soft tissue and fascia release applications",
+            "li3": "Trigger point therapy and myofascial techniques",
+            "li4": "Hands-on treatment for neck and lower back pain",
+            "li5": "Manual correction of postural imbalances"
+          },
+          "btn": "Book an Appointment"
+        }
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "small-header": "Contact",
+      "main-header": {
+        "title1": "Get in Touch",
+        "title2": "Let's Connect"
+      },
+      "description": "Contact us for your questions, appointment requests, or collaboration proposals. Your health is important to us.",
+      "contact-info": {
+        "phone": {
+          "tool": "Phone",
+          "description": "Mon-Fri 09:00 - 18:00"
+        },
+        "email": {
+          "tool": "Email",
+          "label": "info@fizyovital.com",
+          "description": "Response within 24 hours."
+        },
+        "location": {
+          "tool": "Address",
+          "label": "Feldberg Str. 123, 06500",
+          "description": "Freiburg, Baden-Württemberg"
+        }
+      },
+      "contact-form": {
+        "small-header": "Get in Touch",
+        "main-header": "Send a Message",
+        "description": "Fill out the form and we'll get back to you as soon as possible.",
+        "form": {
+          "name": "Full Name",
+          "phone": "Phone",
+          "email": "Email",
+          "subject": {
+            "subject-title": "Subject",
+            "options": {
+              "option1": "Select a subject",
+              "option2": "Appointment Request",
+              "option3": "Information Request",
+              "option4": "Collaboration Proposal",
+              "option5": "Other"
+            }
+          },
+          "message": "Your Message",
+          "submit": "Send Message",
+          "name-placeholder": "Enter your name",
+          "phone-placeholder": "+49 170 XXX XX XX",
+          "email-placeholder": "example@email.com",
+          "subject-placeholder": "Select a subject",
+          "message-placeholder": "Write your message..",
+          "submitted": "Your message has been sent successfully.",
+          "error": {
+            "name": "Name is required",
+            "phone": "Phone is required",
+            "email": "Email is required",
+            "email-invalid": "Email is invalid",
+            "subject": "Subject is required",
+            "message": "Message is required"
+          }
+        },
+        "working-hours": {
+          "tag": "Working Hours",
+          "header": "Visiting Hours",
+          "hours": {
+            "week": {
+              "header": "Week",
+              "days": {
+                "monday": "Monday",
+                "tuesday": "Tuesday",
+                "wednesday": "Wednesday",
+                "thursday": "Thursday",
+                "friday": "Friday"
+              }
+            },
+            "weekend": {
+              "header": "Weekend",
+              "days": {
+                "saturday": "Saturday",
+                "sunday": "Sunday"
+              },
+              "close": "Closed",
+              "tag": "You can reach us 24/7 for emergencies."
+            }
+          }
+        },
+        "first-step": {
+          "header": "Take the first step for your health",
+          "paragraph": "Book an appointment now or give us a call. Our expert team is ready for you.",
+          "btns": {
+            "btn1": "Call Now",
+            "btn2": "Book Online"
+          }
+        }
+      }
     }
   }
 }

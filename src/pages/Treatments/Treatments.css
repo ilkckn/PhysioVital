@@ -1,0 +1,96 @@
+.treatments {
+  width: 100%;
+
+  .container {
+    width: 100%;
+
+    .hero {
+      padding-block: 10rem;
+      display: flex;
+      flex-direction: column;
+      border-bottom: 1px solid var(--border);
+      
+      .tag {
+        width: 100%;
+        margin-bottom: 1.5rem;
+
+        & > span {
+          font-size: 1.8rem;
+          font-weight: 500;
+          font-family: var(--font-accent);
+          letter-spacing: .5px;
+          line-height: 1.1;
+          color: var(--accent);
+        }
+      }
+
+      .header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .main-header {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 1.5rem;
+
+          & > h1 {
+            font-family: var(--font-display);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -1px;
+          }
+        }
+
+        & > p {
+          max-width: 45ch;
+          font-size: clamp(1.4rem, 2vw, 1.9rem);
+          line-height: 1.5;
+          color: var(--font-text-gray-darker);
+        }
+      }
+
+      .btns {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: 3rem;
+        gap: 1rem;
+
+        & > button {
+          width: fit-content;
+          padding-inline: 4rem;
+          padding-block: 1.5rem;
+          background-color: var(--accent);
+          box-shadow: var(--shadow-md);
+          border-radius: 3rem;
+          corner-shape: round;
+          font-size: 1.5rem;
+          font-weight: 500;
+          color: var(--font-text-white);
+          transition: all .3s ease-in-out;
+
+          &:hover {
+            transform: translateY(-.2rem);
+            background-color: var(--accent-lighter);
+          }
+        }
+
+        & > button:nth-child(2) {
+          background-color: transparent;
+          border: 1px solid var(--border);
+          color: var(--font-text-dark);
+
+          &:hover {
+            border-color: var(--accent-lighter);
+            color: var(--accent);
+            backdrop-filter: blur(15px);
+            background-color: color-mix(in oklab, var(--accent-soft) 60%, transparent);
+            transform: none;
+          }
+        }
+      }
+    }
+  }
+}

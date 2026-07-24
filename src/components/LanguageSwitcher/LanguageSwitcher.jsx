@@ -6,42 +6,30 @@ import { GrLanguage } from "react-icons/gr";
 function LanguageSwitcher({ setMenuOpen }) {
   const { i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
-  const [currentLanguage, setCurrentLanguage] = useState(i18n.language);
+
+  const currentLanguage = i18n.resolvedLanguage; // "tr-TR" değil "tr" verir
 
   const handleLanguageChange = (language) => {
     i18n.changeLanguage(language);
     setIsOpen(false);
-    setMenuOpen(false);
-    setCurrentLanguage(language);
+    setMenuOpen?.(false);
   };
 
   return (
     <div className="lang-switcher">
       <div className="btns">
-        <GrLanguage
-          className="lang-switcher-icon"
-          onClick={() => setIsOpen(!isOpen)}
-        />
+        <GrLanguage className="lang-switcher-icon" onClick={() => setIsOpen(!isOpen)} />
         {isOpen && (
           <div className="lang-switcher-dropdown">
-            <button
-              className={`${currentLanguage === "tr" ? "active" : ""}`}
-              onClick={() => handleLanguageChange("tr")}
-            >
-              TR
-            </button>
-            <button
-              className={`${currentLanguage === "en" ? "active" : ""}`}
-              onClick={() => handleLanguageChange("en")}
-            >
-              EN
-            </button>
-            <button
-              className={`${currentLanguage === "de" ? "active" : ""}`}
-              onClick={() => handleLanguageChange("de")}
-            >
-              DE
-            </button>
+            {["tr", "en", "de"].map((lng) => (
+              <button
+                key={lng}
+                className={currentLanguage === lng ? "active" : ""}
+                onClick={() => handleLanguageChange(lng)}
+              >
+                {lng.toUpperCase()}
+              </button>
+            ))}
           </div>
         )}
       </div>

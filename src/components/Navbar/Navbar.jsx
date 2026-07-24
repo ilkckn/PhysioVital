@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher.jsx";
-import { IoChevronDownSharp, IoMenu } from "react-icons/io5";
+import { IoChevronDownSharp, IoMenu, IoClose } from "react-icons/io5";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -16,11 +16,13 @@ const Navbar = () => {
 
   const handleLinkClick = () => {
     setIsOpen(false);
+    window.scrollTo(0, 0);
   };
 
   const handleAppointmentClick = () => {
     navigate("/appointment");
     setIsOpen(false);
+    window.scrollTo(0, 0);
   };
 
   useEffect(() => {
@@ -54,7 +56,7 @@ const Navbar = () => {
           <div className="logo" onClick={() => navigate("/")}>
             <img src="/nav-logo.png" alt="navbar logo" />
             <p>
-              Fizyo <span>Vital</span>
+              Physio <span>Vital</span>
             </p>
           </div>
           <div className="links">
@@ -114,6 +116,9 @@ const Navbar = () => {
           </div>
           {isOpen && (
             <div className={`mobile-menu ${isOpen ? "open" : ""}`}>
+              <div className="close">
+                <IoClose onClick={handleMenuToggle} />
+              </div>
               <div className="language-switcher">
                 <LanguageSwitcher menuOpen={isOpen} setMenuOpen={setIsOpen} />
               </div>

@@ -1,0 +1,173 @@
+.contact-map {
+  width: 100%;
+  height: 100%;
+
+  & > .map-shell {
+    width: 100%;
+    height: 100%;
+    border-radius: 3.5rem;
+    corner-shape: round;
+    box-shadow: var(--shadow-lg);
+    min-height: 30rem;   /* mobilde tek sütuna düşerse çökmesin */
+    z-index: 0;
+    isolation: isolate;
+  }
+}
+
+/* Leaflet'in divIcon wrapper'ı — tooltip taşabilsin */
+.custom-pin-wrapper {
+  background: transparent;
+  border: none;
+  overflow: visible;
+}
+
+.custom-pin {
+  position: relative;
+  width: 4rem;
+  height: 4rem;
+  display: grid;
+  place-items: center;
+
+  & > .dot {
+    position: absolute;
+    z-index: 2;                /* pulse'ların üstünde */
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: var(--accent);
+    border: 3px solid #fff;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 0.25);
+    cursor: pointer;
+  }
+
+  & > .pulse {
+    position: absolute;
+    z-index: 1;                /* dot'un altında */
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: var(--accent);
+    opacity: 0;
+    pointer-events: none;      /* hover'ı bloklamasın */
+    animation: pin-pulse 2.4s ease-out infinite;
+
+    &.delay {
+      animation-delay: 1.2s;
+    }
+  }
+
+  /* Tooltip */
+  & > .pin-tooltip {
+    z-index: 3;
+    position: absolute;
+    bottom: calc(100% + 1.4rem);
+    left: 50%;
+    translate: -50% 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    min-width: 22rem;
+    padding: 1.4rem 1.6rem;
+    border-radius: 1.3rem;
+    background: #fff;
+    border: 1px solid var(--accent-soft);
+    box-shadow: 0 8px 24px rgb(0 0 0 / 0.15);
+    font-size: 1.3rem;
+    line-height: 1.5;
+    text-align: left;
+
+    opacity: 0;
+    visibility: hidden;
+    translate: -50% 0.8rem;
+    transition:
+      opacity 0.25s ease,
+      translate 0.25s ease,
+      visibility 0.25s;
+
+    & > strong {
+      font-weight: 600;
+      font-size: 1.4rem;
+    }
+
+    & > a {
+      margin-top: 0.6rem;
+      color: var(--accent);
+      font-weight: 500;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+
+    /* Küçük ok */
+    &::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      translate: -50% -50%;
+      width: 1.2rem;
+      height: 1.2rem;
+      background: #fff;
+      border-right: 1px solid var(--accent-soft);
+      border-bottom: 1px solid var(--accent-soft);
+      rotate: 45deg;
+    }
+  }
+
+  &:hover > .pin-tooltip,
+  &:focus-within > .pin-tooltip {
+    opacity: 1;
+    visibility: visible;
+    translate: -50% 0;
+  }
+}
+
+@keyframes pin-pulse {
+  0%   { transform: scale(0.6); opacity: 0.55; }
+  70%  { opacity: 0.15; }
+  100% { transform: scale(3.2); opacity: 0; }
+}
+
+/*@media (prefers-reduced-motion: reduce) {
+  .custom-pin > .pulse {
+    animation: none;
+    opacity: 0;
+  }
+}*/
+
+@media (max-width: 768px) {
+  .contact-map {
+    height: 35rem;
+  }
+  .contact-map > .map-shell {
+    border-radius: 2.5rem;
+  }
+
+  .custom-pin > .pin-tooltip {
+    min-width: 18rem;
+    font-size: 1.2rem;
+    padding: 1.2rem 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-map > .map-shell {
+    border-radius: 2rem;
+  }
+
+  .custom-pin > .pin-tooltip {
+    min-width: 16rem;
+  }
+}
+
+/* Dokunmatik cihazlarda hover yok — tooltip hep açık */
+@media (hover: none) {
+  .custom-pin > .pin-tooltip {
+    opacity: 1;
+    visibility: visible;
+    translate: -50% 0;
+  }
+}
