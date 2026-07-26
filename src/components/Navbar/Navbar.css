@@ -81,7 +81,7 @@
               padding-inline: 1.8rem;
               padding-block: 0.8rem;
               border-radius: 1rem;
-              font-size: 1.45rem;
+              font-size: 1.5rem;
               font-weight: 500;
               color: var(--font-text-black);
               letter-spacing: 0.5px;
@@ -98,6 +98,7 @@
 
               &.active {
                 color: var(--accent);
+                font-weight: 600;
               }
             }
           }
@@ -299,6 +300,7 @@
 
                 &.active {
                   color: var(--accent);
+                  font-weight: 600;
                 }
               }
             }

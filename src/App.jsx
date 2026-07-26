@@ -15,6 +15,9 @@ import ManualTherapy from "./pages/ManualTherapy/ManualTherapy";
 import SportsRehabilitation from "./pages/SportsRehabilitation/SportsRehabilitation";
 import NeurologicalPhysiotherapy from "./pages/NeurologicalPhysiotherapy/NeurologicalPhysiotherapy";
 import OrthopedicRehabilitation from "./pages/OrthopedicRehabilitation/OrthopedicRehabilitation";
+import DryNeedling from "./pages/DryNeedling/DryNeedling";
+import IndividualExercisePrograms from "./pages/IndividualExercisePrograms/IndividualExercisePrograms";
+
 import NotFound from "./pages/NotFound/NotFound";
 
 const App = () => {
@@ -49,6 +52,8 @@ const App = () => {
             path="/services/orthopedic-rehabilitation"
             element={<OrthopedicRehabilitation />}
           />
+          <Route path="/services/dry-needling" element={<DryNeedling />} />
+          <Route path="/services/individual-exercise-programs" element={<IndividualExercisePrograms />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

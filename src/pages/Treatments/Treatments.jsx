@@ -3,6 +3,9 @@ import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
 import Category from "./Category";
 import Details from "./Details";
+import Metrics from "./Metrics";
+import Process from "./Process";
+import Questions from "./Questions";
 
 const Treatments = () => {
   const { t } = useTranslation();
@@ -41,6 +44,15 @@ const Treatments = () => {
         </div>
         <div className="details-component">
           <Details />
+        </div>
+        <div className="metrics-component">
+          <Metrics />
+        </div>
+        <div className="process-component">
+          <Process />
+        </div>
+        <div className="questions-component">
+          <Questions />
         </div>
       </div>
     </section>

@@ -10,7 +10,9 @@
       "manual-therapy": "Manual Therapy",
       "sports-rehabilitation": "Sports Rehabilitation",
       "neurological-physiotherapy": "Neurological Physiotherapy",
-      "orthopedic-rehabilitation": "Orthopedic Rehabilitation"
+      "orthopedic-rehabilitation": "Orthopedic Rehabilitation",
+      "dry-needling": "Dry Needling",
+      "individual-exercise-programs": "Individual Exercise Programs"
     },
     "mobile-appointment": "Appointment"
   },
@@ -23,7 +25,9 @@
       "manual-therapy": "Manual Therapy",
       "sports-rehabilitation": "Sports Rehabilitation",
       "neurological-physiotherapy": "Neurological Physiotherapy",
-      "orthopedic-rehabilitation": "Orthopedic Rehabilitation"
+      "orthopedic-rehabilitation": "Orthopedic Rehabilitation",
+      "dry-needling": "Dry Needling",
+      "individual-exercise-programs": "Individual Exercise Programs"
     },
     "institutional": {
       "institutional-header": "Company",
@@ -248,8 +252,81 @@
             "li5": "Manual correction of postural imbalances"
           },
           "btn": "Book an Appointment"
+        },
+        "dry-needling": {
+          "tag": "05 - Dry Needling",
+          "header": "Dry Needling",
+          "desc": "Using fine needles, we target trigger points to release muscle spasms and tension. An effective, fast-acting method for chronic and stubborn pain.",
+          "list": {
+            "li1": "Trigger point release for chronic muscle pain",
+            "li2": "Tension relief in neck, back, and shoulder muscles",
+            "li3": "Support for headaches and migraine complaints",
+            "li4": "Improving mobility restricted by muscle stiffness",
+            "li5": "Complementary application alongside manual therapy"
+          },
+          "btn": "Book an Appointment"
+        },
+        "individual": {
+          "tag": "06 - Individual Program",
+          "header": "Individual Exercise Programs",
+          "desc": "We build strength, flexibility, and balance through exercise plans designed for you. Programs you can continue at home make recovery lasting.",
+          "list": {
+            "li1": "Personalized exercise plans based on assessment",
+            "li2": "Strengthening and core stabilization work",
+            "li3": "Flexibility and mobility development exercises",
+            "li4": "Balance and coordination training",
+            "li5": "Home continuation programs for lasting results"
+          },
+          "btn": "Book an Appointment"
         }
       }
+    },
+    "metrics": {
+      "desc1": "Years of Experience",
+      "desc2": "Patients Treated",
+      "desc3": "Patient Satisfaction",
+      "desc4": "Expert Physiotherapists"
+    },
+    "process": {
+      "tag": "Our Process",
+      "header": "How Does Your Treatment Process Work?",
+      "desc": "We're by your side at every step, from the first consultation to treatment.",
+      "process": {
+        "header1": "Initial Consultation & Assessment",
+        "desc1": "We take a detailed medical history, perform a physical assessment, and set treatment goals together. Duration: 45-60 minutes.",
+        "header2": "Personalized Treatment Plan",
+        "desc2": "Based on the assessment results, a treatment plan tailored to you is prepared. You'll be informed about goals, duration, and methods.",
+        "header3": "Active Treatment Process",
+        "desc3": "Sessions take place 2-3 times a week, averaging 30-45 minutes. Progress is evaluated and the plan updated at every session.",
+        "header4": "Home Continuation & Protection",
+        "desc4": "Home exercise programs are provided throughout treatment. Afterwards, you're supported with care programs to protect your health."
+      }
+    },
+    "questions": {
+      "tag": "Frequently Asked Questions",
+      "header": "What You Might Be Wondering",
+      "faqList": [
+        {
+          "q": "How long do treatment sessions last?",
+          "a": "The initial assessment session lasts 45-60 minutes. Treatment sessions generally range between 30-45 minutes. The session duration is adjusted according to the type of treatment and your needs."
+        },
+        {
+          "q": "Is any pain felt during treatment?",
+          "a": "Physiotherapy sessions can be uncomfortable but generally don't cause distressing pain. Your physiotherapist always works within your comfort limits. Mild tenderness after a session is normal."
+        },
+        {
+          "q": "Is an appointment required for a session?",
+          "a": "Yes, an appointment is required for all treatment sessions. You can easily book through our online appointment system or by calling us. For your first visit, please schedule at least 24 hours in advance."
+        },
+        {
+          "q": "Which payment methods do you accept?",
+          "a": "We accept cash, credit card, and debit card payments. We also have partner agreements with private health insurance providers. Please get in touch with us for detailed information."
+        },
+        {
+          "q": "How many treatment sessions will I need?",
+          "a": "The number of sessions varies depending on your condition and response to treatment. Generally, 6-10 sessions are recommended for acute cases and 12-20 for chronic ones. A precise number is determined after the initial assessment, with regular progress evaluations."
+        }
+      ]
     }
   },
   "contact": {

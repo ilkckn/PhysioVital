@@ -1,4 +1,135 @@
 .details {
   width: 100%;
   padding-block: 8rem;
+
+  .header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6rem;
+
+    & > span {
+      font-family: var(--font-accent);
+      font-size: clamp(1.3rem, 2vw, 1.4rem);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      color: var(--accent-warm-lighter);
+      margin-bottom: 1.5rem;
+    }
+
+    & > h2 {
+      max-width: 21ch;
+      font-family: var(--font-display);
+      font-size: clamp(2.5rem, 5vw, 4.5rem);
+      font-weight: 800;
+      letter-spacing: -.5px;
+      line-height: 1.1;
+      margin-bottom: .7rem;
+    }
+
+    & > p {
+      letter-spacing: .5px;
+      font-size: clamp(1.4rem, 2vw, 1.7rem);
+      font-weight: 300;
+    }
+  }
+
+  .detail-boxes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+    .box {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 3rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 4rem;
+
+      .left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        & > span {
+          font-size: clamp(1.3rem, 2vw, 1.5rem);
+          font-weight: 500;
+          text-transform: uppercase;
+          letter-spacing: .5px;
+          color: var(--font-text-gray-darker);
+          margin-bottom: 1rem;
+        }
+
+        & > h2 {
+          font-family: var(--font-display);
+          font-weight: 800;
+        }
+
+        & > p {
+          margin-top: 1.5rem;
+          line-height: 1.4;
+          font-weight: 300;
+          letter-spacing: .5px;
+        }
+
+        & > ul {
+            margin-top: 2rem;
+            padding-left: 1.5rem;
+          & > li {
+            padding-bottom: 1rem;
+            list-style: disc;
+            font-size: clamp(1.3rem, 2vw, 1.4rem);
+            font-weight: 300;
+
+            &::marker {
+              color: var(--accent);
+            }
+          }
+        }
+
+        & > button {
+          margin-top: 2rem;
+          width: fit-content;
+          font-size: clamp(1.3rem, 2vw, 1.5rem);
+          color: var(--font-text-white);
+          padding-inline: 8rem;
+          padding-block: 1rem;
+          background-color: var(--accent-lighter);
+          border-radius: 3rem;
+          cursor: pointer;
+          transition: all .3s ease-in-out;
+
+          &:hover {
+            background-color: var(--accent);
+            transform: translateY(-.3rem);
+          }
+        }
+      }
+
+      .right {
+        width: 100%;
+
+        .image {
+          width: 100%;
+          height: auto;
+
+          & > img {
+            width: 100%;
+            object-fit: cover;
+            border-radius: 3rem;
+          }
+        }
+      }
+    }
+
+    .box:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+  }
 }

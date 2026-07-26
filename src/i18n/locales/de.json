@@ -10,7 +10,9 @@
       "manual-therapy": "Manuelle Therapie",
       "sports-rehabilitation": "Sportrehabilitation",
       "neurological-physiotherapy": "Neurologische Physiotherapie",
-      "orthopedic-rehabilitation": "Orthopädische Rehabilitation"
+      "orthopedic-rehabilitation": "Orthopädische Rehabilitation",
+      "dry-needling": "Trockennadelung",
+      "individual-exercise-programs": "Individuelle Trainingsprogramme"
     },
     "mobile-appointment": "Termin buchen"
   },
@@ -23,7 +25,9 @@
       "manual-therapy": "Manuelle Therapie",
       "sports-rehabilitation": "Sportphysiotherapie",
       "neurological-physiotherapy": "Neurologische Physiotherapie",
-      "orthopedic-rehabilitation": "Orthopädische Rehabilitation"
+      "orthopedic-rehabilitation": "Orthopädische Rehabilitation",
+      "dry-needling": "Trockennadelung",
+      "individual-exercise-programs": "Individuelle Trainingsprogramme"
     },
     "institutional": {
       "institutional-header": "Unternehmen",
@@ -248,8 +252,81 @@
             "li5": "Manuelle Korrektur von Haltungsstörungen"
           },
           "btn": "Termin buchen"
+        },
+        "dry-needling": {
+          "tag": "05 - Dry Needling",
+          "header": "Dry Needling",
+          "desc": "Mit feinen Nadeln behandeln wir Triggerpunkte, um Muskelverspannungen und Krämpfe zu lösen. Eine wirksame, schnell greifende Methode bei chronischen Schmerzen.",
+          "list": {
+            "li1": "Triggerpunktbehandlung bei chronischen Muskelschmerzen",
+            "li2": "Spannungslösung in Nacken-, Rücken- und Schultermuskeln",
+            "li3": "Unterstützung bei Kopfschmerzen und Migräne",
+            "li4": "Verbesserung der durch Muskelsteifheit eingeschränkten Beweglichkeit",
+            "li5": "Ergänzende Anwendung zur manuellen Therapie"
+          },
+          "btn": "Termin buchen"
+        },
+        "individual": {
+          "tag": "06 - Individuelles Programm",
+          "header": "Individuelle Trainingsprogramme",
+          "desc": "Mit auf Sie abgestimmten Übungsplänen bauen wir Kraft, Flexibilität und Gleichgewicht auf. Programme für zu Hause machen die Genesung nachhaltig.",
+          "list": {
+            "li1": "Personalisierte Übungspläne nach der Untersuchung",
+            "li2": "Kräftigungs- und Rumpfstabilisationsübungen",
+            "li3": "Übungen zur Flexibilität und Beweglichkeit",
+            "li4": "Gleichgewichts- und Koordinationstraining",
+            "li5": "Heimprogramme für nachhaltige Ergebnisse"
+          },
+          "btn": "Termin buchen"
         }
       }
+    },
+    "metrics": {
+      "desc1": "Jahre Erfahrung",
+      "desc2": "Behandelte Patienten",
+      "desc3": "Patientenzufriedenheit",
+      "desc4": "Erfahrene Physiotherapeuten"
+    },
+    "process": {
+      "tag": "Unser Ablauf",
+      "header": "Wie läuft Ihr Behandlungsprozess ab?",
+      "desc": "Vom ersten Gespräch bis zur Behandlung sind wir bei jedem Schritt an Ihrer Seite.",
+      "process": {
+        "header1": "Erstgespräch & Untersuchung",
+        "desc1": "Wir erheben eine ausführliche Anamnese, führen eine körperliche Untersuchung durch und legen gemeinsam die Behandlungsziele fest. Dauer: 45-60 Minuten.",
+        "header2": "Individueller Behandlungsplan",
+        "desc2": "Anhand der Untersuchungsergebnisse wird ein auf Sie abgestimmter Behandlungsplan erstellt. Sie werden über Ziele, Dauer und Methoden informiert.",
+        "header3": "Aktive Behandlungsphase",
+        "desc3": "Die Sitzungen finden 2-3 Mal pro Woche statt und dauern durchschnittlich 30-45 Minuten. Der Fortschritt wird bei jeder Sitzung bewertet und der Plan angepasst.",
+        "header4": "Fortführung zu Hause & Vorbeugung",
+        "desc4": "Während der gesamten Behandlung erhalten Sie Heimübungsprogramme. Danach werden Sie mit Pflegeprogrammen zum Schutz Ihrer Gesundheit unterstützt."
+      }
+    },
+    "questions": {
+      "tag": "Häufig gestellte Fragen",
+      "header": "Was Sie interessieren könnte",
+      "faqList": [
+        {
+          "q": "Wie lange dauern die Behandlungssitzungen?",
+          "a": "Die erste Untersuchungssitzung dauert 45-60 Minuten. Die Behandlungssitzungen dauern in der Regel zwischen 30-45 Minuten. Die Sitzungsdauer wird je nach Behandlungsart und Ihren Bedürfnissen angepasst."
+        },
+        {
+          "q": "Ist die Behandlung mit Schmerzen verbunden?",
+          "a": "Physiotherapiesitzungen können unangenehm sein, verursachen jedoch in der Regel keine belastenden Schmerzen. Ihr Physiotherapeut arbeitet stets innerhalb Ihrer Komfortgrenzen. Eine leichte Empfindlichkeit nach der Sitzung ist normal."
+        },
+        {
+          "q": "Ist für eine Sitzung ein Termin erforderlich?",
+          "a": "Ja, für alle Behandlungssitzungen ist ein Termin erforderlich. Sie können bequem über unser Online-Terminsystem oder telefonisch einen Termin vereinbaren. Für Ihren ersten Besuch buchen Sie bitte mindestens 24 Stunden im Voraus."
+        },
+        {
+          "q": "Welche Zahlungsmethoden akzeptieren Sie?",
+          "a": "Wir akzeptieren Zahlungen in bar, per Kredit- und EC-Karte. Zudem haben wir Partnervereinbarungen mit privaten Krankenversicherungen. Für detaillierte Informationen können Sie uns gerne kontaktieren."
+        },
+        {
+          "q": "Wie viele Behandlungssitzungen benötige ich?",
+          "a": "Die Anzahl der Sitzungen hängt von Ihrem Zustand und Ihrem Ansprechen auf die Behandlung ab. In der Regel werden bei akuten Fällen 6-10 Sitzungen und bei chronischen 12-20 Sitzungen empfohlen. Eine genaue Anzahl wird nach der Erstuntersuchung festgelegt, mit regelmäßigen Fortschrittsbewertungen."
+        }
+      ]
     }
   },
   "contact": {

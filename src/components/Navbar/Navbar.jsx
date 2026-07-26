@@ -89,6 +89,16 @@ const Navbar = () => {
                       {t("navbar.sub-links.orthopedic-rehabilitation")}
                     </NavLink>
                   </li>
+                  <li>
+                    <NavLink to="/services/dry-needling">
+                      {t("navbar.sub-links.dry-needling")}
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/services/individual-exercise-programs">
+                      {t("navbar.sub-links.individual-exercise-programs")}
+                    </NavLink>
+                  </li>
                 </ul>
               </li>
               <li>
@@ -163,6 +173,22 @@ const Navbar = () => {
                         onClick={handleLinkClick}
                       >
                         {t("navbar.sub-links.orthopedic-rehabilitation")}
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="/services/dry-needling"
+                        onClick={handleLinkClick}
+                      >
+                        {t("navbar.sub-links.dry-needling")}
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="/services/individual-exercise-programs"
+                        onClick={handleLinkClick}
+                      >
+                        {t("navbar.sub-links.individual-exercise-programs")}
                       </NavLink>
                     </li>
                   </ul>

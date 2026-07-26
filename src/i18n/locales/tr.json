@@ -10,7 +10,9 @@
       "manual-therapy": "Elle Terapi",
       "sports-rehabilitation": "Spor Terapi",
       "neurological-physiotherapy": "Nörolojik Fizyoterapi",
-      "orthopedic-rehabilitation": "Ortopedik Terapi"
+      "orthopedic-rehabilitation": "Ortopedik Terapi",
+      "dry-needling": "Kuru İğne",
+      "individual-exercise-programs": "Bireysel Egzersiz Programları"
     },
     "mobile-appointment": "Randevu Al"
   },
@@ -23,7 +25,9 @@
       "manual-therapy": "Elle Terapi",
       "sports-rehabilitation": "Spor Terapi",
       "neurological-physiotherapy": "Nörolojik Fizyoterapi",
-      "orthopedic-rehabilitation": "Ortopedik Terapi"
+      "orthopedic-rehabilitation": "Ortopedik Terapi",
+      "dry-needling": "Kuru İğne",
+      "individual-exercise-programs": "Bireysel Egzersiz Programları"
     },
     "institutional": {
       "institutional-header": "Kurumsal",
@@ -243,8 +247,81 @@
             "li5": "Duruş bozukluklarında manuel düzeltme"
           },
           "btn": "Randevu Al"
+        },
+        "dry-needling": {
+          "tag": "05 - Kuru İğneleme",
+          "header": "Kuru İğneleme",
+          "desc": "İnce iğnelerle tetik noktaları hedefleyerek kas spazmlarını ve gerginliği çözüyoruz. Kronik ve inatçı ağrılarda etkili, hızlı sonuç veren bir yöntem.",
+          "list": {
+            "li1": "Kronik kas ağrılarında tetik nokta tedavisi",
+            "li2": "Boyun, sırt ve omuz kaslarında gerginlik çözümü",
+            "li3": "Baş ağrısı ve migren şikayetlerine destek",
+            "li4": "Kas sertliğiyle kısıtlanan hareketi iyileştirme",
+            "li5": "Manuel terapiyle birlikte tamamlayıcı uygulama"
+          },
+          "btn": "Randevu Al"
+        },
+        "individual": {
+          "tag": "06 - Bireysel Program",
+          "header": "Bireysel Egzersiz Programları",
+          "desc": "Size özel tasarlanan egzersiz planlarıyla güç, esneklik ve denge kazandırıyoruz. Evde devam edebileceğiniz programlar iyileşmeyi kalıcı kılar.",
+          "list": {
+            "li1": "Değerlendirmeye dayalı kişiye özel egzersiz planları",
+            "li2": "Güçlendirme ve kor stabilizasyon çalışmaları",
+            "li3": "Esneklik ve mobilite geliştirme egzersizleri",
+            "li4": "Denge ve koordinasyon antrenmanı",
+            "li5": "Kalıcı sonuç için ev devam programları"
+          },
+          "btn": "Randevu Al"
         }
       }
+    },
+    "metrics": {
+      "desc1": "Yıllık Deneyim",
+      "desc2": "Tedavi Edilen Hasta",
+      "desc3": "Hasta Memnuniyeti",
+      "desc4": "Uzman Fizyoterapist"
+    },
+    "process": {
+      "tag": "Sürecimiz",
+      "header": "Tedavi Süreciniz Nasıl İşler?",
+      "desc": "İlk görüşmeden tedaviye kadar her adımda yanınızdayız.",
+      "process": {
+        "header1": "İlk Görüşme & Değerlendirme",
+        "desc1": "Detaylı bir hastalık öyküsü alınır, fiziksel değerlendirme yapılır ve tedavi hedefleri birlikte belirlenir. Süre: 45-60 dakika.",
+        "header2": "Kişisel Tedavi Planı",
+        "desc2": "Değerlendirme sonuçlarına göre size özel bir tedavi planı hazırlanır. Hedefler, süre ve yöntemler hakkında bilgilendirilirsiniz.",
+        "header3": "Aktif Tedavi Süreci",
+        "desc3": "Seanslar haftada 2-3 kez, ortalama 30-45 dakika sürer. Her seansta ilerleme değerlendirilir ve plan güncellenir.",
+        "header4": "Evde Devam & Koruma",
+        "desc4": "Tedavi boyunca ev egzersiz programları verilir. Tedavi sonrasında sứcınızı koruyacak bakım programlarıyla desteklenirsiniz."
+      }
+    },
+    "questions": {
+      "tag": "Sıkça Sorulan Sorular",
+      "header": "Merak Ettikleriniz",
+      "faqList": [
+        {
+          "q": "Tedavi seansları ne kadar sürüyor?",
+          "a": "İlk değerlendirme seansı 45-60 dakika sürer. Tedavi seansları ise genellikle 30-45 dakika arasında değişir. Tedavinin türüne ve ihtiyaçlarınıza göre seans süresi ayarlanır."
+        },
+        {
+          "q": "Tedavi sürecinde ağrı hissedilir mi?",
+          "a": "Fizyoterapi seansları rahatsız edici olabilir ancak genellikle rahatsız edici ağrıya neden olmaz. Fizyoterapistiniz her zaman sizin konfor sınırlarınız içinde çalışır. Seans sonrası hafif bir hassasiyet normaldir."
+        },
+        {
+          "q": "Seansla için randevu gerekli mi?",
+          "a": "Evet, tüm tedavi seansları için randevu gereklidir. Online randevu sistemimizden veya bizi arayarak kolayca randevu alabilirsiniz. İlk görüşme için lütfen en az 24 saat önce randevu oluşturun."
+        },
+        {
+          "q": "Hangi ödeme yöntemlerini kabul ediyorsunuz?",
+          "a": "Nakit, kredi kartı ve banka kartı ile ödeme kabul ediyoruz. Ayrıca özel sağlık sigortası ile anlaşmalı kurumlarımız da mevcuttur. Detaylı bilgi için bizimle iletişime geçebilirsiniz."
+        },
+        {
+          "q": "Kaç seans tedavi görmem gerekiyor?",
+          "a": "Seans sayısı durumunuza ve tedavi yanıtınıza göre değişir. Genellikle akut durumlarda 6-10 seans, kronik durumlarda 12-20 seans önerilir. İlk değerlendirme sonrasında kesin bir seans sayısı belirlenir ve düzenli ilerleme değerlendirmesi yapılır."
+        }
+      ]
     }
   },
   "contact": {
