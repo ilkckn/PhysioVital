@@ -4,6 +4,7 @@
   --navbar-height: 10rem;
 
   --bg: oklch(97.5% 0.008 160);
+  --bg-darker: oklch(95% 0 0);
   --bg-white: oklch(98.5% 0 0);
   --surface: oklch(100% 0 0);
   --fg: oklch(20% 0.02 200);
@@ -16,6 +17,7 @@
   --border-greenish-darker: oklch(40% 0.012 170);
   --accent: oklch(42% 0.15 175);
   --accent-lighter: oklch(50% 0.1 175);
+  --accent-teal-blue: oklch(42% 0.15 195); 
   --accent-soft: oklch(92% 0.04 175);
   --accent-soft-lighter: oklch(90% 0.04 175);
   --accent-warm: oklch(45% 0.13 40);

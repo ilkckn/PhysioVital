@@ -322,6 +322,14 @@
           "a": "Seans sayısı durumunuza ve tedavi yanıtınıza göre değişir. Genellikle akut durumlarda 6-10 seans, kronik durumlarda 12-20 seans önerilir. İlk değerlendirme sonrasında kesin bir seans sayısı belirlenir ve düzenli ilerleme değerlendirmesi yapılır."
         }
       ]
+    },
+    "regain-your-health": {
+      "header": "Sağlığınıza Kavuşmaya Bugün Başlayın",
+      "desc": "Uzman ekibimiz sizin için hazır. Hemen randevu alın, ilk adımı birlikte atalım.",
+      "btns": {
+        "btn1": "Hemen Ara",
+        "btn2": "Onilne Randevu Al"
+      }
     }
   },
   "contact": {

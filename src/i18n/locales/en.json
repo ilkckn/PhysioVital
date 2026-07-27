@@ -327,6 +327,14 @@
           "a": "The number of sessions varies depending on your condition and response to treatment. Generally, 6-10 sessions are recommended for acute cases and 12-20 for chronic ones. A precise number is determined after the initial assessment, with regular progress evaluations."
         }
       ]
+    },
+    "regain-your-health": {
+      "header": "Start Regaining Your Health Today",
+      "desc": "Our expert team is ready for you. Book an appointment now and let's take the first step together.",
+      "btns": {
+        "btn1": "Call Now",
+        "btn2": "Book Online Appointment"
+      }
     }
   },
   "contact": {

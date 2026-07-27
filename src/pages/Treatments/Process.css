@@ -78,3 +78,73 @@
     }
   }
 }
+
+/* ============================================
+   RESPONSIVE — Process
+   1024: font/padding | 820: 2x2 | 480: tek kolon
+   ============================================ */
+
+@media (max-width: 1024px) {
+  .process {
+    padding-block: 6rem;
+
+    .content {
+      .header {
+        margin-bottom: 4.5rem;
+      }
+
+      .process-steps {
+        gap: 1.5rem;
+
+        .box {
+          padding-inline: 2.5rem;
+          padding-block: 2.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 820px) {
+  .process {
+    padding-block: 5rem;
+
+    .content {
+      .header {
+        margin-bottom: 4rem;
+      }
+
+      .process-steps {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .process {
+    padding-block: 4rem;
+
+    .content {
+      .header {
+        margin-bottom: 3rem;
+      }
+
+      .process-steps {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+
+        .box {
+          padding-inline: 2.5rem;
+          padding-block: 2.8rem;
+          border-radius: 2.5rem;
+
+          & > span {
+            margin-bottom: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}

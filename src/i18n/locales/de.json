@@ -327,6 +327,14 @@
           "a": "Die Anzahl der Sitzungen hängt von Ihrem Zustand und Ihrem Ansprechen auf die Behandlung ab. In der Regel werden bei akuten Fällen 6-10 Sitzungen und bei chronischen 12-20 Sitzungen empfohlen. Eine genaue Anzahl wird nach der Erstuntersuchung festgelegt, mit regelmäßigen Fortschrittsbewertungen."
         }
       ]
+    },
+    "regain-your-health": {
+      "header": "Beginnen Sie noch heute, Ihre Gesundheit zurückzugewinnen",
+      "desc": "Unser Expertenteam ist für Sie da. Vereinbaren Sie jetzt einen Termin und lassen Sie uns gemeinsam den ersten Schritt gehen.",
+      "btns": {
+        "btn1": "Jetzt anrufen",
+        "btn2": "Termin online buchen"
+      }
     }
   },
   "contact": {

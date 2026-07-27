@@ -6,6 +6,7 @@ import Details from "./Details";
 import Metrics from "./Metrics";
 import Process from "./Process";
 import Questions from "./Questions";
+import RegainYourHealth from "./RegainYourHealth";
 
 const Treatments = () => {
   const { t } = useTranslation();
@@ -53,6 +54,9 @@ const Treatments = () => {
         </div>
         <div className="questions-component">
           <Questions />
+        </div>
+        <div className="regain-your-health-component">
+          <RegainYourHealth />
         </div>
       </div>
     </section>

@@ -144,3 +144,89 @@
     }
   }
 }
+
+
+/* ============================================
+   RESPONSIVE — Category
+   1024: 3 kolon | 820: 2 kolon | 480: 1 kolon
+   ============================================ */
+
+@media (max-width: 1024px) {
+  .category {
+    padding-block: 6rem;
+
+    .categories {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.2rem;
+      padding-top: 4rem;
+
+      .box {
+        min-height: 22rem;
+        padding-inline: 2.5rem;
+        padding-block: 3rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 820px) {
+  .category {
+    padding-block: 5rem;
+
+    .header {
+      & > span {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+      }
+    }
+
+    .categories {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+      padding-top: 3.5rem;
+
+      .box {
+        min-height: auto;
+
+        .icon {
+          width: 5rem;
+          height: 5rem;
+          border-radius: 1.2rem;
+          margin-bottom: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .category {
+    padding-block: 4rem;
+
+    .header {
+      & > span {
+        margin-bottom: .8rem;
+      }
+    }
+
+    .categories {
+      grid-template-columns: 1fr;
+      gap: 1.2rem;
+      padding-top: 3rem;
+
+      .box {
+        padding-inline: 2.5rem;
+        padding-block: 2.8rem;
+        border-radius: 2rem;
+
+        & > h3 {
+          max-width: 100%;
+        }
+
+        .tag {
+          margin-top: 1.5rem;
+        }
+      }
+    }
+  }
+}
