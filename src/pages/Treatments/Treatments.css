@@ -3,6 +3,7 @@
 
   .container {
     width: 100%;
+    position: relative;
 
     .hero {
       padding-block: 10rem;

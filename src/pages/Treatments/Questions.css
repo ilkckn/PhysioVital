@@ -1,6 +1,7 @@
 .questions {
   width: 100%;
   padding-block: 8rem;
+  z-index: 2;
 
   .content {
     width: 100%;

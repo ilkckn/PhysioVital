@@ -5,6 +5,7 @@ import OurApproach from "./OurApproach";
 import AboutMetrics from "./AboutMetrics";
 import Team from "./Team";
 import FirstStep from "./FirstStep";
+import AboutBgOrbs from "./AboutBgOrbs";
 
 const About = () => {
   const { t } = useTranslation();
@@ -12,6 +13,9 @@ const About = () => {
   return (
     <section className="about">
       <div className="container">
+        <div className="about-bg-orbs">
+          <AboutBgOrbs />
+        </div>
         <div className="hero">
           <div className="hero-top">
             <span className="tag">{t("about.hero.tag")}</span>

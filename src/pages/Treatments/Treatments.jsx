@@ -7,6 +7,7 @@ import Metrics from "./Metrics";
 import Process from "./Process";
 import Questions from "./Questions";
 import RegainYourHealth from "./RegainYourHealth";
+import TreatmentBgOrbs from "./TreatmentBgOrbs";
 
 const Treatments = () => {
   const { t } = useTranslation();
@@ -15,6 +16,9 @@ const Treatments = () => {
   return (
     <section className="treatments">
       <div className="container">
+        <div className="treatment-bg-orbs">
+          <TreatmentBgOrbs />
+        </div>
         <div className="hero">
           <div className="tag">
             <span>{t("treatments.hero.tag")}</span>

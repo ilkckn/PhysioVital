@@ -1,10 +1,10 @@
 import "./Contact.css";
 import { useTranslation } from "react-i18next";
-import BgOrbs from "../Landing/BgOrbs";
 import ContactInfo from "./ContactInfo";
 import ContactForm from "./ContactForm";
 import WorkingHours from "./WorkingHours";
 import FirstStep from "./FirstStep";
+import ContactBgOrbs from "./ContactBgOrbs";
 
 const Contact = () => {
   const { t } = useTranslation();
@@ -12,8 +12,8 @@ const Contact = () => {
   return (
     <section className="contact">
       <div className="container">
-        <div className="bg-orbs">
-          <BgOrbs />
+        <div className="contact-bg-orbs">
+          <ContactBgOrbs />
         </div>
         <div className="hero">
           <div className="small-header">
