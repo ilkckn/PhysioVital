@@ -337,6 +337,104 @@
       }
     }
   },
+  "about": {
+    "hero": {
+      "tag": "About Us",
+      "header1": "Here for Your Health,",
+      "header2": "By Your Side Every Step of the Way.",
+      "desc": "With over 12 years of experience, our one-on-one treatment philosophy, and our patient satisfaction-focused approach, we make a difference in the field of physiotherapy.",
+      "sub-header": "Our Goal: Lasting Solutions, Lasting Health.",
+      "sub-desc1": "FizyoVital was founded in Istanbul in 2013. At the heart of our founding lies the belief that every individual deserves access to quality physiotherapy care. To this day, we have helped thousands of patients regain their health — and we continue to do so.",
+      "sub-desc2": "Our goal is not merely to relieve pain, but to identify its root causes and help our patients return to their daily lives independently. Every patient is unique to us; we serve this goal through personalized treatment plans, evidence-based methods, and our continuously growing team of experts."
+    },
+    "our-values": {
+      "tag": "Our Values",
+      "header": "The Principles That Guide Us",
+      "desc": "These values guide us throughout every treatment process.",
+      "values": {
+        "value1": {
+          "header": "Evidence-Based Practice",
+          "desc": "All of our treatment methods are based on international scientific research and evidence-based protocols. By keeping up with current literature, we deliver the most effective treatment available."
+        },
+        "value2": {
+          "header": "Patient-Centered Approach",
+          "desc": "Each of our patients has different needs, goals, and lifestyles. That is precisely why we create personalized treatment plans and manage the process together."
+        },
+        "value3": {
+          "header": "Continuous Development",
+          "desc": "Our team continually grows through regular training, certifications, and conference participation. We integrate the latest techniques and technologies into our treatment processes."
+        },
+        "value4": {
+          "header": "Transparency and Trust",
+          "desc": "We always maintain open and honest communication with our patients about treatment processes, expectations, and progress. Trust is the foundation of health."
+        }
+      }
+    },
+    "our-approaches": {
+      "tag": "Our Approach",
+      "header": "Why PhysioVital?",
+      "desc": "What sets us apart and our treatment philosophy.",
+      "approaches": {
+        "approach1": {
+          "header": "Comprehensive Initial Assessment",
+          "desc": "Every treatment begins with a detailed medical history, physical examination, and functional assessment. Without rushing, we build your treatment plan by seeing the complete picture."
+        },
+        "approach2": {
+          "header": "Personalized Treatment Plan",
+          "desc": "Based on the assessment results, we determine the most suitable treatment method, session frequency, and duration together with you. Your goals are our goals."
+        },
+        "approach3": {
+          "header": "Active Treatment and Monitoring",
+          "desc": "Your progress is regularly evaluated throughout the sessions. Your treatment plan is updated according to your response — we move forward with a dynamic process, not a static plan."
+        },
+        "approach4": {
+          "header": "Lasting Results and Prevention",
+          "desc": "After treatment, you are supported with exercise programs and recommendations to protect your health. Our goal is to ensure you never experience the same problem again."
+        }
+      }
+    },
+    "metrics": {
+      "desc1": "Years of Experience",
+      "desc2": "Patients Treated",
+      "desc3": "Patient Satisfaction",
+      "desc4": "Expert Physiotherapists"
+    },
+    "team": {
+      "tag": "Our Team",
+      "header": "Meet Our Team of Specialists",
+      "desc": "Physiotherapists who are experts in their fields and always put patient satisfaction first.",
+      "team-members": {
+        "member1": {
+          "title": "Founder & Head Physiotherapist",
+          "name": "Dr. Emre Aksoy",
+          "desc": "Over 15 years of experience in orthopedic rehabilitation and sports injuries. Graduate of ITU Sports Sciences, internationally certified."
+        },
+        "member2": {
+          "title": "Neurological Rehabilitation Specialist",
+          "name": "Markus Hoffmann",
+          "desc": "Specialist in rehabilitation for stroke and neurological conditions. Treatment approaches focused on the Bobath concept and neuroplasticity."
+        },
+        "member3": {
+          "title": "Sports Physiotherapist",
+          "name": "Julia Wagner",
+          "desc": "Expert in injury rehabilitation and performance optimization for professional athletes. Certified sports physiotherapist."
+        },
+        "member4": {
+          "title": "Manual Therapy Specialist",
+          "name": "Katharina Schmitt",
+          "desc": "Expert in manual therapy and dry needling. Certified in the Mulligan concept and myofascial release techniques."
+        }
+      }
+    },
+    "about-first-step": {
+      "header": "Take the First Step Toward Your Health",
+      "desc": "Our team of specialists is ready for you. Book your appointment now and let's begin the journey to your recovery together.",
+      "btns": {
+        "btn1": "Call Now",
+        "btn2": "Book Online"
+      }
+    }
+  },
   "contact": {
     "hero": {
       "small-header": "Contact",

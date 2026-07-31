@@ -47,6 +47,16 @@ const Footer = () => {
                       {t("footer.services.orthopedic-rehabilitation")}
                     </NavLink>
                   </li>
+                  <li>
+                    <NavLink to={"/services/dry-needling"}>
+                      {t("footer.services.dry-needling")}
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to={"/services/individual-exercise-programs"}>
+                      {t("footer.services.individual-exercise-programs")}
+                    </NavLink>
+                  </li>
                 </ul>
               </div>
               <div className="institutional">

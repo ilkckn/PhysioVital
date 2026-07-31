@@ -1,9 +1,9 @@
 {
   "navbar": {
     "startpage": "Startseite",
-    "services": "Dienstleistungen",
+    "services": "Leistungen",
     "about": "Über uns",
-    "treatments": "Behandlungsbereiche",
+    "treatments": "Behandlungen",
     "contact": "Kommunikation",
     "appointment": "Termin buchen",
     "sub-links": {
@@ -331,6 +331,104 @@
     "regain-your-health": {
       "header": "Beginnen Sie noch heute, Ihre Gesundheit zurückzugewinnen",
       "desc": "Unser Expertenteam ist für Sie da. Vereinbaren Sie jetzt einen Termin und lassen Sie uns gemeinsam den ersten Schritt gehen.",
+      "btns": {
+        "btn1": "Jetzt anrufen",
+        "btn2": "Termin online buchen"
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "tag": "Über uns",
+      "header1": "Für Ihre Gesundheit da,",
+      "header2": "an Ihrer Seite bei jedem Schritt.",
+      "desc": "Mit über 12 Jahren Erfahrung, unserer individuellen Behandlungsphilosophie und unserem auf Patientenzufriedenheit ausgerichteten Ansatz setzen wir im Bereich der Physiotherapie neue Maßstäbe.",
+      "sub-header": "Unser Ziel: Nachhaltige Lösungen, dauerhafte Gesundheit.",
+      "sub-desc1": "FizyoVital wurde 2013 in Istanbul gegründet. Im Kern unserer Gründung steht die Überzeugung, dass jeder Mensch Zugang zu hochwertiger physiotherapeutischer Versorgung haben sollte. Bis heute haben wir Tausenden von Patienten zu ihrer Gesundheit verholfen und tun dies auch weiterhin.",
+      "sub-desc2": "Unser Ziel ist es nicht nur, Schmerzen zu lindern, sondern deren Ursachen zu finden und unseren Patienten zu helfen, selbstständig in ihren Alltag zurückzukehren. Jeder Patient ist für uns einzigartig; mit individuellen Behandlungsplänen, evidenzbasierten Methoden und unserem stetig wachsenden Expertenteam dienen wir diesem Ziel."
+    },
+    "our-values": {
+      "tag": "Unsere Werte",
+      "header": "Die Grundsätze, die uns leiten",
+      "desc": "Diese Werte leiten uns durch jeden Behandlungsprozess.",
+      "values": {
+        "value1": {
+          "header": "Evidenzbasierte Praxis",
+          "desc": "Alle unsere Behandlungsmethoden basieren auf internationaler wissenschaftlicher Forschung und evidenzbasierten Protokollen. Indem wir die aktuelle Fachliteratur verfolgen, bieten wir die wirksamste Behandlung."
+        },
+        "value2": {
+          "header": "Patientenorientierter Ansatz",
+          "desc": "Jeder unserer Patienten hat unterschiedliche Bedürfnisse, Ziele und Lebensweisen. Genau deshalb erstellen wir individuelle Behandlungspläne und gestalten den Prozess gemeinsam."
+        },
+        "value3": {
+          "header": "Kontinuierliche Weiterentwicklung",
+          "desc": "Unser Team entwickelt sich durch regelmäßige Schulungen, Zertifizierungen und Kongressteilnahmen stetig weiter. Wir integrieren die neuesten Techniken und Technologien in unsere Behandlungsprozesse."
+        },
+        "value4": {
+          "header": "Transparenz und Vertrauen",
+          "desc": "Wir pflegen mit unseren Patienten stets eine offene und ehrliche Kommunikation über Behandlungsabläufe, Erwartungen und Fortschritte. Vertrauen ist die Grundlage der Gesundheit."
+        }
+      }
+    },
+    "our-approaches": {
+      "tag": "Unser Ansatz",
+      "header": "Warum PhysioVital?",
+      "desc": "Was uns auszeichnet und unsere Behandlungsphilosophie.",
+      "approaches": {
+        "approach1": {
+          "header": "Umfassende Erstuntersuchung",
+          "desc": "Jede Behandlung beginnt mit einer ausführlichen Anamnese, einer körperlichen Untersuchung und einer funktionellen Beurteilung. Ohne Eile erstellen wir Ihren Behandlungsplan mit Blick auf das Gesamtbild."
+        },
+        "approach2": {
+          "header": "Individueller Behandlungsplan",
+          "desc": "Anhand der Untersuchungsergebnisse legen wir gemeinsam mit Ihnen die passendste Behandlungsmethode, die Häufigkeit und die Dauer der Sitzungen fest. Ihre Ziele sind unsere Ziele."
+        },
+        "approach3": {
+          "header": "Aktive Behandlung und Verlaufskontrolle",
+          "desc": "Ihr Fortschritt wird während der Sitzungen regelmäßig beurteilt. Ihr Behandlungsplan wird entsprechend Ihrer Reaktion angepasst – wir arbeiten mit einem dynamischen Prozess, nicht mit einem starren Plan."
+        },
+        "approach4": {
+          "header": "Nachhaltige Ergebnisse und Prävention",
+          "desc": "Nach der Behandlung werden Sie mit Übungsprogrammen und Empfehlungen zum Schutz Ihrer Gesundheit unterstützt. Unser Ziel ist es, dass Sie dasselbe Problem nie wieder erleben."
+        }
+      }
+    },
+    "metrics": {
+      "desc1": "Jahre Erfahrung",
+      "desc2": "Behandelte Patienten",
+      "desc3": "Patientenzufriedenheit",
+      "desc4": "Erfahrene Physiotherapeuten"
+    },
+    "team": {
+      "tag": "Unser Team",
+      "header": "Lernen Sie unser Spezialistenteam kennen",
+      "desc": "Physiotherapeuten, die Experten auf ihrem Gebiet sind und die Zufriedenheit der Patienten stets an erste Stelle setzen.",
+      "team-members": {
+        "member1": {
+          "title": "Gründer & Leitender Physiotherapeut",
+          "name": "Dr. Emre Aksoy",
+          "desc": "Über 15 Jahre Erfahrung in der orthopädischen Rehabilitation und bei Sportverletzungen. Absolvent der ITU Sportwissenschaften, international zertifiziert."
+        },
+        "member2": {
+          "title": "Spezialist - Neurologische Rehabilitation",
+          "name": "Markus Hoffmann",
+          "desc": "Spezialist für die Rehabilitation bei Schlaganfall und neurologischen Erkrankungen. Behandlungsansätze mit Fokus auf das Bobath-Konzept und Neuroplastizität."
+        },
+        "member3": {
+          "title": "Sportphysiotherapeutin",
+          "name": "Julia Wagner",
+          "desc": "Expertin für die Verletzungsrehabilitation und Leistungsoptimierung von Profisportlern. Zertifizierte Sportphysiotherapeutin."
+        },
+        "member4": {
+          "title": "Spezialistin - Manuelle Therapie",
+          "name": "Katharina Schmitt",
+          "desc": "Expertin für Manuelle Therapie und Dry Needling. Zertifiziert im Mulligan-Konzept und in myofaszialen Entspannungstechniken."
+        }
+      }
+    },
+    "about-first-step": {
+      "header": "Machen Sie den ersten Schritt zu Ihrer Gesundheit",
+      "desc": "Unser Spezialistenteam ist für Sie bereit. Vereinbaren Sie jetzt einen Termin und beginnen wir gemeinsam den Weg zu Ihrer Genesung.",
       "btns": {
         "btn1": "Jetzt anrufen",
         "btn2": "Termin online buchen"

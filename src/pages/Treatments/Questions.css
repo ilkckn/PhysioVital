@@ -43,7 +43,6 @@
         border: 1px solid var(--border);
         border-radius: 1.5rem;
         overflow: hidden;
-        
 
         .faq-question {
           width: 100%;
@@ -61,7 +60,7 @@
           font-weight: 500;
           color: var(--font-text-black);
           transition: color 0.25s ease;
-  
+
           &:hover {
             background-color: var(--accent-soft);
           }
@@ -104,7 +103,6 @@
     }
   }
 }
-
 
 /* ============================================
    RESPONSIVE — Questions (FAQ)

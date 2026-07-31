@@ -5,17 +5,18 @@
 
   --bg: oklch(97.5% 0.008 160);
   --bg-darker: oklch(95% 0 0);
-  --bg-white: oklch(98.5% 0 0);
+  --bg-white: oklch(99% 0 0);
   --surface: oklch(100% 0 0);
   --fg: oklch(20% 0.02 200);
   --muted: oklch(48% 0.025 180);
   --border: oklch(90% 0 0);
-  --border-dark: oklch(70% 0 0);
   --border-lighter: oklch(80% 0 0);
+  --border-dark: oklch(70% 0 0);
   --border-darker: oklch(40% 0 0);
   --border-greenish: oklch(90% 0.012 170);
   --border-greenish-darker: oklch(40% 0.012 170);
   --accent: oklch(42% 0.15 175);
+  --accent-darker: oklch(30% 0.15 175);
   --accent-lighter: oklch(50% 0.1 175);
   --accent-teal-blue: oklch(42% 0.15 195); 
   --accent-soft: oklch(92% 0.04 175);

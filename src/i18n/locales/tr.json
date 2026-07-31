@@ -332,6 +332,104 @@
       }
     }
   },
+  "about": {
+    "hero": {
+      "tag": "Hakkımızda",
+      "header1": "Sağlığınız İçin Buradayız,",
+      "header2": "Her Adımda Yanınızdayız.",
+      "desc": "12 yılı aşkın tecrübemizle, birebir tedavi anlayışımızla ve hasta memnuniyeti odaklı yaklaşımımızla fizyoterapi alanında fark yaratıyoruz.",
+      "sub-header": "Amacımız: Kalıcı Çözümler, Kalıcı Sağlık.",
+      "sub-desc1": "FizyoVital, 2013 yılında İstanbul'da kuruldu. Kuruluşumuzun temelinde yatan inanç, her bireyin kaliteli fizyoterapi hizmetine erişebilmesi gerektiği yönündeydi. Bugüne kadar binlerce hastamızı sağlığına kavuşturduk ve kavuşturmaya devam ediyoruz.",
+      "sub-desc2": "Amacımız sadece ağrıyı kesmek değil, kök nedenleri bulmak ve hastalarımızın günlük yaşamlarına bağımsız olarak dönmelerini sağlamaktır. Her hasta bizim için özeldir; kişiye özel tedavi planlarımız, kanıta dayalı yöntemlerimiz ve sürekli gelişen uzman ekibimizle bu amaca hizmet ediyoruz."
+    },
+    "our-values": {
+      "tag": "Değerlerimiz",
+      "header": "Biz Yol Gösteren İlkeler",
+      "desc": "Her tedavi sürecimizde bu değerler bize rehberlik eder.",
+      "values": {
+        "value1": {
+          "header": "Kanıta Dayalı Uygulama",
+          "desc": "Tüm tedavi yöntemlerimiz uluslararası bilimsel araştırmalara ve kanıt temelli protokollere dayanır. Güncel literatürü takip ederek en etkili tedaviyi sunuyoruz."
+        },
+        "value2": {
+          "header": "Hasta Odaklı Yaklaşım",
+          "desc": "Her hastamızın ihtiyaçları, hedefleri ve yaşam tarzı farklıdır. Tam da bu yüzden kişiye özel tedavi planları hazırlıyor, süreci birlikte yönetiyoruz."
+        },
+        "value3": {
+          "header": "Sürekli Gelişim",
+          "desc": "Ekibimiz düzenli eğitimler, sertifikasyonlar ve kongre katılımlarıyla kendini geliştirir. En yeni teknik ve teknolojileri tedavi süreçlerimize entegre ediyoruz."
+        },
+        "value4": {
+          "header": "Şeffaflık ve Güven",
+          "desc": "Hastalarımızla tedavi süreçleri, beklentiler ve ilerleme hakkında her zaman açık ve dürüst bir iletişim kurarız. Güven, sağlığın temelidir."
+        }
+      }
+    },
+    "our-approaches": {
+      "tag": "Yaklaşımımız",
+      "header": "Neden PhysioVital?",
+      "desc": "Bizi farklı kılan unsurlar ve tedavi felsefemiz.",
+      "approaches": {
+        "approach1": {
+          "header": "Kapsamlı İlk Değerlendirme",
+          "desc": "Her tedavi, detaylı bir hastalık öyküsü alma, fiziksel muayene ve fonksiyonel değerlendirme ile başlar. Acele etmeden, tam resmi görerek tedavi planınızı oluştururuz."
+        },
+        "approach2": {
+          "header": "Kişiselleştirilmiş Tedavi Planı",
+          "desc": "Değerlendirme sonuçlarına göre sizin için en uygun tedavi yöntemini, seans sıklığını ve süresini birlikte belirleriz. Hedefleriniz bizim hedeflerimizdir."
+        },
+        "approach3": {
+          "header": "Aktif Tedavi ve İzleme",
+          "desc": "Seanslar boyunca ilerlemeniz düzenli olarak değerlendirilir. Tedavi planınız yanıtınıza göre güncellenir, statik bir planla değil, dinamik bir süreçle ilerleriz."
+        },
+        "approach4": {
+          "header": "Kalıcı Sonuçlar ve Koruma",
+          "desc": "Tedavi sonrasında sağlığınızı koruyacak egzersiz programları ve önerilerle desteklenirsiniz. Amacımız, bir daha aynı sorunu yaşamamanızdır."
+        }
+      }
+    },
+    "metrics": {
+      "desc1": "Yıllık Deneyim",
+      "desc2": "Tedavi Edilen Hasta",
+      "desc3": "Hasta Memnuniyeti",
+      "desc4": "Uzman Fizyoterapist"
+    },
+    "team": {
+      "tag": "Ekibimiz",
+      "header": "Uzman Kadromuzla Tanışın",
+      "desc": "Her biri alanında uzman, hasta memnuniyetini ön planda tutan fizyoterapistler.",
+      "team-members": {
+        "member1": {
+          "title": "Kurucu & Baş Fizyoterapist",
+          "name": "Dr. Emre Aksoy",
+          "desc": "Ortopedik rehabilitasyon ve spor yaralanmaları alanında 15 yılı aşkın deneyim. İTÜ Spor Bilimleri mezunu, internationally sertifikalı."
+        },
+        "member2": {
+          "title": "Nörolojik Rehabilitasyon Uzmanı",
+          "name": "Markus Hoffmann",
+          "desc": "Inme ve nörolojik hastalıklarda rehabilitasyon uzmanı. Bobath konsepti ve nöroplastisite odaklı tedavi yaklaşımları."
+        },
+        "member3": {
+          "title": "Spor Fizyoterapisti",
+          "name": "Julia Wagner",
+          "desc": "Profesyonel sporcuların sakatlık rehabilitasyonu ve performans optimizasyonu konusunda uzman. TSF onaylı spor fizyoterapisti."
+        },
+        "member4": {
+          "title": "Manuel Terapi Uzmanı",
+          "name": "Katharina Schmitt",
+          "desc": "Manuel terapi ve kuru iğneleme konularında uzman. Mulligan konsepti ve Miyofasyal serbest bırakma tekniklerinde sertifikalı."
+        }
+      }
+    },
+    "about-first-step": {
+      "header": "Sağlığınız İçin İlk Adımı Atın",
+      "desc": "Uzman ekibimiz sizin için hazır. Hemen randevu alın, sağlığınıza kavuşma yolculuğuna birlikte başlayalım.",
+      "btns": {
+        "btn1": "Hemen Ara",
+        "btn2": "Online Randevu"
+      }
+    }
+  },
   "contact": {
     "hero": {
       "small-header": "İletişim",

@@ -1,0 +1,168 @@
+.our-values {
+  width: 100%;
+
+  .content {
+    width: 100%;
+    padding-block: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+    border-bottom: 1px solid var(--border);
+
+    .header {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .tag {
+        font-weight: 500;
+        font-size: clamp(1.3rem, 2vw, 1.4rem);
+        text-transform: uppercase;
+        color: var(--accent);
+        letter-spacing: 1px;
+        margin-bottom: 1.5rem;
+      }
+
+      & > h2 {
+        max-width: 60ch;
+        font-size: clamp(2rem, 4vw, 3.5rem);
+        font-family: var(--font-display);
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: -0.5px;
+      }
+
+      & > p {
+        font-size: clamp(1.4rem, 2vw, 1.8rem);
+        font-weight: 300;
+        max-width: 50ch;
+        letter-spacing: 0.5px;
+        line-height: 1.65;
+        margin-top: 1rem;
+      }
+    }
+
+    .values {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+      gap: 2rem;
+
+      .box {
+        width: 100%;
+        min-height: 30rem;
+        display: flex;
+        flex-direction: column;
+        padding-inline: 3.5rem;
+        padding-block: 4rem;
+        border: 1px solid var(--border);
+        border-radius: 4rem;
+        corner-shape: round;
+        background-color: var(--bg-white);
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          box-shadow: var(--shadow-md);
+          transform: translateY(-.2rem);
+          border-color: var(--border-lighter);
+        }
+
+        .icon {
+          width: 5rem;
+          height: 5rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: var(--accent-soft);
+          margin-bottom: 2.5rem;
+          border-radius: 1.5rem;
+
+          & > svg {
+            color: var(--accent);
+            width: 2.5rem;
+            height: 2.5rem;
+          }
+        }
+
+        & > h3 {
+          margin-bottom: 1rem;
+        }
+
+        & > p {
+          font-weight: 300;
+          font-size: clamp(1.3rem, 2vw, 1.55rem);
+        }
+      }
+
+      .box:nth-child(2) {
+        .icon {
+          background-color: var(--accent-warm-soft);
+
+          & > svg {
+            color: var(--accent-warm);
+          }
+        }
+      }
+
+      .box:nth-child(3) {
+        .icon {
+          background-color: var(--accent-cool-soft);
+
+          & > svg {
+            color: var(--accent-cool);
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/* ============================================
+   RESPONSIVE — OurValues
+   820: kutu iç boşluk/min-height | 480: tek sütun
+   ============================================ */
+
+@media (max-width: 1024px) {
+  .our-values .content {
+    padding-block: 6rem;
+    gap: 5rem;
+  }
+}
+
+@media (max-width: 820px) {
+  .our-values .content {
+    gap: 4rem;
+
+    .values {
+      gap: 1.5rem;
+
+      .box {
+        min-height: auto;
+        padding-inline: 3rem;
+        padding-block: 3.5rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .our-values .content {
+    padding-block: 5rem;
+
+    .values {
+      grid-template-columns: 1fr;
+
+      .box {
+        padding-inline: 2.5rem;
+        padding-block: 3rem;
+        border-radius: 3rem;
+
+        .icon {
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+}

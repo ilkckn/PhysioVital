@@ -1,0 +1,153 @@
+.about {
+  width: 100%;
+
+  .container {
+    width: 100%;
+
+    .hero {
+      width: 100%;
+      padding-block: 8rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      gap: 12rem;
+
+      .hero-top {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .tag {
+          font-weight: 500;
+          font-size: clamp(1.3rem, 2vw, 1.4rem);
+          text-transform: uppercase;
+          color: var(--accent);
+          letter-spacing: 1px;
+          margin-bottom: 1.5rem;
+        }
+
+        & > h1 {
+          max-width: 55ch;
+          font-family: var(--font-display);
+          font-weight: 700;
+          line-height: 1.2;
+          letter-spacing: -1px;
+        }
+
+        & > p {
+          font-size: clamp(1.4rem, 2vw, 1.8rem);
+          font-weight: 300;
+          max-width: 50ch;
+          line-height: 1.65;
+          margin-top: 1.5rem;
+        }
+      }
+
+      .hero-bottom {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 6rem;
+
+        .bottom-left {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+
+          & > h3 {
+            max-width: 30ch;
+            font-weight: 700;
+            font-family: var(--font-display);
+            font-size: clamp(2rem, 4vw, 3rem);
+            letter-spacing: -0.5px;
+            margin-bottom: 2.5rem;
+            
+          }
+
+          .desc {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+
+            & > p {
+              max-width: 60ch;
+              font-weight: 300;
+              letter-spacing: 0.5px;
+              line-height: 1.5;
+            }
+          }
+        }
+
+        .bottom-right {
+          width: 100%;
+          border-radius: 4rem;
+
+          .image {
+            width: 100%;
+            border-radius: 4rem;
+            corner-shape: round;
+            box-shadow: var(--shadow-lg);
+            overflow: hidden;
+
+            & > img {
+              width: 100%;
+              object-fit: cover;
+              object-position: center;
+              border-radius: 4rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/* ============================================
+   RESPONSIVE — About (Hero)
+   1024/820: gap+padding | 820: alt grid tek sütun
+   ============================================ */
+
+@media (max-width: 1024px) {
+  .about .container .hero {
+    padding-block: 6rem;
+    gap: 8rem;
+
+    .hero-bottom {
+      gap: 4rem;
+    }
+  }
+}
+
+@media (max-width: 820px) {
+  .about .container .hero {
+    gap: 6rem;
+
+    .hero-bottom {
+      grid-template-columns: 1fr;
+      gap: 3.5rem;
+
+      .bottom-left > h3 {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .about .container .hero {
+    padding-block: 5rem;
+    gap: 4.5rem;
+
+    .hero-bottom {
+      gap: 3rem;
+
+      .bottom-right .image,
+      .bottom-right .image > img {
+        border-radius: 3rem;
+      }
+    }
+  }
+}

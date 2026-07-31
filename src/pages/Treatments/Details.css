@@ -13,7 +13,7 @@
       font-size: clamp(1.3rem, 2vw, 1.4rem);
       font-weight: 600;
       text-transform: uppercase;
-      letter-spacing: .5px;
+      letter-spacing: 0.5px;
       color: var(--accent-warm-lighter);
       margin-bottom: 1.5rem;
     }
@@ -23,13 +23,13 @@
       font-family: var(--font-display);
       font-size: clamp(2.5rem, 5vw, 4.5rem);
       font-weight: 800;
-      letter-spacing: -.5px;
+      letter-spacing: -0.5px;
       line-height: 1.1;
-      margin-bottom: .7rem;
+      margin-bottom: 0.7rem;
     }
 
     & > p {
-      letter-spacing: .5px;
+      letter-spacing: 0.5px;
       font-size: clamp(1.4rem, 2vw, 1.7rem);
       font-weight: 300;
     }
@@ -60,7 +60,7 @@
           font-size: clamp(1.3rem, 2vw, 1.5rem);
           font-weight: 500;
           text-transform: uppercase;
-          letter-spacing: .5px;
+          letter-spacing: 0.5px;
           color: var(--font-text-gray-darker);
           margin-bottom: 1rem;
         }
@@ -74,12 +74,12 @@
           margin-top: 1.5rem;
           line-height: 1.4;
           font-weight: 300;
-          letter-spacing: .5px;
+          letter-spacing: 0.5px;
         }
 
         & > ul {
-            margin-top: 2rem;
-            padding-left: 1.5rem;
+          margin-top: 2rem;
+          padding-left: 1.5rem;
           & > li {
             padding-bottom: 1rem;
             list-style: disc;
@@ -102,11 +102,11 @@
           background-color: var(--accent-lighter);
           border-radius: 3rem;
           cursor: pointer;
-          transition: all .3s ease-in-out;
+          transition: all 0.3s ease-in-out;
 
           &:hover {
             background-color: var(--accent);
-            transform: translateY(-.3rem);
+            transform: translateY(-0.3rem);
           }
         }
       }
@@ -223,7 +223,7 @@
 
         .left {
           & > span {
-            margin-bottom: .8rem;
+            margin-bottom: 0.8rem;
           }
 
           & > p {

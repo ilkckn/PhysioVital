@@ -12,7 +12,7 @@
       font-family: var(--font-accent);
       font-size: 1.35rem;
       font-weight: 600;
-      letter-spacing: .5px;
+      letter-spacing: 0.5px;
       text-transform: uppercase;
       color: var(--accent-warm-lighter);
       margin-bottom: 1.5rem;
@@ -29,7 +29,7 @@
 
     & > p {
       font-weight: 300;
-      letter-spacing: .5px;
+      letter-spacing: 0.5px;
     }
   }
 
@@ -53,7 +53,7 @@
       position: relative;
       overflow: hidden;
       cursor: pointer;
-      transition: all .3s ease-in-out;
+      transition: all 0.3s ease-in-out;
 
       &::before {
         content: "";
@@ -61,15 +61,15 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: .4rem;
+        height: 0.4rem;
         background-color: var(--accent);
         opacity: 0;
-        transition: all .3s ease-in-out;
+        transition: all 0.3s ease-in-out;
       }
 
       &:hover {
         box-shadow: var(--shadow-md);
-        transform: translateY(-.2rem);
+        transform: translateY(-0.2rem);
         &::before {
           opacity: 1;
         }
@@ -93,7 +93,7 @@
       & > h3 {
         font-weight: 600;
         max-width: 15ch;
-        margin-bottom: .5rem;
+        margin-bottom: 0.5rem;
       }
 
       & > p {
@@ -104,7 +104,7 @@
         width: fit-content;
         margin-top: 2rem;
         padding-inline: 2.5rem;
-        padding-block: .8rem;
+        padding-block: 0.8rem;
         border-radius: 3rem;
         corner-shape: round;
         background-color: var(--box-soft);
@@ -113,7 +113,7 @@
         & > span {
           font-size: 1.3rem;
           font-weight: 500;
-          letter-spacing: .5px;
+          letter-spacing: 0.5px;
         }
       }
     }
@@ -144,7 +144,6 @@
     }
   }
 }
-
 
 /* ============================================
    RESPONSIVE — Category
@@ -205,7 +204,7 @@
 
     .header {
       & > span {
-        margin-bottom: .8rem;
+        margin-bottom: 0.8rem;
       }
     }
 
