@@ -450,7 +450,7 @@
         },
         "email": {
           "tool": "Email",
-          "label": "info@fizyovital.com",
+          "label": "info@physiovital.com",
           "description": "Response within 24 hours."
         },
         "location": {
