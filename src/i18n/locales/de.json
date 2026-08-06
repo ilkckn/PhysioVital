@@ -529,5 +529,93 @@
         }
       }
     }
+  },
+  "appointment": {
+    "hero": {
+      "tag": "Termin & Buchung",
+      "header": {
+        "title": "Machen Sie heute den <hl>ersten Schritt</hl> für Ihre Gesundheit."
+      },
+      "desc": "Füllen Sie das Formular aus, um unsere Physiotherapeuten zu treffen. Wir melden uns innerhalb von 24 Stunden und erstellen Ihren Therapieplan gemeinsam.",
+      "list": {
+        "list1": "Bestätigung am selben Tag",
+        "list2": "Kostenlose Erstberatung",
+        "list3": "Unterstützung bei Privatkassen",
+        "opening-hours": "Wochentags 09:00 - 19:00 / Samstag 10:00 - 16:00"
+      },
+      "form": {
+        "header": "Online-Terminformular",
+        "desc": "Daten da lassen, den Rest übernehmen wir.",
+        "form": {
+          "name": "Name",
+          "email": "E-Mail",
+          "phone": "Telefon",
+          "service": "Behandlung",
+          "date": "Wunschtermin",
+          "message": "Nachricht",
+          "optional": "(optional)",
+          "submit": "Anfrage senden",
+          "open-note": "geöffnet",
+          "name-placeholder": "Ihr Vor- und Nachname",
+          "email-placeholder": "beispiel@email.com",
+          "phone-placeholder": "+49 XXX XXX XX XX",
+          "service-placeholder": "Behandlung wählen",
+          "message-placeholder": "Ihr Anliegen, Ziel oder Ihre Fragen...",
+          "info-service": "Service",
+          "info-duration": "Dauer",
+          "info-date": "Datum",
+          "option1": "Manuelle Therapie",
+          "option2": "Sporttherapie",
+          "option3": "Neuro-Physiotherapie",
+          "option4": "Orthopädische Therapie",
+          "option5": "Dry Needling",
+          "option6": "Individuelle Trainingspläne",
+          "privacy": "Ihre Daten werden gemäß unseren Datenschutzregeln geschützt.",
+          "sending": "Wird gesendet...",
+          "success1": "Ihre Anfrage ist eingegangen!",
+          "success2": "Wir melden uns innerhalb von 24 Stunden.",
+          "error": "Etwas ist schiefgelaufen, bitte erneut versuchen."
+        }
+      }
+    },
+    "you-need-to-know": {
+      "tag": "Einfacher, sicherer Ablauf",
+      "header": "Das sollten Sie zu Ihrem Termin wissen",
+      "boxes": {
+        "box1": {
+          "header": "Standort",
+          "desc": "Feldberg Str. 123, 06500 Freiburg, Baden-Württemberg",
+          "location": "Route"
+        },
+        "box2": {
+          "header": "Öffnungszeiten",
+          "desc": "Wochentags 09:00–19:00 · Samstag 10:00–16:00. Sonntags geschlossen. Für Abendtermine rufen Sie uns an.",
+          "day": "Jeden Wochentag offen"
+        },
+        "box3": {
+          "header": "Kassenleistung",
+          "desc": "Wir arbeiten mit Privatkassen zusammen. Abrechnung und Papierkram übernimmt unser Team.",
+          "insurance": "Partnerkassen"
+        }
+      }
+    },
+    "how-is-it-work": {
+      "tag": "So funktioniert's",
+      "header": "In 3 Schritten zum Termin",
+      "steps": {
+        "step1": {
+          "header": "Formular ausfüllen",
+          "desc": "Teilen Sie Daten und Wunschbehandlung in 2 Minuten mit, ganz kostenlos."
+        },
+        "step2": {
+          "header": "Bestätigung erhalten",
+          "desc": "Unser Team ruft Sie noch am selben oder nächsten Tag zurück."
+        },
+        "step3": {
+          "header": "Sitzung starten",
+          "desc": "Treffen Sie Ihren Therapeuten und starten Sie mit Ihrem persönlichen Plan."
+        }
+      }
+    }
   }
 }

@@ -1,4 +1,4 @@
-.about-bg-orbs {
+.appointment-bg-orbs {
   position: absolute;
   inset: 0;
   pointer-events: none;
@@ -16,14 +16,14 @@
     width: 500px;
     height: 500px;
     background: oklch(85% 0.08 170);
-    top: -5%;
-    right: -5%;
+    top: -10%;
+    right: -7%;
   }
 
   .hero__orb--2 {
     width: 350px;
     height: 350px;
-    background: var(--accent-cool);
+    background: var(--accent-cool-soft);
     bottom: 5%;
     left: -8%;
   }
@@ -33,7 +33,7 @@
     height: 200px;
     background: oklch(82% 0.1 200);
     top: 40%;
-    right: 25%;
+    right: 100%;
   }
 }
 

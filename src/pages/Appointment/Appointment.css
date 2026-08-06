@@ -1,0 +1,144 @@
+.appointment {
+  width: 100%;
+
+  .container {
+    /*background-color: var(--accent-soft-lighter-v2);*/
+    width: 100%;
+    position: relative;
+
+    .hero {
+      width: 100%;
+      padding-block: 10rem;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      align-items: start;
+
+      .left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .tag {
+          max-width: 50ch;
+          font-family: var(--font-body);
+          font-size: clamp(1.3rem, 2vw, 1.5rem);
+          font-weight: 500;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+          line-height: 1.1;
+          color: var(--accent);
+          margin-bottom: 2rem;
+        }
+
+        .main-header {
+          width: fit-content;
+          margin-bottom: 1.5rem;
+
+          & > h1 {
+            max-width: 15ch;
+            font-family: var(--font-display);
+            font-weight: 500;
+            line-height: 1.12;
+            letter-spacing: -1px;
+
+            & > span {
+              font-size: clamp(2.8rem, 5vw, 6rem);
+              font-weight: 500;
+              font-family: var(--font-accent);
+              color: var(--accent-lighter);
+            }
+          }
+        }
+
+        & > p {
+          max-width: 45ch;
+          font-size: clamp(1.4rem, 2vw, 1.8rem);
+          font-family: var(--font-body);
+          font-weight: 300;
+          letter-spacing: 0.5px;
+          line-height: 1.5;
+        }
+
+        .list {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          gap: 1.5rem;
+          margin-top: 4rem;
+
+          .item {
+            width: fit-content;
+            display: flex;
+            align-items: center;
+            gap: 1.2rem;
+
+            & > svg {
+              transform: translateY(0.1rem);
+              font-size: 1.7rem;
+              color: var(--accent-lighter);
+            }
+
+            & > p {
+              font-weight: 500;
+              letter-spacing: 0.3px;
+            }
+          }
+
+          .opening-hours {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-top: 1rem;
+
+            & > svg {
+              font-size: 1.7rem;
+              color: var(--accent-lighter);
+            }
+
+            & > p {
+              font-size: clamp(1.4rem, 2vw, 1.5rem);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* ============ RESPONSIVE ============ */
+@media (max-width: 1024px) {
+  .appointment {
+    .container {
+      .hero {
+        grid-template-columns: 1fr;
+        gap: 5rem;
+        padding-block: 6rem;
+
+        .left {
+          .list {
+            margin-top: 3rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .appointment {
+    .container {
+      .hero {
+        gap: 4rem;
+        padding-block: 4rem;
+        padding-top: 6rem;
+
+        .left {
+          .list {
+            gap: 1.2rem;
+            margin-top: 2.5rem;
+          }
+        }
+      }
+    }
+  }
+}

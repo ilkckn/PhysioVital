@@ -1,7 +1,6 @@
 .team {
   width: 100%;
   padding-block: 8rem;
-  border-bottom: 1px solid var(--border);
 
   .content {
     width: 100%;
@@ -13,8 +12,9 @@
       align-items: flex-start;
 
       .tag {
+        font-family: var(--font-body);
         font-weight: 500;
-        font-size: clamp(1.3rem, 2vw, 1.4rem);
+        font-size: clamp(1.3rem, 2vw, 1.5rem);
         text-transform: uppercase;
         color: var(--accent);
         letter-spacing: 1px;
@@ -25,7 +25,7 @@
         max-width: 60ch;
         font-size: clamp(2rem, 4vw, 3.5rem);
         font-family: var(--font-display);
-        font-weight: 700;
+        font-weight: 400;
         line-height: 1.2;
         letter-spacing: -0.5px;
       }
@@ -93,7 +93,7 @@
 
           & > span {
             display: block;
-            font-family: var(--font-accent);
+            font-family: var(--font-body);
             font-size: clamp(1.2rem, 2vw, 1.4rem);
             font-weight: 500;
             line-height: 1.5;

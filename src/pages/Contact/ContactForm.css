@@ -193,13 +193,14 @@
           }
 
           & > textarea {
-            min-height: 20rem;
+            min-height: 12lh;
             font-size: clamp(1.2rem, 2vw, 1.4rem);
             padding-inline: 1.5rem;
             padding-block: 1.5rem;
             border: 1px solid var(--accent-soft);
             border-radius: 1.3rem;
-            resize: vertical;
+            resize: none;
+            field-sizing: content;
 
             &::placeholder {
               font-weight: 300;

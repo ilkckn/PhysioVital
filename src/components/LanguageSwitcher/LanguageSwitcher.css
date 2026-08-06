@@ -5,6 +5,8 @@
   justify-content: center;
   position: relative;
   cursor: pointer;
+  border-right: 1px solid var(--accent-lighter);
+  padding-right: 1rem;
 
   .btns {
     width: 100%;
@@ -16,7 +18,7 @@
     z-index: 1;
 
     & > .lang-switcher-icon {
-      font-size: 2rem;
+      font-size: 2.1rem;
       color: var(--accent);
       cursor: pointer;
     }
@@ -59,6 +61,31 @@
 @media (max-width: 1024px) {
   .lang-switcher {
     flex-direction: row;
+
+    .btns {
+      .lang-switcher-icon {
+        font-size: 2.5rem;
+      }
+      .lang-switcher-dropdown {
+        flex-direction: row;
+        top: -0.3rem;
+        left: 2rem;
+        background-color: transparent;
+        padding: 0;
+        padding-left: 1.5rem;
+
+        & > button {
+          font-size: 1.45rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 820px) {
+  .lang-switcher {
+    flex-direction: row;
+    border-right: 0;
 
     .btns {
       .lang-switcher-icon {

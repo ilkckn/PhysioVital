@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Grotesk:wght@300..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap');
 
 :root {
   --navbar-height: 10rem;
@@ -21,22 +21,27 @@
   --accent-teal-blue: oklch(42% 0.15 195); 
   --accent-soft: oklch(92% 0.04 175);
   --accent-soft-lighter: oklch(90% 0.04 175);
+  --accent-soft-lighter-v1: oklch(97% 0.02 175);
+  --accent-soft-lighter-v2: oklch(99% 0.03 175);
+  --accent-soft-lighter-v3: oklch(99.5% 0.01 175);
   --accent-warm: oklch(45% 0.13 40);
   --accent-warm-lighter: oklch(55% 0.13 40);
   --accent-warm-soft: oklch(93% 0.035 40);
   --accent-cool: oklch(55% 0.12 250);
   --accent-cool-soft: oklch(92% 0.04 250);
+  --accent-cool-softer: oklch(98% 0.02 250);
   --hover: oklch(95% 0 0);
 
-  --font-display: "Playfair Display", serif;
+  --font-display: "Poppins", sans-serif;
   --font-body:
-    "DM Sans", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
-  --font-accent: "Space Grotesk", -apple-system, system-ui, sans-serif;
+    "Poppins", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --font-accent: "Dancing Script", cursive;
   --font-few: "Cormorant", "Garamond", sans-serif;
 
   --font-text-white: oklch(100% 0 0);
   --font-text-gray: oklch(70% 0 0);
   --font-text-gray-darker: oklch(40% 0 0);
+  --font-text-gray-lighter: oklch(55% 0 0);
   --font-greenish: oklch(60% 0.01 210);
   --font-greenish-lighter: oklch(70% 0.01 210);
   --font-greenish-darker: oklch(40% 0.01 210);
@@ -147,7 +152,7 @@ p {
 }
 
 span {
-  font-family: var(--font-accent);
+  font-family: var(--font-body);
 }
 
 .container {

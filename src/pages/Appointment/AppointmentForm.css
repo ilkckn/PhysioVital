@@ -1,0 +1,488 @@
+.appointment-form {
+  width: 100%;
+  padding-inline: 2rem;
+
+  form {
+    box-shadow: var(--shadow-sm-soft);
+    background-color: var(--bg-white);
+    border: 1px solid var(--border);
+    border-radius: 4rem;
+    padding-inline: 4rem;
+    padding-block: 5rem;
+    width: 100%;
+    min-height: 80rem;
+    display: flex;
+    flex-direction: column;
+
+    .header {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-bottom: 3rem;
+
+      & > h3 {
+        font-family: var(--font-body);
+        font-size: clamp(1.8rem, 3vw, 2.3rem);
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        line-height: 1.2;
+      }
+
+      & > p {
+        color: var(--font-text-gray-lighter);
+        font-size: clamp(1.3rem, 2vw, 1.7rem);
+        font-weight: 300;
+        letter-spacing: 1px;
+        line-height: 1.2;
+      }
+    }
+
+    .form-section {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+
+      .name-email {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+
+        .name,
+        .email {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          gap: 0.6rem;
+
+          & > label {
+            width: fit-content;
+            font-size: clamp(1.2rem, 1.5vw, 1.3rem);
+            font-weight: 500;
+            letter-spacing: 1px;
+            word-spacing: 2px;
+            line-height: 1.2;
+            text-transform: uppercase;
+            transform: translateX(0.5rem);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            position: relative;
+
+            & > svg {
+              font-size: 0.6rem;
+              position: absolute;
+              top: 0.2rem;
+              right: -1rem;
+              color: var(--accent);
+            }
+          }
+
+          & > input {
+            width: 100%;
+            border: 1px solid var(--border);
+            border-radius: 1rem;
+            padding-inline: 1.5rem;
+            padding-block: 1.2rem;
+
+            &::placeholder {
+              font-size: clamp(1.2rem, 1.5vw, 1.35rem);
+              letter-spacing: 0.5px;
+            }
+
+            &:focus {
+              outline: 1px solid var(--accent);
+            }
+          }
+        }
+      }
+
+      .phone-service {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+
+        .phone,
+        .service {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          gap: 0.6rem;
+
+          & > label {
+            width: fit-content;
+            font-size: clamp(1.2rem, 1.5vw, 1.3rem);
+            font-weight: 500;
+            letter-spacing: 1px;
+            word-spacing: 2px;
+            line-height: 1.2;
+            text-transform: uppercase;
+            transform: translateX(0.5rem);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            position: relative;
+
+            & > svg {
+              font-size: 0.6rem;
+              position: absolute;
+              top: 0.2rem;
+              right: -1rem;
+              color: var(--accent);
+            }
+          }
+
+          & > input {
+            width: 100%;
+            border: 1px solid var(--border);
+            border-radius: 1rem;
+            padding-inline: 1.5rem;
+            padding-block: 1.2rem;
+
+            &::placeholder {
+              font-size: clamp(1.2rem, 1.5vw, 1.35rem);
+              letter-spacing: 0.5px;
+            }
+
+            &:focus {
+              outline: 1px solid var(--accent);
+            }
+          }
+
+          & > select {
+            width: 100%;
+            border: 1px solid var(--border);
+            border-radius: 1rem;
+            padding-inline: 1.5rem;
+            padding-block: 1.2rem;
+            color: var(--font-text-gray-lighter);
+            letter-spacing: 0.5px;
+
+            appearance: none;
+            -webkit-appearance: none;
+            background-color: var(--bg-white);
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23999999' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 1.5rem center;
+            background-size: 1.3rem;
+
+            &:focus {
+              outline: 1px solid var(--accent);
+            }
+
+            &::placeholder {
+              font-size: clamp(1.2rem, 1.5vw, 1.35rem);
+              letter-spacing: 0.5px;
+            }
+          }
+        }
+      }
+
+      .date {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+
+        & > label {
+          width: fit-content;
+          font-size: clamp(1.2rem, 1.5vw, 1.3rem);
+          font-weight: 500;
+          letter-spacing: 1px;
+          word-spacing: 2px;
+          line-height: 1.2;
+          text-transform: uppercase;
+          transform: translateX(0.5rem);
+          display: inline-flex;
+          align-items: center;
+          gap: 0.5rem;
+          position: relative;
+
+          & > svg {
+            font-size: 0.6rem;
+            position: absolute;
+            top: 0.2rem;
+            right: -1rem;
+            color: var(--accent);
+          }
+        }
+
+        & > input {
+          width: 100%;
+          border: 1px solid var(--border);
+          border-radius: 1rem;
+          padding-inline: 1.5rem;
+          padding-block: 1.2rem;
+          font-size: clamp(1.2rem, 1.5vw, 1.35rem);
+          color: var(--font-text-gray-lighter);
+
+          &::placeholder {
+            font-size: clamp(1.2rem, 1.5vw, 1.5rem);
+            letter-spacing: 0.5px;
+          }
+
+          &:focus {
+            outline: 1px solid var(--accent);
+          }
+        }
+
+        .date-hint {
+          font-size: clamp(1.1rem, 1.4vw, 1.25rem);
+          font-weight: 500;
+          letter-spacing: 0.3px;
+          color: var(--accent);
+          transform: translateX(0.5rem);
+          margin-top: 0.3rem;
+        }
+      }
+
+      .message {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+
+        & > label {
+          width: fit-content;
+          font-size: clamp(1.2rem, 1.5vw, 1.3rem);
+          font-weight: 500;
+          letter-spacing: 1px;
+          word-spacing: 2px;
+          line-height: 1.2;
+          text-transform: uppercase;
+          transform: translateX(0.5rem);
+          display: inline-flex;
+          align-items: center;
+          gap: 0.5rem;
+          position: relative;
+
+          & > svg {
+            font-size: 0.6rem;
+            position: absolute;
+            top: 0.2rem;
+            right: -1rem;
+            color: var(--accent);
+          }
+        }
+
+        & > textarea {
+          width: 100%;
+          border: 1px solid var(--border);
+          border-radius: 1rem;
+          padding-inline: 1.5rem;
+          padding-block: 2rem;
+          font-size: clamp(1.2rem, 1.5vw, 1.35rem);
+          color: var(--font-text-gray-lighter);
+          field-sizing: content;
+          min-height: 12lh;
+          resize: none;
+
+          &::placeholder {
+            font-size: clamp(1.2rem, 1.5vw, 1.35rem);
+            word-spacing: -3px;
+          }
+
+          &:focus {
+            outline: 1px solid var(--accent);
+          }
+        }
+      }
+    }
+
+    .service-info {
+      width: 100%;
+      margin-block: 3rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      border: 1px solid var(--border);
+      border-radius: 1.5rem;
+      overflow: hidden;
+      background-color: var(--bg-white);
+
+      .info-item {
+        display: flex;
+        flex-direction: column;
+        gap: 0.7rem;
+        padding: 2rem;
+
+        &:not(:last-child) {
+          border-right: 1px solid var(--border);
+        }
+
+        .info-label {
+          font-size: clamp(1.1rem, 1.4vw, 1.2rem);
+          font-weight: 500;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+          color: var(--font-text-gray-lighter);
+        }
+
+        .info-value {
+          font-size: clamp(1.4rem, 1.8vw, 1.6rem);
+          font-weight: 500;
+          letter-spacing: 0.3px;
+        }
+      }
+    }
+
+    .btn {
+      width: 100%;
+      margin-top: auto;
+      display: flex;
+      align-items: center;
+
+      .kvkk {
+        max-width: 30ch;
+        font-size: clamp(1.1rem, 1.4vw, 1.2rem);
+        font-weight: 300;
+        line-height: 1.4;
+        color: var(--accent);
+      }
+
+      & > button {
+        width: 100%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.8rem;
+        border: none;
+        border-radius: 5rem;
+        padding-inline: 2.5rem;
+        padding-block: 1.5rem;
+        background-color: var(--accent);
+        color: var(--bg-white);
+        font-size: clamp(1.4rem, 1.8vw, 1.7rem);
+        font-weight: 400;
+        letter-spacing: 0.3px;
+        cursor: pointer;
+        transition: opacity 0.2s ease;
+
+        & > svg {
+          font-size: 1.4rem;
+          transform: translateY(0.1rem);
+        }
+
+        &:hover {
+          opacity: 0.9;
+        }
+      }
+    }
+
+    .form-message {
+      width: 100%;
+      margin-top: 2rem;
+      text-align: center;
+      font-size: clamp(1.3rem, 1.6vw, 1.4rem);
+      font-weight: 200;
+      letter-spacing: 0.3px;
+      color: var(--accent);
+      display: inline-flex;
+      flex-direction: column;
+
+      & > span {
+        font-family: var(--font-body);
+        font-weight: 200;
+        margin-top: 0;
+        padding: 0;
+      }
+    }
+  }
+}
+
+/* ============ RESPONSIVE ============ */
+@media (max-width: 1024px) {
+  .appointment-form {
+    padding-inline: 0;
+
+    form {
+      min-height: auto;
+      padding-inline: 3rem;
+      padding-block: 4rem;
+      border-radius: 3rem;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .appointment-form {
+    form {
+      padding-inline: 2rem;
+      padding-block: 3.5rem;
+      border-radius: 2.5rem;
+
+      .form-section {
+        gap: 2rem;
+
+        .name-email {
+          .name,
+          .email {
+            width: 100%;
+          }
+        }
+
+        .phone-service {
+          .phone,
+          .service {
+            width: 100%;
+          }
+        }
+
+        .name-email,
+        .phone-service {
+          flex-direction: column;
+          gap: 2rem;
+        }
+      }
+
+      .service-info {
+        grid-template-columns: 1fr;
+        margin-block: 2.5rem;
+
+        .info-item {
+          &:not(:last-child) {
+            border-right: none;
+            border-bottom: 1px solid var(--border);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .appointment-form {
+    form {
+      padding-inline: 1.6rem;
+      border-radius: 2rem;
+
+      .form-section {
+        width: 100%;
+
+        .name-email {
+          width: 100%;
+
+          .name,
+          .email {
+            width: 100%;
+          }
+        }
+
+        .phone-service {
+          width: 100%;
+
+          .phone,
+          .service {
+            width: 100%;
+          }
+        }
+      }
+
+      .btn > button {
+        padding-block: 1.3rem;
+      }
+    }
+  }
+}

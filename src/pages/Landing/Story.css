@@ -87,7 +87,7 @@
 
           & > h2 {
             font-family: var(--font-display);
-            font-weight: 700;
+            font-weight: 400;
             font-size: clamp(2.5rem, 4vw, 3.5rem);
             line-height: 3.9rem;
             letter-spacing: -0.5px;

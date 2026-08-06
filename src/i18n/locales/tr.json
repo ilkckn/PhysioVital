@@ -526,5 +526,93 @@
         }
       }
     }
+  },
+  "appointment": {
+    "hero": {
+      "tag": "Randevu & Kayıt",
+      "header": {
+        "title": "Sağlığınız için <hl>ilk adımı</hl> bugün atın."
+      },
+      "desc": "Uzman fizyoterapistlerimizle görüşmek için formu doldurun. En geç 24 saat içinde size dönüş yapıyor ve tedavi planınızı birlikte çıkarıyoruz.",
+      "list": {
+        "list1": "Aynı gün onay",
+        "list2": "Ücretsiz ön değerlendirme",
+        "list3": "Özel sigorta desteği",
+        "opening-hours": "Hafta içi 09:00 - 19:00 / Cumartesi 10:00 - 16:00"
+      },
+      "form": {
+        "header": "Online Randevu Formu",
+        "desc": "Bilgilerinizi bırakın, gerisini size bırakalım.",
+        "form": {
+          "name": "Ad Soyad",
+          "email": "E-posta",
+          "phone": "Telefon",
+          "service": "Tedavi / Servis",
+          "date": "Tercih ettiğiniz tarih",
+          "message": "Mesaj",
+          "optional": "(opsiyonel)",
+          "submit": "Randevuyu Gönder",
+          "open-note": "günü açığız",
+          "name-placeholder": "Adınız ve soyadınız",
+          "email-placeholder": "ornek@eposta.com",
+          "phone-placeholder": "05XX XXX XX XX",
+          "service-placeholder": "Bir tedavi seçin",
+          "message-placeholder": "Şikayetiniz, hedefiniz veya sormak istedikleriniz...",
+          "info-service": "Servis",
+          "info-duration": "Seans Süresi",
+          "info-date": "Tarih",
+          "option1": "Elle Terapi",
+          "option2": "Spor Terapi",
+          "option3": "Nörolojik Fizyoterapi",
+          "option4": "Ortopedik Terapi",
+          "option5": "Kuru İğne",
+          "option6": "Bireysel Egzersiz Programları",
+          "privacy": "Kişisel verileriniz gizlilik esaslarına uygun olarak korunmaktadır.",
+          "sending": "Gönderiliyor...",
+          "success1": "Randevu talebiniz alındı!",
+          "success2": "En geç 24 saat içinde size dönüş yapacağız.",
+          "error": "Bir şeyler ters gitti, lütfen tekrar deneyin."
+        }
+      }
+    },
+    "you-need-to-know": {
+      "tag": "Rahat ve Güvenilir Süreç",
+      "header": "Randevunuz ile ilgili bilmeni gerekenler",
+      "boxes": {
+        "box1": {
+          "header": "Konumumuz",
+          "desc": "Feldberg Str. 123, 06500 Freiburg, Baden Württemberg",
+          "location": "Yol tarifi"
+        },
+        "box2": {
+          "header": "Çalışma saatleri",
+          "desc": "Hafta içi 09:00–19:00 · Cumartesi 10:00–16:00. Pazar günleri kapalıyız. Akşam seansları için arayın.",
+          "day": "Hafta için her gün"
+        },
+        "box3": {
+          "header": "Sigorta desteği",
+          "desc": "Özel sağlık sigortası anlaşmalarımız mevcuttur. Faturalandırma ve evrak işlemlerini ekibimiz yürütür.",
+          "insurance": "Anlaşmalı kurumlar"
+        }
+      }
+    },
+    "how-is-it-work": {
+      "tag": "Nasıl Çalışır",
+      "header": "Randevu süreci 3 adımda tamamlanır",
+      "steps": {
+        "step1": {
+          "header": "Formu Doldurun",
+          "desc": "Bilgilerinizi ve tedavi tercihinizi 2 dakikada paylaşın, tamamı ücretsiz."
+        },
+        "step2": {
+          "header": "Onayınızı alın",
+          "desc": "Ekibimiz aynı gün veya en geç ertesi gün telefonla size dönüş yapar."
+        },
+        "step3": {
+          "header": "Seansınıza başlayın",
+          "desc": "Uzman fizyoterapistinizle buluşun, size özel tedavi planıyla iyileşmeye başlayın."
+        }
+      }
+    }
   }
 }

@@ -529,5 +529,93 @@
         }
       }
     }
+  },
+  "appointment": {
+    "hero": {
+      "tag": "Appointment & Booking",
+      "header": {
+        "title": "Take the <hl>first step</hl> for your health today."
+      },
+      "desc": "Fill out the form to meet our expert physiotherapists. We get back to you within 24 hours and build your treatment plan together.",
+      "list": {
+        "list1": "Same-day confirmation",
+        "list2": "Free initial assessment",
+        "list3": "Private insurance support",
+        "opening-hours": "Weekdays 09:00 - 19:00 / Saturday 10:00 - 16:00"
+      },
+      "form": {
+        "header": "Online Booking Form",
+        "desc": "Leave your details, we'll handle the rest.",
+        "form": {
+          "name": "Full Name",
+          "email": "Email",
+          "phone": "Phone",
+          "service": "Treatment / Service",
+          "date": "Preferred date",
+          "message": "Message",
+          "optional": "(optional)",
+          "submit": "Send Request",
+          "open-note": "we're open",
+          "name-placeholder": "Your full name",
+          "email-placeholder": "example@email.com",
+          "phone-placeholder": "+49 XXX XXX XX XX",
+          "service-placeholder": "Choose a treatment",
+          "message-placeholder": "Your concern, goal or any questions...",
+          "info-service": "Service",
+          "info-duration": "Session Time",
+          "info-date": "Date",
+          "option1": "Manual Therapy",
+          "option2": "Sports Therapy",
+          "option3": "Neurological Physiotherapy",
+          "option4": "Orthopedic Therapy",
+          "option5": "Dry Needling",
+          "option6": "Individual Exercise Programs",
+          "privacy": "Your personal data is protected in line with our privacy policy.",
+          "sending": "Sending...",
+          "success1": "Your request has been received!",
+          "success2": "We'll get back to you within 24 hours.",
+          "error": "Something went wrong, please try again."
+        }
+      }
+    },
+    "you-need-to-know": {
+      "tag": "Simple and Reliable Process",
+      "header": "What you need to know about your appointment",
+      "boxes": {
+        "box1": {
+          "header": "Our Location",
+          "desc": "Feldberg Str. 123, 06500 Freiburg, Baden-Württemberg",
+          "location": "Directions"
+        },
+        "box2": {
+          "header": "Opening Hours",
+          "desc": "Weekdays 09:00–19:00 · Saturday 10:00–16:00. Closed on Sundays. Call us for evening sessions.",
+          "day": "Open every weekday"
+        },
+        "box3": {
+          "header": "Insurance Support",
+          "desc": "We work with private health insurers. Our team handles billing and paperwork for you.",
+          "insurance": "Partner providers"
+        }
+      }
+    },
+    "how-is-it-work": {
+      "tag": "How It Works",
+      "header": "Booking is done in 3 simple steps",
+      "steps": {
+        "step1": {
+          "header": "Fill the Form",
+          "desc": "Share your details and treatment choice in 2 minutes, completely free."
+        },
+        "step2": {
+          "header": "Get Confirmed",
+          "desc": "Our team calls you back the same day or the next at the latest."
+        },
+        "step3": {
+          "header": "Start Your Session",
+          "desc": "Meet your physiotherapist and start healing with a treatment plan made for you."
+        }
+      }
+    }
   }
 }
