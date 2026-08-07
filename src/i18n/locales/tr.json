@@ -614,5 +614,178 @@
         }
       }
     }
+  },
+  "services": {
+    "hero": {
+      "tag": "Tedavi & Rehabilitasyon",
+      "header": {
+        "title1": "Doğru hizmet,",
+        "title2": "size özel",
+        "title3": "plan"
+      },
+      "desc": "Fizyoterapi ve rehabilitasyonda kanıta dayalı, kişiye özel bir yaklaşım. Altı uzmanlık alanında size en uygun tedaviyi birlikte seçelim.",
+      "list": {
+        "list1": "Uzman fizyoterapist kadrosu",
+        "list2": "Kanıta dayalı uygulamalar",
+        "list3": "Kişiye özel tedavi planı"
+      },
+      "sub-info": "İlk görüşme ve ön değerlendirme ücretsizdir",
+      "content-right": {
+        "header": "Hizmetlerimiz",
+        "desc": "İnceleyin, karşılaştırın, size uygun olanı seçin.",
+        "list": {
+          "list1": "Elle Terapi",
+          "list2": "Spor Terapi",
+          "list3": "Nörolojik Fizyoterapi",
+          "list4": "Ortopedik Rehabilitasyon",
+          "list5": "Kuru İğneleme",
+          "list6": "Bireysel Egzersiz Programları",
+          "duration": "dk"
+        },
+        "bottom-tag": {
+          "tag1": "6 uzmanlık alanı",
+          "tag2": "Ücretsiz ön değerlendirme"
+        }
+      }
+    },
+    "areas-of-expertise": {
+      "tag": "Uzmanlık Alanlarımız",
+      "header": "Size uygun tedaviyi seçin",
+      "desc": "Altı uzmanlık alanında iyileşmenin her aşamasında yanınızdayız. Hangisinin size uygun olduğundan emin değilseniz ücretsiz ön değerlendirme ile başlayın.",
+      "expertise": {
+        "expertise1": {
+          "header": "Elle Terapi",
+          "desc": "Uzman fizyoterapistlerimizin elleriyle uygulanan, yumuşak doku ve eklem mobilizasyonunu hedefleyen kanıta dayalı bir tedavi. Ağrıyı azaltır, hareket açıklığını geri kazandırır.",
+          "tags": {
+            "tag1": "Yumuşak doku gevşetme",
+            "tag2": "Eklem mobilizasyonu",
+            "tag3": "Ağrı kontrolü",
+            "tag4": "İlaçsız yaklaşım"
+          },
+          "btns": {
+            "btn1": "Randevu Al",
+            "btn2": "Seans Detayı"
+          },
+          "duration": "dk",
+          "session": "seans",
+          "for-whom": "Bu hizmetler kimler için?",
+          "for-what": {
+            "1": "Bel & Boyun ağrısı",
+            "2": "Duruş bozuklukları",
+            "3": "Hareket kısıtlılığı"
+          }
+        },
+        "expertise2": {
+          "header": "Spor Terapi",
+          "desc": "Sporculara özel; sakatlıkları önleyen, iyileşmeyi hızlandıran ve performansı artıran fonksiyonel bir tedavi programı. Spora güvenli dönüşünüzü planlar.",
+          "tags": {
+            "tag1": "Sakatlık riskini azaltma",
+            "tag2": "Performans artışı",
+            "tag3": "Spora güvenli dönüş",
+            "tag4": "Fonksiyonel Testler"
+          },
+          "btns": {
+            "btn1": "Randevu Al",
+            "btn2": "Seans Detayı"
+          },
+          "duration": "dk",
+          "session": "seans",
+          "for-whom": "Bu hizmetler kimler için?",
+          "for-what": {
+            "1": "Kas-iskelet sakatlıkları",
+            "2": "Koşucular",
+            "3": "Amatör & profesyonel sporcular"
+          }
+        },
+        "expertise3": {
+          "header": "Nörolojik Fizyoterapi",
+          "desc": "İnme, Parkinson, MS ve omurilik yaralanmaları gibi nörolojik durumlarda hareket fonksiyonunu yeniden kazandıran özel bir yaklaşım.",
+          "tags": {
+            "tag1": "Yürüme & denge eğitimi",
+            "tag2": "Kas kontrolünü yeniden öğrenme",
+            "tag3": "Günlük yaşam becerileri",
+            "tag4": "Birebir terapist desteği"
+          },
+          "btns": {
+            "btn1": "Randevu Al",
+            "btn2": "Seans Detayı"
+          },
+          "duration": "dk",
+          "session": "seans",
+          "for-whom": "Bu hizmetler kimler için?",
+          "for-what": {
+            "1": "İnme sonrası",
+            "2": "Parkinson ve MS hastaları",
+            "3": "MS & omurilik yaralanması"
+          }
+        },
+        "expertise4": {
+          "header": "Ortopedik Rehabilitasyon",
+          "desc": "Ameliyat sonrası ve kas-iskelet yaralanmalarında fonksiyonel iyileşmeyi hedefleyen rehabilitasyon programı. Gücünüzü ve hareket alanınızı adım adım geri kazanın.",
+          "tags": {
+            "tag1": "Ameliyat sonrası rehabilitasyon",
+            "tag2": "Kuvvet & hareket açıklığı",
+            "tag3": "Fonksiyonel iyileşme",
+            "tag4": "Ağrısız günlük yaşam"
+          },
+          "btns": {
+            "btn1": "Randevu Al",
+            "btn2": "Seans Detayı"
+          },
+          "duration": "dk",
+          "session": "seans",
+          "for-whom": "Bu hizmetler kimler için?",
+          "for-what": {
+            "1": "Ameliyat sonrası dönem",
+            "2": "Eklem protezi",
+            "3": "Kırık-çıkık & bağ yaralanmaları"
+          }
+        },
+        "expertise5": {
+          "header": "Kuru İğneleme",
+          "desc": "Tetik nokta ve kas spazmlarının tedavisinde ince iğnelerle uygulanan, hızlı rahatlama sağlayan modern bir yöntem.",
+          "tags": {
+            "tag1": "Tetik nokta tedavisi",
+            "tag2": "Kas spazmını azaltma",
+            "tag3": "Hızlı ağrı rahatlaması",
+            "tag4": "Kısa seans süresi"
+          },
+          "btns": {
+            "btn1": "Randevu Al",
+            "btn2": "Seans Detayı"
+          },
+          "duration": "dk",
+          "session": "seans",
+          "for-whom": "Bu hizmetler kimler için?",
+          "for-what": {
+            "1": "Kronik ağrı",
+            "2": "Kas gerginliği",
+            "3": "Spor yaralanmaları"
+          }
+        },
+        "expertise6": {
+          "header": "Bireysel Egzersiz Programları",
+          "desc": "Hedefinize özel hazırlanan, klinikte veya evde uygulanabilen egzersiz programı. İlerlemeniz düzenli ölçülür, plan ihtiyacınıza göre güncellenir.",
+          "tags": {
+            "tag1": "Kişiye özel plan",
+            "tag2": "Evde uygulanabilir program",
+            "tag3": "İlerleme takibi",
+            "tag4": "Hedefe yönelik kuvvetlendirme"
+          },
+          "btns": {
+            "btn1": "Randevu Al",
+            "btn2": "Seans Detayı"
+          },
+          "duration": "dk",
+          "session": "seans",
+          "for-whom": "Bu hizmetler kimler için?",
+          "for-what": {
+            "1": "Tüm tedavilere destek",
+            "2": "Kondisyon & koruyucu sağlık",
+            "3": "Post-operatif dönem"
+          }
+        }
+      }
+    }
   }
 }

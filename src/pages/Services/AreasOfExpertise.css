@@ -1,0 +1,237 @@
+.areas-of-expertise {
+  width: 100%;
+  padding-block: 6rem;
+  max-width: 1280px;
+  margin-inline: auto;
+
+  .content {
+    width: 100%;
+
+    .header {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+
+      .tag {
+        font-family: var(--font-display);
+        font-weight: 500;
+        font-size: clamp(1.3rem, 2vw, 1.4rem);
+        text-transform: uppercase;
+        color: var(--accent);
+        letter-spacing: 1px;
+        margin-bottom: 1rem;
+      }
+
+      & > h2 {
+        max-width: 40ch;
+        font-family: var(--font-display);
+        font-weight: 400;
+        line-height: 1.05;
+        letter-spacing: -0.5px;
+      }
+
+      & > p {
+        font-size: clamp(1.4rem, 2vw, 1.6rem);
+        font-weight: 300;
+        max-width: 70ch;
+        line-height: 1.7;
+        letter-spacing: 0.5px;
+        margin-top: 1.5rem;
+      }
+    }
+
+    .expertise-list {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-top: 5rem;
+
+      .expertise {
+        scroll-margin-top: 11rem;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        border-bottom: 1px solid var(--border);
+        border-top: 1px solid var(--border);
+        padding-block: 4rem;
+
+        .left {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+
+          .num {
+            display: block;
+            font-size: clamp(2rem, 3.5vw, 5rem);
+            font-weight: 600;
+            color: transparent;
+            -webkit-text-stroke: 1px var(--accent);
+            text-stroke: 1px var(--accent);
+            margin-bottom: 1rem;
+          }
+
+          .icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 5.5rem;
+            height: 5.5rem;
+            padding: 1.2rem;
+            background-color: var(--accent-soft);
+            color: var(--accent);
+            border: 1px solid transparent;
+            border-radius: 1.5rem;
+
+            & > svg {
+              font-size: clamp(1.3rem, 2vw, 1.6rem);
+            }
+          }
+
+          .duration {
+            display: block;
+            width: fit-content;
+            padding-inline: 2rem;
+            padding-block: 0.5rem;
+            border-radius: 3rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 2rem;
+            background-color: var(--surface);
+            border: 1px solid var(--border);
+            font-size: clamp(1.2rem, 2vw, 1.3rem);
+            font-weight: 500;
+            color: var(--accent);
+            transform: translateX(-.5rem);
+
+            & > span {
+              color: var(--font-text-black);
+            }
+
+            & > svg {
+              font-size: clamp(1.3rem, 2vw, 1.6rem);
+              color: var(--accent);
+            }
+          }
+
+          & > h6 {
+            max-width: 30ch;
+            font-size: clamp(1.2rem, 1.5vw, 1.35rem);
+            font-weight: 400;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            color: var(--font-text-gray-darker);
+            margin-top: 1.5rem;
+          }
+
+          .tags {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: .7rem;
+            margin-top: 2rem;
+
+            & > span {
+              width: fit-content;
+              font-size: clamp(1.2rem, 1.5vw, 1.3rem);
+              font-weight: 500;
+              color: var(--font-cool-darker);
+              background-color: var(--accent-cool-v2);
+              padding-inline: 2.5rem;
+              padding-block: 0.5rem;
+              border-radius: 3rem;
+            }
+          }
+        }
+
+        .right {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+
+          & > h3 {
+            font-size: clamp(1.7rem, 3vw, 2.5rem);
+            font-weight: 500;
+          }
+
+          & > p {
+            font-size: clamp(1.3rem, 2vw, 1.6rem);
+            font-weight: 300;
+            max-width: 70ch;
+            line-height: 1.6;
+            letter-spacing: 0.5px;
+            margin-block: 1rem;
+          }
+
+          .treatments {
+            margin-top: 1rem;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+
+            & > span {
+              display: inline-flex;
+              align-items: center;
+              gap: 0.5rem;
+              font-size: clamp(1.2rem, 1.5vw, 1.45rem);
+              font-weight: 500;
+              letter-spacing: 0.2px;
+
+              & > svg {
+                font-size: clamp(1.3rem, 2vw, 1.6rem);
+                color: var(--accent);
+              }
+            }
+          }
+
+          .btns {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-top: 3rem;
+
+            & > button {
+              width: fit-content;
+              padding-inline: 3rem;
+              padding-block: 1rem;
+              border-radius: 3rem;
+              font-size: clamp(1.2rem, 2vw, 1.4rem);
+              font-weight: 500;
+              color: var(--font-text-white);
+              background-color: var(--accent);
+              box-shadow: var(--shadow-md-soft);
+              cursor: pointer;
+              transition: all .3s ease-in-out;
+
+              &:hover {
+                background-color: var(--accent-darker);
+              }
+            }
+
+            & > button:nth-child(2) {
+              background-color: transparent;
+              color: var(--accent);
+              border: 1px solid var(--accent-soft-lighter);
+              box-shadow: none;
+
+              &:hover {
+                border: 1px solid var(--accent);
+              }
+            }
+          }
+        }
+      }
+
+      .expertise:nth-child(2),
+      .expertise:nth-child(3),
+      .expertise:nth-child(4),
+      .expertise:nth-child(5),
+      .expertise:nth-child(6) {
+        border-top: 1px solid transparent;
+      }
+    }
+  }
+}
