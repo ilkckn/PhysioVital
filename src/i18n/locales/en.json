@@ -617,5 +617,178 @@
         }
       }
     }
+  },
+  "services": {
+    "hero": {
+      "tag": "Treatment & Rehab",
+      "header": {
+        "title1": "The right care,",
+        "title2": "a plan",
+        "title3": "made for you"
+      },
+      "desc": "An evidence-based, personalized approach to physiotherapy and rehab. Let's pick the treatment that fits you best across six areas of expertise.",
+      "list": {
+        "list1": "Expert physiotherapy team",
+        "list2": "Evidence-based methods",
+        "list3": "Personalized treatment plan"
+      },
+      "sub-info": "First consultation and assessment are free",
+      "content-right": {
+        "header": "Our Services",
+        "desc": "Explore, compare, and pick what suits you.",
+        "list": {
+          "list1": "Manual Therapy",
+          "list2": "Sports Therapy",
+          "list3": "Neuro Physiotherapy",
+          "list4": "Orthopedic Rehab",
+          "list5": "Dry Needling",
+          "list6": "Personal Exercise Plans",
+          "duration": "min"
+        },
+        "bottom-tag": {
+          "tag1": "6 areas of expertise",
+          "tag2": "Free assessment"
+        }
+      }
+    },
+    "areas-of-expertise": {
+      "tag": "Our Expertise",
+      "header": "Choose the treatment that fits you",
+      "desc": "We're with you at every stage of recovery across six areas of expertise. Not sure which one fits? Start with a free assessment.",
+      "expertise": {
+        "expertise1": {
+          "header": "Manual Therapy",
+          "desc": "An evidence-based, hands-on treatment by our expert physiotherapists, targeting soft tissue and joint mobilization. It eases pain and restores range of motion.",
+          "tags": {
+            "tag1": "Soft tissue release",
+            "tag2": "Joint mobilization",
+            "tag3": "Pain control",
+            "tag4": "Drug-free approach"
+          },
+          "btns": {
+            "btn1": "Book Now",
+            "btn2": "Session Details"
+          },
+          "duration": "min",
+          "session": "session",
+          "for-whom": "Who is this for?",
+          "for-what": {
+            "1": "Back & neck pain",
+            "2": "Posture problems",
+            "3": "Limited mobility"
+          }
+        },
+        "expertise2": {
+          "header": "Sports Therapy",
+          "desc": "A functional program for athletes that prevents injuries, speeds up recovery, and boosts performance. It plans your safe return to sport.",
+          "tags": {
+            "tag1": "Lower injury risk",
+            "tag2": "Better performance",
+            "tag3": "Safe return to sport",
+            "tag4": "Functional testing"
+          },
+          "btns": {
+            "btn1": "Book Now",
+            "btn2": "Session Details"
+          },
+          "duration": "min",
+          "session": "session",
+          "for-whom": "Who is this for?",
+          "for-what": {
+            "1": "Musculoskeletal injuries",
+            "2": "Runners",
+            "3": "Amateur & pro athletes"
+          }
+        },
+        "expertise3": {
+          "header": "Neuro Physiotherapy",
+          "desc": "A specialized approach that restores movement in neurological conditions such as stroke, Parkinson's, MS, and spinal cord injuries.",
+          "tags": {
+            "tag1": "Gait & balance training",
+            "tag2": "Relearning muscle control",
+            "tag3": "Daily living skills",
+            "tag4": "One-on-one support"
+          },
+          "btns": {
+            "btn1": "Book Now",
+            "btn2": "Session Details"
+          },
+          "duration": "min",
+          "session": "session",
+          "for-whom": "Who is this for?",
+          "for-what": {
+            "1": "After a stroke",
+            "2": "Parkinson's & MS",
+            "3": "MS & spinal injury"
+          }
+        },
+        "expertise4": {
+          "header": "Orthopedic Rehab",
+          "desc": "A rehab program targeting functional recovery after surgery and musculoskeletal injuries. Regain your strength and range of motion step by step.",
+          "tags": {
+            "tag1": "Post-op rehab",
+            "tag2": "Strength & mobility",
+            "tag3": "Functional recovery",
+            "tag4": "Pain-free daily life"
+          },
+          "btns": {
+            "btn1": "Book Now",
+            "btn2": "Session Details"
+          },
+          "duration": "min",
+          "session": "session",
+          "for-whom": "Who is this for?",
+          "for-what": {
+            "1": "Post-op period",
+            "2": "Joint replacement",
+            "3": "Fractures & ligament injuries"
+          }
+        },
+        "expertise5": {
+          "header": "Dry Needling",
+          "desc": "A modern method using fine needles to treat trigger points and muscle spasms, providing fast relief.",
+          "tags": {
+            "tag1": "Trigger point therapy",
+            "tag2": "Reduced muscle spasm",
+            "tag3": "Fast pain relief",
+            "tag4": "Short session time"
+          },
+          "btns": {
+            "btn1": "Book Now",
+            "btn2": "Session Details"
+          },
+          "duration": "min",
+          "session": "session",
+          "for-whom": "Who is this for?",
+          "for-what": {
+            "1": "Chronic pain",
+            "2": "Muscle tension",
+            "3": "Sports injuries"
+          }
+        },
+        "expertise6": {
+          "header": "Personal Exercise Plans",
+          "desc": "An exercise program tailored to your goals, for the clinic or at home. Your progress is tracked regularly and the plan is updated to your needs.",
+          "tags": {
+            "tag1": "Personalized plan",
+            "tag2": "Home-friendly program",
+            "tag3": "Progress tracking",
+            "tag4": "Goal-based strengthening"
+          },
+          "btns": {
+            "btn1": "Book Now",
+            "btn2": "Session Details"
+          },
+          "duration": "min",
+          "session": "session",
+          "for-whom": "Who is this for?",
+          "for-what": {
+            "1": "Support for all treatments",
+            "2": "Fitness & prevention",
+            "3": "Post-operative period"
+          }
+        }
+      }
+    }
   }
 }

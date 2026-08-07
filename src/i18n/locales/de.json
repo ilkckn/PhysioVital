@@ -617,5 +617,178 @@
         }
       }
     }
+  },
+  "services": {
+    "hero": {
+      "tag": "Therapie & Reha",
+      "header": {
+        "title1": "Die richtige Hilfe,",
+        "title2": "ein Plan",
+        "title3": "nur für Sie"
+      },
+      "desc": "Ein moderner, auf Sie zugeschnittener Ansatz in Physio und Reha. In sechs Bereichen finden wir gemeinsam die passende Therapie.",
+      "list": {
+        "list1": "Erfahrenes Physio-Team",
+        "list2": "Geprüfte Methoden",
+        "list3": "Ihr eigener Therapieplan"
+      },
+      "sub-info": "Erstgespräch und Check sind kostenlos",
+      "content-right": {
+        "header": "Unsere Leistungen",
+        "desc": "Ansehen, vergleichen, das Passende wählen.",
+        "list": {
+          "list1": "Manuelle Therapie",
+          "list2": "Sport-Therapie",
+          "list3": "Neuro-Physio",
+          "list4": "Ortho-Reha",
+          "list5": "Dry Needling",
+          "list6": "Eigenes Training",
+          "duration": "Min."
+        },
+        "bottom-tag": {
+          "tag1": "6 Fachbereiche",
+          "tag2": "Gratis Check"
+        }
+      }
+    },
+    "areas-of-expertise": {
+      "tag": "Unsere Bereiche",
+      "header": "Wählen Sie Ihre Therapie",
+      "desc": "Wir begleiten Sie in jeder Phase der Genesung – in sechs Bereichen. Nicht sicher, was passt? Starten Sie mit einem Gratis-Check.",
+      "expertise": {
+        "expertise1": {
+          "header": "Manuelle Therapie",
+          "desc": "Eine geprüfte Behandlung mit den Händen unserer Experten für Gewebe und Gelenke. Sie lindert Schmerzen und bringt Ihre Beweglichkeit zurück.",
+          "tags": {
+            "tag1": "Gewebe lockern",
+            "tag2": "Gelenke mobilisieren",
+            "tag3": "Schmerzen lindern",
+            "tag4": "Ohne Medikamente"
+          },
+          "btns": {
+            "btn1": "Termin buchen",
+            "btn2": "Details"
+          },
+          "duration": "Min.",
+          "session": "Sitzung",
+          "for-whom": "Für wen ist das?",
+          "for-what": {
+            "1": "Rücken & Nacken",
+            "2": "Fehlhaltung",
+            "3": "Steife Gelenke"
+          }
+        },
+        "expertise2": {
+          "header": "Sport-Therapie",
+          "desc": "Ein Programm für Sportler, das Verletzungen vorbeugt, die Heilung fördert und die Leistung steigert. Wir planen Ihre sichere Rückkehr zum Sport.",
+          "tags": {
+            "tag1": "Weniger Verletzungen",
+            "tag2": "Mehr Leistung",
+            "tag3": "Sichere Rückkehr",
+            "tag4": "Funktionstests"
+          },
+          "btns": {
+            "btn1": "Termin buchen",
+            "btn2": "Details"
+          },
+          "duration": "Min.",
+          "session": "Sitzung",
+          "for-whom": "Für wen ist das?",
+          "for-what": {
+            "1": "Verletzungen",
+            "2": "Läufer",
+            "3": "Hobby- & Profisportler"
+          }
+        },
+        "expertise3": {
+          "header": "Neuro-Physio",
+          "desc": "Ein gezielter Ansatz, der bei Schlaganfall, Parkinson, MS und Rückenmark-Verletzungen die Bewegung zurückbringt.",
+          "tags": {
+            "tag1": "Gehen & Balance",
+            "tag2": "Muskeln neu steuern",
+            "tag3": "Alltag meistern",
+            "tag4": "Betreuung 1:1"
+          },
+          "btns": {
+            "btn1": "Termin buchen",
+            "btn2": "Details"
+          },
+          "duration": "Min.",
+          "session": "Sitzung",
+          "for-whom": "Für wen ist das?",
+          "for-what": {
+            "1": "Nach Schlaganfall",
+            "2": "Parkinson & MS",
+            "3": "MS & Rückenmark"
+          }
+        },
+        "expertise4": {
+          "header": "Ortho-Reha",
+          "desc": "Ein Reha-Programm für die Heilung nach OPs und Verletzungen. Holen Sie sich Kraft und Beweglichkeit Schritt für Schritt zurück.",
+          "tags": {
+            "tag1": "Reha nach OP",
+            "tag2": "Kraft & Bewegung",
+            "tag3": "Zurück zur Funktion",
+            "tag4": "Alltag ohne Schmerz"
+          },
+          "btns": {
+            "btn1": "Termin buchen",
+            "btn2": "Details"
+          },
+          "duration": "Min.",
+          "session": "Sitzung",
+          "for-whom": "Für wen ist das?",
+          "for-what": {
+            "1": "Zeit nach der OP",
+            "2": "Neues Gelenk",
+            "3": "Brüche & Bänder"
+          }
+        },
+        "expertise5": {
+          "header": "Dry Needling",
+          "desc": "Eine moderne Methode mit feinen Nadeln gegen Trigger-Punkte und Verspannungen – für schnelle Linderung.",
+          "tags": {
+            "tag1": "Trigger-Punkte",
+            "tag2": "Weniger Verspannung",
+            "tag3": "Schnelle Linderung",
+            "tag4": "Kurze Sitzung"
+          },
+          "btns": {
+            "btn1": "Termin buchen",
+            "btn2": "Details"
+          },
+          "duration": "Min.",
+          "session": "Sitzung",
+          "for-whom": "Für wen ist das?",
+          "for-what": {
+            "1": "Dauerschmerz",
+            "2": "Verspannungen",
+            "3": "Sport-Verletzungen"
+          }
+        },
+        "expertise6": {
+          "header": "Eigenes Training",
+          "desc": "Ein Programm für Ihre Ziele – in der Praxis oder zu Hause. Wir messen Ihren Fortschritt und passen den Plan an Ihren Bedarf an.",
+          "tags": {
+            "tag1": "Eigener Plan",
+            "tag2": "Auch für zu Hause",
+            "tag3": "Fortschritt im Blick",
+            "tag4": "Gezielt stärken"
+          },
+          "btns": {
+            "btn1": "Termin buchen",
+            "btn2": "Details"
+          },
+          "duration": "Min.",
+          "session": "Sitzung",
+          "for-whom": "Für wen ist das?",
+          "for-what": {
+            "1": "Ergänzt jede Therapie",
+            "2": "Fitness & Vorsorge",
+            "3": "Zeit nach der OP"
+          }
+        }
+      }
+    }
   }
 }
