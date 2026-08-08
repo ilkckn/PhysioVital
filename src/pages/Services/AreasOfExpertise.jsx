@@ -213,7 +213,8 @@ const AreasOfExpertise = ({ registerRef}) => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 >
-                  <path d="M3 12h4l3-8 4 16 3-8h4" />
+                  <path d="M9.5 2a2.5 2.5 0 0 0-2.5 2.5v.5A2.5 2.5 0 0 0 4.5 7.5 2.5 2.5 0 0 0 3 10a2.5 2.5 0 0 0 1.5 2.3A2.5 2.5 0 0 0 5.5 15 2.5 2.5 0 0 0 7 19.5a2.5 2.5 0 0 0 2.5 2.5 2.5 2.5 0 0 0 2.5-2.5V5A2.5 2.5 0 0 0 9.5 2Z" />
+                  <path d="M14.5 2A2.5 2.5 0 0 1 17 4.5v.5a2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1 1.5 2.3 2.5 2.5 0 0 1-1.5 2.3 2.5 2.5 0 0 1-.5 4.9 2.5 2.5 0 0 1-1.5 4.5 2.5 2.5 0 0 1-2.5 2.5 2.5 2.5 0 0 1-2.5-2.5V5a2.5 2.5 0 0 1 2.5-3Z" />
                 </svg>
               </div>
               <span className="duration">
@@ -305,7 +306,7 @@ const AreasOfExpertise = ({ registerRef}) => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 >
-                  <path d="M3 12h4l3-8 4 16 3-8h4" />
+                  <path d="M17 10c.7-.7 1.69 0 2.5 0a2.5 2.5 0 1 0 0-5 .5.5 0 0 1-.5-.5 2.5 2.5 0 1 0-5 0c0 .81.7 1.8 0 2.5l-7 7c-.7.7-1.69 0-2.5 0a2.5 2.5 0 0 0 0 5c.28 0 .5.22.5.5a2.5 2.5 0 1 0 5 0c0-.81-.7-1.8 0-2.5Z" />
                 </svg>
               </div>
               <span className="duration">
@@ -397,7 +398,7 @@ const AreasOfExpertise = ({ registerRef}) => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 >
-                  <path d="M3 12h4l3-8 4 16 3-8h4" />
+                  <path d="M18 2 20 4M17 7l3-3M19 9 8.7 19.3c-1 1-2.5 1-3.4 0l-.6-.6c-1-1-1-2.5 0-3.4L15 5M9 11l4 4M5 19 2 22M14 4l6 6" />
                 </svg>
               </div>
               <span className="duration">
@@ -489,7 +490,9 @@ const AreasOfExpertise = ({ registerRef}) => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 >
-                  <path d="M3 12h4l3-8 4 16 3-8h4" />
+                  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+                  <rect x="8" y="2" width="8" height="4" rx="1" />
+                  <path d="m9 14 2 2 4-4" />
                 </svg>
               </div>
               <span className="duration">

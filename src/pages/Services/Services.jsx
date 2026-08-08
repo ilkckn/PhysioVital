@@ -1,10 +1,15 @@
 import "./Services.css";
 import { useRef } from "react";
 import { useTranslation } from "react-i18next";
+import ServicesBgOrbs from "./ServicesBgOrbs";
 import { MdCheck } from "react-icons/md";
 import { TbClockHour4 } from "react-icons/tb";
 import { FiArrowRight } from "react-icons/fi";
 import AreasOfExpertise from "./AreasOfExpertise";
+import ThreeWays from "./ThreeWays";
+import TermsOfService from "./TermsOfService";
+import ServicesQuestions from "./ServicesQuestions";
+import RightTreatment from "./RightTreatment";
 
 const Services = () => {
   const { t } = useTranslation();
@@ -19,8 +24,11 @@ const Services = () => {
   };
 
   return (
-    <section className="main-services">
+    <section className="services-container">
       <div className="container">
+        <div className="services-bg-orbs">
+          <ServicesBgOrbs />
+        </div>
         <div className="hero">
           <div className="content-left">
             <span className="tag">{t("services.hero.tag")}</span>
@@ -194,8 +202,20 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="areas-of-expertise component">
+        <div className="areas-of-expertise-component">
           <AreasOfExpertise registerRef={registerRef} />
+        </div>
+        <div className="how-is-it-work component">
+          <ThreeWays />
+        </div>
+        <div className="terms-of-service-component">
+          <TermsOfService />
+        </div>
+        <div className="services-questions-component">
+          <ServicesQuestions />
+        </div>
+        <div className="right-treatment-component">
+          <RightTreatment />
         </div>
       </div>
     </section>

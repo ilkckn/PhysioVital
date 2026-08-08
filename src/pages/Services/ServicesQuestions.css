@@ -1,0 +1,188 @@
+.services-questions {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-block: 8rem;
+  border-top: 1px solid var(--border);
+
+  .content {
+    padding-inline: 4rem;
+    width: 100%;
+
+    .header {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 6rem;
+
+      & > span {
+        font-size: clamp(1.3rem, 2vw, 1.4rem);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        color: var(--accent-warm-lighter);
+        margin-bottom: 1.5rem;
+      }
+
+      & > h2 {
+        max-width: 21ch;
+        font-family: var(--font-display);
+        font-size: clamp(2.5rem, 5vw, 3.5rem);
+        font-weight: 400;
+        letter-spacing: -0.5px;
+        line-height: 1.1;
+      }
+    }
+
+    .questions-list {
+      width: 100%;
+      max-width: 80rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+
+      .faq-item {
+        background-color: var(--bg-white);
+        border: 1px solid var(--border);
+        border-radius: 1.5rem;
+        overflow: hidden;
+
+        .faq-question {
+          width: 100%;
+          padding: 2rem 2.5rem;
+          background: none;
+          border: none;
+          cursor: pointer;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 1.5rem;
+          text-align: left;
+          font-family: var(--font-body);
+          font-size: clamp(1.35rem, 2vw, 1.6rem);
+          font-weight: 400;
+          color: var(--font-text-black);
+          transition: color 0.25s ease;
+
+          &:hover {
+            background-color: var(--accent-soft);
+          }
+
+          .faq-chevron {
+            width: 2.4rem;
+            height: 2.4rem;
+            flex-shrink: 0;
+            transition: transform 0.3s ease;
+          }
+        }
+
+        .faq-answer {
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.35s ease;
+
+          .faq-answer-inner {
+            padding: 2.5rem;
+            padding-top: 1.5rem;
+            font-family: var(--font-body);
+            font-size: clamp(1.4rem, 2vw, 1.6rem);
+            font-weight: 200;
+            line-height: 1.7;
+            color: var(--font-text-black);
+            letter-spacing: 0.3px;
+          }
+        }
+      }
+
+      .faq-item.open {
+        .faq-chevron {
+          transform: rotate(180deg);
+        }
+
+        .faq-answer {
+          max-height: 40rem;
+        }
+      }
+    }
+  }
+}
+
+/* ============================================
+   RESPONSIVE — Questions (FAQ)
+   1024/820: padding | 480: telefon + açık cevap yüksekliği
+   ============================================ */
+
+@media (max-width: 1024px) {
+  .services-questions {
+    padding-block: 6rem;
+
+    .content {
+      padding-inline: 2rem;
+      .header {
+        margin-bottom: 4.5rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 820px) {
+  .services-questions {
+    padding-block: 5rem;
+
+    .content {
+      padding-inline: 2rem;
+      .header {
+        margin-bottom: 4rem;
+      }
+
+      .questions-list {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .services-questions {
+    padding-block: 4rem;
+
+    .content {
+      padding-inline: 1rem;
+      .header {
+        margin-bottom: 3rem;
+      }
+
+      .questions-list {
+        gap: 1rem;
+
+        .faq-item {
+          border-radius: 1.2rem;
+
+          .faq-question {
+            padding: 1.6rem 1.8rem;
+            gap: 1rem;
+
+            .faq-chevron {
+              width: 2rem;
+              height: 2rem;
+            }
+          }
+
+          .faq-answer {
+            .faq-answer-inner {
+              padding: 1.8rem;
+              padding-top: 1rem;
+              line-height: 1.6;
+            }
+          }
+        }
+
+        .faq-item.open {
+          .faq-answer {
+            max-height: 60rem;
+          }
+        }
+      }
+    }
+  }
+}

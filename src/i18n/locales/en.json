@@ -505,7 +505,9 @@
                 "tuesday": "Tuesday",
                 "wednesday": "Wednesday",
                 "thursday": "Thursday",
-                "friday": "Friday"
+                "friday": "Friday",
+                "saturday": "Saturday",
+                "sunday": "Sunday"
               }
             },
             "weekend": {
@@ -788,6 +790,54 @@
             "3": "Post-operative period"
           }
         }
+      }
+    },
+    "terms-of-service": {
+      "tag": "Terms of Service",
+      "header": "What you should know before we start",
+      "terms": {
+        "term1": {
+          "header": "Free initial assessment",
+          "desc": "The first consultation and assessment is free. Let's decide on the right service together.",
+          "button": "Apply now"
+        },
+        "term2": {
+          "header": "Private insurance support",
+          "desc": "We have private health insurance agreements. Our team handles the paperwork for you.",
+          "button": "Partner providers"
+        },
+        "term3": {
+          "header": "Evening sessions",
+          "desc": "We offer weekday evening sessions outside regular working hours.",
+          "button": "Every weekday"
+        }
+      }
+    },
+    "three-ways": {
+      "tag": "How It Works",
+      "header": "The path to treatment in 3 steps",
+      "ways": {
+        "way1": {
+          "header": "Free initial assessment",
+          "desc": "In the first session we assess your posture, movement and pain level, and define your needs together."
+        },
+        "way2": {
+          "header": "Personalized plan",
+          "desc": "Based on your findings, we create a sustainable treatment plan tailored to your goals."
+        },
+        "way3": {
+          "header": "Regular follow-up",
+          "desc": "We track your progress throughout the sessions and update the plan as needed."
+        }
+      }
+    },
+    "right-treatment": {
+      "header1": "With the right treatment,",
+      "header2": "get moving again.",
+      "desc": "Not sure which service is right for you? Let's start with a free initial assessment.",
+      "btns": {
+        "btn1": "Book Now",
+        "btn2": "Call Us"
       }
     }
   }

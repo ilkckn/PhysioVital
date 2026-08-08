@@ -505,7 +505,9 @@
                 "tuesday": "Dienstag",
                 "wednesday": "Mittwoch",
                 "thursday": "Donnerstag",
-                "friday": "Freitag"
+                "friday": "Freitag",
+                "saturday": "Samstag",
+                "sunday": "Sonntag"
               }
             },
             "weekend": {
@@ -788,6 +790,54 @@
             "3": "Zeit nach der OP"
           }
         }
+      }
+    },
+    "terms-of-service": {
+      "tag": "AGB",
+      "header": "Das sollten Sie vorab wissen",
+      "terms": {
+        "term1": {
+          "header": "Kostenlose Erstanalyse",
+          "desc": "Erstgespräch und Analyse sind gratis. Wir wählen gemeinsam die passende Leistung.",
+          "button": "Jetzt starten"
+        },
+        "term2": {
+          "header": "Private Kassen",
+          "desc": "Wir haben Verträge mit privaten Kassen. Den Papierkram übernimmt unser Team.",
+          "button": "Partner"
+        },
+        "term3": {
+          "header": "Abendtermine",
+          "desc": "Wir bieten unter der Woche auch Termine am Abend an.",
+          "button": "Jeden Werktag"
+        }
+      }
+    },
+    "three-ways": {
+      "tag": "So geht's",
+      "header": "In 3 Schritten zur Behandlung",
+      "ways": {
+        "way1": {
+          "header": "Kostenlose Erstanalyse",
+          "desc": "In der ersten Sitzung prüfen wir Haltung, Bewegung und Schmerz und klären den Bedarf."
+        },
+        "way2": {
+          "header": "Individueller Plan",
+          "desc": "Anhand der Befunde erstellen wir einen tragfähigen, auf Ihr Ziel abgestimmten Plan."
+        },
+        "way3": {
+          "header": "Feste Begleitung",
+          "desc": "Wir messen den Fortschritt und passen den Plan bei Bedarf an."
+        }
+      }
+    },
+    "right-treatment": {
+      "header1": "Mit der richtigen Behandlung",
+      "header2": "wieder in Bewegung.",
+      "desc": "Nicht sicher, welche Leistung passt? Starten Sie mit einer kostenlosen Erstanalyse.",
+      "btns": {
+        "btn1": "Termin buchen",
+        "btn2": "Jetzt anrufen"
       }
     }
   }

@@ -1,0 +1,162 @@
+.right-treatment {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  background-color: var(--accent-darker-v2);
+  border-radius: 2rem;
+  margin-bottom: 4rem;
+
+  .content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    align-items: center;
+    padding-block: 6rem;
+    padding-inline: 8rem;
+    gap: 3rem;
+
+    .left {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      & > h2 {
+        max-width: 25ch;
+        text-align: left;
+        font-size: clamp(2.5rem, 3.5vw, 3.5rem);
+        font-weight: 400;
+        line-height: 1;
+        color: var(--font-text-white);
+        margin-bottom: 1rem;
+
+        & > span {
+          font-style: italic;
+          font-size: 4rem;
+          font-family: var(--font-accent);
+          color: var(--accent-soft-lighter);
+        }
+      }
+
+      & > p {
+        max-width: 50ch;
+        font-size: clamp(1.3rem, 2vw, 1.6rem);
+        font-weight: 200;
+        line-height: 1.6;
+        letter-spacing: 0.5px;
+        margin-block: 1rem;
+        color: var(--font-text-white);
+      }
+    }
+
+    .right {
+      width: 100%;
+      display: flex;
+      align-items: center;
+
+      .btns {
+        width: 100%;
+        display: flex;
+        align-items: stretch;
+        gap: 1.5rem;
+
+        & > button {
+          width: 100%;
+          text-align: center;
+          padding-block: 1.2rem;
+          border-radius: 5rem;
+          font-size: clamp(1.2rem, 1.5vw, 1.5rem);
+          font-weight: 500;
+          color: var(--font-text-white);
+          background-color: var(--accent-lighter);
+          transition: all 0.3s ease-in-out;
+
+          &:hover {
+            background-color: var(--accent);
+            transform: translateY(-0.2rem);
+          }
+        }
+
+        & > button:last-child {
+          background-color: transparent;
+          border: 1px solid var(--accent-soft-lighter);
+
+          &:hover {
+            border: 1px solid var(--accent);
+            transform: translateY(-0.2rem);
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/* ============ RESPONSIVE — Right Treatment ============ */
+@media (max-width: 1024px) {
+  .right-treatment {
+    border-radius: 4rem;
+  }
+
+  .right-treatment .content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding-block: 5rem;
+    padding-inline: 5rem;
+  }
+
+  .right-treatment .content .left > h2 {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .right-treatment .content .left > p {
+    text-align: center;
+    max-width: 100%;
+    margin-inline: auto;
+  }
+
+  .right-treatment .content .right .btns {
+    justify-content: center;
+    max-width: 45rem;
+    margin-inline: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .right-treatment {
+    border-radius: 3.5rem;
+  }
+
+  .right-treatment .content {
+    padding-block: 4.5rem;
+    padding-inline: 3.5rem;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .right-treatment {
+    border-radius: 2.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .right-treatment .content {
+    padding-block: 3.5rem;
+    padding-inline: 2rem;
+    gap: 2rem;
+  }
+
+  .right-treatment .content .left > h2 > span {
+    font-size: 3rem;
+  }
+
+  .right-treatment .content .right .btns {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .right-treatment .content .right .btns > button {
+    padding-block: 1.4rem;
+  }
+}

@@ -17,6 +17,7 @@
   --border-greenish-darker: oklch(40% 0.012 170);
   --accent: oklch(42% 0.15 175);
   --accent-darker: oklch(30% 0.15 175);
+  --accent-darker-v2: oklch(18.5% 0.15 175);
   --accent-lighter: oklch(50% 0.1 175);
   --accent-teal-blue: oklch(42% 0.15 195); 
   --accent-soft: oklch(92% 0.04 175);

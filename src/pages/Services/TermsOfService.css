@@ -1,0 +1,140 @@
+.terms-of-service {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-bottom: 8rem;
+
+  .content {
+    width: 100%;
+
+    .header {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 4rem;
+
+      .tag {
+        font-family: var(--font-display);
+        font-weight: 500;
+        font-size: clamp(1.3rem, 2vw, 1.4rem);
+        text-transform: uppercase;
+        color: var(--accent);
+        letter-spacing: 1px;
+        margin-bottom: 1.5rem;
+      }
+
+      & > h2 {
+        max-width: 35ch;
+        font-family: var(--font-display);
+        font-size: clamp(2rem, 3vw, 3rem);
+        font-weight: 400;
+        line-height: 1.05;
+        letter-spacing: -0.5px;
+      }
+    }
+
+    .terms {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+
+      .term {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        border: 1px solid var(--border);
+        border-radius: 4rem;
+        padding-inline: 3.5rem;
+        padding-block: 4rem;
+        background-color: var(--surface);
+
+        .icon {
+          width: fit-content;
+          padding-block: 1.5rem;
+          padding-inline: 1.5rem;
+          background-color: var(--accent-soft);
+          border-radius: 1.7rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 2rem;
+
+          & > svg {
+            font-size: clamp(1.6rem, 2vw, 2.3rem);
+            color: var(--accent);
+          }
+        }
+
+        & > span {
+          font-family: var(--font-body);
+          font-weight: 500;
+          font-size: clamp(1.4rem, 2vw, 3.6rem);
+          color: transparent;
+          -webkit-text-stroke: 1px var(--accent);
+          margin-bottom: 1.5rem;
+        }
+
+        & > h4 {
+          line-height: 1;
+          font-weight: 500;
+          font-size: clamp(1.6rem, 2vw, 1.7rem);
+          margin-bottom: 1.3rem;
+        }
+
+        & > p {
+          font-size: clamp(1.4rem, 2vw, 1.4rem);
+          font-weight: 300;
+          max-width: 70ch;
+          line-height: 1.7;
+        }
+
+        & > button {
+          font-family: var(--font-body);
+          font-weight: 500;
+          font-size: clamp(1.2rem, 2vw, 1.3rem);
+          color: var(--accent);
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+}
+
+/* ============ RESPONSIVE — Terms of Service ============ */
+@media (max-width: 1024px) {
+  .terms-of-service {
+    padding-inline: 3rem;
+    padding-bottom: 6rem;
+  }
+
+  .terms-of-service .content .terms {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .terms-of-service .content .terms {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .terms-of-service {
+    padding-inline: 1.5rem;
+    padding-bottom: 4rem;
+  }
+
+  .terms-of-service .content .header {
+    margin-bottom: 3rem;
+  }
+
+  .terms-of-service .content .terms .term {
+    padding-inline: 2.5rem;
+    padding-block: 3rem;
+    border-radius: 3rem;
+  }
+}

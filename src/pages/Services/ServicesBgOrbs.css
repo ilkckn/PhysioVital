@@ -1,8 +1,9 @@
-.bg-orbs {
+.service-bg-orbs {
   position: absolute;
   inset: 0;
   pointer-events: none;
-  overflow: hidden;
+  /*overflow: hidden;*/
+  z-index: -1;
 
   .hero__orb {
     position: absolute;
@@ -11,35 +12,37 @@
     opacity: 0.35;
   }
 
+  /* Sağ üst — yeşil */
   .hero__orb--1 {
-    width: 500px;
-    height: 500px;
+    width: 40rem;
+    height: 40rem;
     background: oklch(85% 0.08 170);
-    top: -30%;
+    top: -2%;
     right: -5%;
   }
 
-  .hero__orb--2 {
-    width: 350px;
-    height: 350px;
-    background: oklch(88% 0.06 45);
-    bottom: 5%;
+  /* Sol orta — mavi */
+  /*.hero__orb--2 {
+    width: 40rem;
+    height: 40rem;
+    background: oklch(90% 0.1 200);
+    bottom: -20%;
     left: -8%;
-  }
+  }*/
 
-  .hero__orb--3 {
-    width: 200px;
-    height: 200px;
+  /* Sol alt — mavi */
+  /*.hero__orb--3 {
+    width: 40rem;
+    height: 40rem;
     background: oklch(82% 0.1 200);
-    top: 40%;
-    right: 25%;
-  }
+    bottom: -10%;
+    left: -5%;
+  }*/
 }
-
 
 /* ============ RESPONSIVE ============ */
 @media (max-width: 1024px) {
-  .bg-orbs {
+  .service-bg-orbs {
     .hero__orb {
       filter: blur(60px);
     }
@@ -59,7 +62,7 @@
 }
 
 @media (max-width: 480px) {
-  .bg-orbs {
+  .service-bg-orbs {
     .hero__orb {
       filter: blur(45px);
       opacity: 0.3;

@@ -786,6 +786,54 @@
           }
         }
       }
+    },
+    "terms-of-service": {
+      "tag": "Hizmet Koşulları",
+      "header": "Başlamadan önce bilmeniz gerekenler",
+      "terms": {
+        "term1": {
+          "header": "Ücretsiz ön değerlendirme",
+          "desc": "İlk görüşme ve değerlendirme ücretsizdir. Doğru hizmete birlikte karar verelim.",
+          "button": "Hemen başvurun"
+        },
+        "term2": {
+          "header": "Özel sigorta desteği",
+          "desc": "Özel sağlık sigortası anlaşmalarımız mevcuttur. Evrak işlemlerini ekibimiz yürütür.",
+          "button": "Anlaşmalı kurumlar"
+        },
+        "term3": {
+          "header": "Akşam seansları",
+          "desc": "Çalışma saatleri dışında, hafta içi akşam seansı imkânı sunuyoruz.",
+          "button": "Hafta için hergün"
+        }
+      }
+    },
+    "three-ways": {
+      "tag": "Nasıl Çalışır",
+      "header": "Hizmete giden yol 3 adımda tamamlanır",
+      "ways": {
+        "way1": {
+          "header": "Ücretsiz ön değerlendirme",
+          "desc": "İlk seansta duruş, hareket ve ağrı düzeyinizi değerlendirip ihtiyacınızı birlikte belirliyoruz."
+        },
+        "way2": {
+          "header": "Kişiye özel plan",
+          "desc": "Bulgularınıza göre hedefinize uygun, sürdürülebilir bir tedavi planı oluşturuyoruz."
+        },
+        "way3": {
+          "header": "Düzenli takip",
+          "desc": "Seanslar boyunca ilerlemeyi ölçüyor, planı ihtiyacınıza göre güncelliyoruz."
+        }
+      }
+    },
+    "right-treatment": {
+      "header1": "Doğru tedaviyle,",
+      "header2": "harekete dönün.",
+      "desc": "Hangi hizmetin size uygun olduğundan emin değil misiniz? Ücretsiz ön değerlendirme ile başlayalım.",
+      "btns": {
+        "btn1": "Randevu Alın",
+        "btn2": "Hemen Arayın"
+      }
     }
   }
 }
