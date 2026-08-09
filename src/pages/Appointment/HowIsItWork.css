@@ -56,7 +56,6 @@
           font-weight: 600;
           color: transparent;
           -webkit-text-stroke: 1px var(--accent);
-          text-stroke: 1px var(--accent);
           margin-bottom: 1rem;
         }
 

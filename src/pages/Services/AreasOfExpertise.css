@@ -2,13 +2,17 @@
   width: 100%;
   max-width: 1280px;
   margin-inline: auto;
-  background-color: var(--bg-white);
+  background: linear-gradient(
+    180deg,
+    oklch(97% 0.011 175),
+    oklch(100% 0.01 250)
+  );
 
   .content {
     padding-inline: 5rem;
     padding-top: 8rem;
     width: 100%;
-    border-bottom: 1px solid var(--border);
+    /*border-bottom: 1px solid var(--border);*/
 
     .header {
       width: 100%;

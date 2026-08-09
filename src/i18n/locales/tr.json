@@ -835,5 +835,155 @@
         "btn2": "Hemen Arayın"
       }
     }
+  },
+  "manual-therapy": {
+    "navigation": {
+      "home": "Ana Sayfa",
+      "services": "Hizmetlerimiz",
+      "manual-therapy": "Elle Terapi"
+    },
+    "tag": {
+      "tag1": "Elle Terapi",
+      "tag2": "Manuel Tedavi"
+    },
+    "header": {
+      "title1": "Elle Terapi ile",
+      "title2": "harekete dönün"
+    },
+    "desc": "Yumuşak doku ve eklem mobilizasyonuna odaklanan, tamamen ilaçsız ve ellere dayanan kanıta dayalı bir tedavi yöntemi. Ağrınızın kaynağına iner, hareketinizi geri kazandırır.",
+    "list": {
+      "li1": "Uzman fizyoterapist kadrosu",
+      "li2": "İlaçsız & cerrahisiz yöntem",
+      "li3": "Kişiye özel tedavi planı"
+    },
+    "first-evaluation": "İlk görüşme ve ön değerlendirme ücretsizdir",
+    "content-right": {
+      "header": "Seans Özeti",
+      "desc": "Elle terapi hakkında hızlı bilgiler",
+      "summary": {
+        "summary1": {
+          "header": "Seans Süresi",
+          "desc": "30-45 dk"
+        },
+        "summary2": {
+          "header": "Önerilen sıklık",
+          "desc": "Haftada 2-3 seans"
+        },
+        "summary3": {
+          "header": "İlk adım",
+          "desc": "Ücretsiz ön değerlendirme"
+        },
+        "summary4": {
+          "header": "Hedef",
+          "desc": "Ağrısız hareket ve fonksiyonel iyileşme"
+        }
+      },
+      "extra": {
+        "text1": "Elle terapi uzmanlığı",
+        "text2": "İlaçsız yaklaşım"
+      },
+      "button": "Ücretsiz değerlendirme isteyin"
+    },
+    "methods": {
+      "tag": "Yöntem",
+      "header": "Elle terapi nedir?",
+      "desc": "Elle terapi; fizyoterapistin ellerini kullanarak yumuşak dokuları ve eklemleri hedef alan bir manuel tedavi biçimidir. Amacı ağrıyı azaltmak, gerginliği çözmek ve vücudun doğal hareketini geri kazandırmaktır.",
+      "methods-content": {
+        "header": "Neler kazandırır?",
+        "list": {
+          "li1": "Yumuşak doku gevşetme",
+          "li2": "Eklem hareket açıklığı",
+          "li3": "Ağrı kontrolü",
+          "li4": "İlaçsız yaklaşım"
+        },
+        "methods": {
+          "header": "Başlıca uygulama teknikleri",
+          "techniques": {
+            "technique1": "Yumuşak doku mobilizasyonu",
+            "technique2": "Eklem mobilizasyonu",
+            "technique3": "Miyofasyal serbest bırakma",
+            "technique4": "Tetik nokta tedavisi",
+            "technique5": "Duruş ve hareket eğitimi"
+          }
+        }
+      }
+    },
+    "practice": {
+      "tag": "uygulama",
+      "header": "Seanslarda hangi teknikler kullanılır?",
+      "desc": "Durumunuza göre bir veya birkaç teknik bir arada uygulanır. Her seans, o günkü bulgularınıza göre yeniden planlanır.",
+      "practices": {
+        "prac1": {
+          "header": "Yumuşak doku mobilizasyonu",
+          "desc": "Gergin kas ve bağ dokusunu ritmik elle tekniklerle gevşetir, dokulara kan akışını artırır.",
+          "tag": "Kas & bağ dokusu"
+        },
+        "prac2": {
+          "header": "Eklem mobilizasyonu",
+          "desc": "Eklemlerin kayma ve yuvarlanma hareketini nazik dozlarda geri kazandırır; tutukluk ve sertliği azaltır.",
+          "tag": "Eklemler"
+        },
+        "prac3": {
+          "header": "Miyofasyal serbest bırakma",
+          "desc": "Yapışmış fasyaları serbestleştirir; ağrının ve hareket kısıtlılığının derindeki kaynağına iner.",
+          "tag": "Derin doku"
+        },
+        "prac4": {
+          "header": "Tetik nokta tedavisi",
+          "desc": "Kas içindeki hassas tetik noktalara odaklanır; başka bölgelere yansıyan ağrıların önüne geçer.",
+          "tag": "Ağrı odaklı"
+        }
+      }
+    },
+    "for-whom-manual": {
+      "tag": "Kimler için",
+      "header": "Bu durumlarda etkilidir",
+      "desc": "Aşağıdaki şikayetlerden birini yaşıyorsanız elle terapi sizin için uygun bir seçenek olabilir. Kesin uygunluğu ücretsiz ön değerlendirmede belirleriz.",
+      "medical-issues": {
+        "issues1": "Bel ve boyun ağrısı",
+        "issues2": "Duruş bozuklukları",
+        "issues3": "Spor sonrası tutukluk",
+        "issues4": "Eklemlerde hareket kısıtlılığı",
+        "issues5": "Gerilim tipi baş ağrısı",
+        "issues6": "Omuz ve sırt gerginliği",
+        "issues7": "Strese bağlı kas gerginliği",
+        "issues8": "Yaygın kas ağrıları (fibromiyalji)"
+      },
+      "boxes": {
+        "box1": {
+          "header": "Ne zaman uygulanır?",
+          "desc": "Kronik kas-iskelet ağrıları, duruş bozuklukları, hareket kısıtlılığı ve strese bağlı gerginliklerde tercih edilir.",
+          "tag": "Kronij durumlar"
+        },
+        "box2": {
+          "header":"Ne zaman ertelenir?",
+          "desc": "Akut kırık, aktif enfeksiyon veya ciddi damar hastalıklarında önce hekim görüşü alınır; plan buna göre şekillenir.",
+          "tag": "Öncelikle hekim"
+        },
+        "box3": {
+          "header": "Seanslar arasında",
+          "desc": "Evde uygulayacağınız kısa bir program veririz; böylece seanslar arasında kazancınız kalıcı hale gelir.",
+          "tag": "Ev programı"
+        }
+      }
+    },
+    "session-flow": {
+      "tag": "Seans Akışı",
+      "header": "Seans nasıl geçer?",
+      "session": {
+        "step1": {
+          "header": "Ücretsiz ön değerlendirme",
+          "desc": "İlk görüşmede şikayetinizi dinler, duruş ve hareketinizi analiz eder, size uygun planı birlikte belirleriz."
+        },
+        "step2": {
+          "header": "Kişiye özel seans",
+          "desc": "30 dakikalık seansta bulgularınıza göre doğru teknikleri uygularız; seans sonunda yapılanları sizinle konuşuruz."
+        },
+        "step3": {
+          "header": "Ev programı & takip",
+          "desc": "Seanslar arasında uygulayacağınız kısa bir program verir, ilerlemeyi düzenli ölçüp planı güncelleriz."
+        }
+      }
+    }
   }
 }

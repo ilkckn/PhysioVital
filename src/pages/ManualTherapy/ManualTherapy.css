@@ -1,0 +1,322 @@
+.manual-therapy {
+  width: 100%;
+
+  .container {
+    position: relative;
+    padding-bottom: 8rem;
+
+    .hero {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 5fr 4fr;
+      gap: 6rem;
+      padding-inline: 4rem;
+      padding-block: 8rem;
+      background: linear-gradient(to right, var(--accent-soft-lighter-v3), var(--bg));
+
+      .content-left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .navigation {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+
+          & > a {
+            font-family: var(--font-body);
+            font-size: clamp(1.15rem, 2vw, 1.2rem);
+            font-weight: 500;
+            
+            & > span {
+              letter-spacing: 0.3px;
+              color: var(--accent);
+              display: flex;
+              align-items: center;
+              gap: 0.5rem;
+              transition: all 0.3s ease-in-out;
+
+              & > svg {
+                color: var(--font-text-gray-darker);
+                font-size: clamp(1rem, 2vw, 1.1rem);
+              }
+            }
+
+            &.active:last-child {
+              pointer-events: none;
+              cursor: default;
+
+              & > span {
+                font-weight: 400;
+                color: var(--font-text-gray);
+              }
+            }
+
+            &:hover {
+              & > span {
+                color: var(--accent-darker);
+              }
+            }
+          }
+        }
+
+        .header {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          margin-top: 2rem;
+
+          .tag {
+            font-family: var(--font-display);
+            font-weight: 500;
+            font-size: clamp(1.3rem, 2vw, 1.4rem);
+            text-transform: uppercase;
+            color: var(--accent);
+            letter-spacing: 1px;
+            margin-bottom: 1.5rem;
+
+            & > svg {
+              color: var(--accent);
+              font-size: clamp(1.3rem, 2vw, 1.4rem);
+              transform: translateY(0.2rem) translateX(-0.2rem);
+            }
+          }
+
+          & > h1 {
+            max-width: 15ch;
+            font-family: var(--font-display);
+            font-weight: 400;
+            line-height: 1.05;
+            letter-spacing: -0.5px;
+
+            & > span {
+              font-family: var(--font-accent);
+              font-size: clamp(4.5rem, 7vw, 6.5rem);
+              font-weight: 600;
+              font-style: italic;
+              color: var(--accent-lighter);
+            }
+          }
+
+          & > p {
+            font-size: clamp(1.4rem, 2vw, 1.6rem);
+            font-weight: 300;
+            max-width: 60ch;
+            line-height: 1.6;
+            letter-spacing: 0.5px;
+            margin-top: 1.5rem;
+          }
+        }
+
+        .list {
+          margin-top: 3.5rem;
+          display: flex;
+          flex-direction: column;
+
+          ul {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+
+            li {
+              display: flex;
+              align-items: center;
+              gap: 0.8rem;
+              font-size: clamp(1.2rem, 2vw, 1.35rem);
+              font-weight: 400;
+              max-width: 50ch;
+              line-height: 1;
+
+              & > svg {
+                transform: translateY(0.2rem);
+                color: var(--accent-lighter);
+                font-size: clamp(1.3rem, 2vw, 1.6rem);
+              }
+            }
+          }
+
+          & > span {
+            font-size: clamp(1rem, 1.5vw, 1.25rem);
+            font-weight: 300;
+            max-width: 60ch;
+            line-height: 1.6;
+            letter-spacing: 0.5px;
+            margin-top: 2.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+
+            & > svg {
+              transform: translateY(0.05rem);
+              color: var(--accent);
+            }
+          }
+        }
+      }
+
+      .content-right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .contents {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          border: 1px solid var(--border);
+          border-radius: 2rem;
+          padding-inline: 3.5rem;
+          padding-block: 3rem;
+          background-color: var(--surface);
+          box-shadow: var(--shadow-md-soft);
+
+          .header {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1.5rem;
+
+            & > h3 {
+              font-family: var(--font-display);
+              font-weight: 500;
+              font-size: clamp(1.6rem, 3vw, 1.8rem);
+              letter-spacing: 0.5px;
+              line-height: 1;
+            }
+
+            & > p {
+              font-size: clamp(1.2rem, 2vw, 1.6rem);
+              font-weight: 300;
+              max-width: 50ch;
+              line-height: 1.4;
+              letter-spacing: 0.5px;
+              margin-top: 0.5rem;
+            }
+          }
+
+          .summary {
+            width: 100%;
+            border-top: 1px solid var(--border-greenish-lighter);
+            border-bottom: 1px solid var(--border-greenish-lighter);
+            padding-block: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+
+            .sum {
+              width: 100%;
+              display: flex;
+              align-items: center;
+              gap: 1rem;
+              border-bottom: 1px solid var(--border-greenish-lighter);
+
+              .icon {
+                width: 4rem;
+                height: 4rem;
+                background-color: var(--accent-soft-lighter-v1);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 1rem;
+
+                & > svg {
+                  color: var(--accent);
+                  font-size: clamp(1.5rem, 2vw, 1.8rem);
+                }
+              }
+
+              .info {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+
+                & > p {
+                  font-size: clamp(1.3rem, 2vw, 1.5rem);
+                  font-weight: 400;
+                  line-height: 1.2;
+                }
+
+                & > span {
+                  font-size: clamp(1.1rem, 2vw, 1.2rem);
+                  font-weight: 300;
+                  color: var(--font-text-gray-darker);
+                }
+              }
+            }
+
+            .sum:nth-child(1),
+            .sum:nth-child(2),
+            .sum:nth-child(3) {
+              padding-bottom: 1.5rem;
+            }
+
+            .sum:last-child {
+              border-bottom: none;
+            }
+          }
+
+          .extra {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border-greenish-lighter);
+
+            & > span {
+              font-size: clamp(1.1rem, 1.5vw, 1.25rem);
+              font-weight: 400;
+              letter-spacing: 0.5pxs;
+              color: var(--font-text-gray-darker);
+            }
+
+            & > span:last-child {
+              color: var(--accent);
+              font-weight: 600;
+            }
+          }
+
+          .btn {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            margin-top: 2.5rem;
+
+            & > button {
+              display: inline-flex;
+              align-items: center;
+              justify-content: center;
+              gap: 0.5rem;
+              width: 100%;
+              padding-block: 1.3rem;
+              border-radius: 4rem;
+              background-color: var(--accent);
+              color: var(--surface);
+              font-size: clamp(1.3rem, 2vw, 1.5rem);
+              font-weight: 300;
+              letter-spacing: 0.5px;
+              transition: all 0.3s ease-in-out;
+
+              & > svg {
+                font-size: clamp(1.5rem, 2vw, 2.2rem);
+                transform: translateY(0.1rem);
+                transition: all 0.3s ease-in-out;
+              }
+
+              &:hover {
+                background-color: var(--accent-darker);
+
+                & > svg {
+                  transform: translateY(0.1rem) translateX(0.2rem);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

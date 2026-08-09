@@ -14,6 +14,7 @@
   --border-dark: oklch(70% 0 0);
   --border-darker: oklch(40% 0 0);
   --border-greenish: oklch(90% 0.012 170);
+  --border-greenish-lighter: oklch(90% 0.04 175);
   --border-greenish-darker: oklch(40% 0.012 170);
   --accent: oklch(42% 0.15 175);
   --accent-darker: oklch(30% 0.15 175);
@@ -58,12 +59,18 @@
   --radius-lg: 2rem;
   --radius-xl: 2.5rem;
 
-  --shadow-sm: 0 0.2rem 0.8rem oklch(20% 0.02 200 / 0.06);
+  --shadow-sm: 0 0.5rem 2rem oklch(20% 0.02 200 / 0.06);
   --shadow-md: 0 0.8rem 3rem oklch(20% 0.02 200 / 0.08);
   --shadow-lg: 0 2rem 6rem oklch(20% 0.02 200 / 0.1);
+  --shadow-sm-darker: 0 0.5rem 2rem oklch(40% 0.02 200 / 0.1);
+  --shadow-md-darker: 0 0.8rem 1.8rem oklch(25% 0.02 200 / 0.2);
+  --shadow-lg-darker: 0 2rem 6rem oklch(40% 0.02 200 / 0.2);
   --shadow-sm-soft: 0 0.2rem 0.8rem oklch(52% 0.14 175 / 0.1);
   --shadow-md-soft: 0 0.8rem 2rem oklch(52% 0.14 175 / 0.2);
   --shadow-lg-soft: 0 2rem 3rem oklch(52% 0.14 175 / 0.2);
+  --shadow-sm-soft-darker: 0 0.2rem 0.8rem oklch(30% 0.15 175 / 0.1);
+  --shadow-md-soft-darker: 0 0.8rem 1.7rem oklch(30% 0.15 175 / 0.2);
+  --shadow-lg-soft-darker: 0 2rem 3rem oklch(30% 0.15 175 / 0.2);
 
   --section-gap: clamp(8rem, 10vw, 14rem);
 }

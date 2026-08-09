@@ -4,7 +4,7 @@
   margin-inline: auto;
   background-color: var(--accent-darker-v2);
   border-radius: 2rem;
-  margin-bottom: 4rem;
+  margin-block: 4rem;
 
   .content {
     width: 100%;

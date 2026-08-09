@@ -10,7 +10,7 @@
       display: grid;
       grid-template-columns: 4fr 3fr;
       padding-block: 8rem;
-      border-bottom: 1px solid var(--border);
+      /*border-bottom: 1px solid var(--border);*/
 
       .services-bg-orbs {
         position: absolute;

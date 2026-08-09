@@ -1,0 +1,143 @@
+.for-whom-manual {
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    var(--accent-soft-lighter-v3),
+    var(--bg)
+  );
+
+  .content {
+    width: 100%;
+    padding-block: 8rem;
+    padding-inline: 4rem;
+    display: flex;
+    flex-direction: column;
+
+    .header {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 4rem;
+  
+      .tag {
+        font-family: var(--font-display);
+        font-weight: 500;
+        font-size: clamp(1.3rem, 2vw, 1.4rem);
+        text-transform: uppercase;
+        color: var(--accent);
+        letter-spacing: 1px;
+        margin-bottom: 1.5rem;
+      }
+  
+      & > h2 {
+        font-size: clamp(2rem, 3vw, 2.8rem);
+        font-weight: 400;
+        line-height: 1;
+      }
+  
+      & > p {
+        font-size: clamp(1.4rem, 2vw, 1.6rem);
+        font-weight: 300;
+        max-width: 60ch;
+        line-height: 1.6;
+        letter-spacing: 0.5px;
+        margin-top: 1.5rem;
+      }
+    }
+
+    .medical-issues {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-bottom: 5rem;
+
+      .issues-left, .issues-right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        & > p {
+          font-size: clamp(1.25rem, 1.5vw, 1.45rem);
+          font-weight: 300;
+          max-width: 60ch;
+          line-height: 1.6;
+          letter-spacing: 0.5px;
+
+          & > span {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+
+            & > svg {
+              transform: translateY(0.2rem);
+              color: var(--accent-lighter);
+              font-size: clamp(1.3rem, 2vw, 1.6rem);
+            }
+          }
+        }
+      }
+    }
+
+    .boxes {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+
+      .box {
+        width: 100%;
+        padding-inline: 3rem;
+        padding-block: 3rem;
+        background-color: var(--surface);
+        border: 1px solid var(--border-greenish);
+        border-radius: 2rem;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          box-shadow: var(--shadow-md-soft-darker);
+          transform: translateY(-1rem);
+        }
+
+        .icon {
+          width: 4rem;
+          height: 4rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: var(--accent-soft-lighter);
+          border-radius: 1.2rem;
+          margin-bottom: 1.5rem;
+
+          & > svg {
+            color: var(--accent);
+            font-size: clamp(1.5rem, 2.5vw, 2.2rem);
+          }
+        }
+
+        & > h4 {
+          font-size: clamp(1.3rem, 2vw, 1.55rem);
+          font-weight: 500;
+          letter-spacing: 0.5px;
+          margin-bottom: 1rem;
+        }
+
+        & > p {
+          max-width: 50ch;
+          font-size: clamp(1.3rem, 2vw, 1.4rem);
+          font-weight: 300;
+          line-height: 1.5;
+          letter-spacing: 0.5px;
+          margin-bottom: 2rem;
+        }
+
+        & > span {
+          font-size: clamp(1rem, 2vw, 1.25rem);
+          font-weight: 500;
+          letter-spacing: 0.5px;
+          color: var(--accent);
+        }
+      }
+    }
+  }
+}

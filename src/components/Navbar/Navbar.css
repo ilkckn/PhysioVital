@@ -154,6 +154,10 @@
                   text-decoration: none;
                   transition: all 0.3s ease-in-out;
 
+                  &.active {
+                    color: var(--accent);
+                  }
+
                   &:hover {
                     background-color: var(--accent-soft);
                     color: var(--accent);
