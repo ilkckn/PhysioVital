@@ -840,5 +840,166 @@
         "btn2": "Jetzt anrufen"
       }
     }
+  },
+  "manual-therapy": {
+    "navigation": {
+      "home": "Start",
+      "services": "Leistungen",
+      "manual-therapy": "Manuelle Therapie"
+    },
+    "tag": {
+      "tag1": "Manuelle Therapie",
+      "tag2": "Manuelle Behandlung"
+    },
+    "header": {
+      "title1": "Zurück in Bewegung mit",
+      "title2": "manueller Therapie"
+    },
+    "desc": "Eine evidenzbasierte, medikamentenfreie und handgeführte Methode mit Fokus auf Weichteile und Gelenke. Sie findet die Ursache Ihrer Schmerzen und gibt Ihnen Ihre Beweglichkeit zurück.",
+    "list": {
+      "li1": "Erfahrenes Therapie-Team",
+      "li2": "Ohne Medikamente & OP",
+      "li3": "Individueller Plan"
+    },
+    "first-evaluation": "Erstgespräch und Voruntersuchung sind kostenlos",
+    "content-right": {
+      "header": "Überblick",
+      "desc": "Das Wichtigste auf einen Blick",
+      "summary": {
+        "summary1": {
+          "header": "Dauer",
+          "desc": "30–45 Min."
+        },
+        "summary2": {
+          "header": "Häufigkeit",
+          "desc": "2–3 pro Woche"
+        },
+        "summary3": {
+          "header": "Erster Schritt",
+          "desc": "Kostenlose Voruntersuchung"
+        },
+        "summary4": {
+          "header": "Ziel",
+          "desc": "Schmerzfreie Bewegung"
+        }
+      },
+      "extra": {
+        "text1": "Erfahrung & Expertise",
+        "text2": "Ohne Medikamente"
+      },
+      "button": "Kostenlos anfragen"
+    },
+    "methods": {
+      "tag": "Methode",
+      "header": "Was ist manuelle Therapie?",
+      "desc": "Bei der manuellen Therapie wirkt der Therapeut mit den Händen gezielt auf Weichteile und Gelenke ein. Ziel ist es, Schmerzen zu lindern, Verspannungen zu lösen und die natürliche Beweglichkeit wiederherzustellen.",
+      "methods-content": {
+        "header": "Was bringt sie?",
+        "list": {
+          "li1": "Weichteile lösen",
+          "li2": "Mehr Beweglichkeit",
+          "li3": "Schmerzkontrolle",
+          "li4": "Ohne Medikamente"
+        },
+        "methods": {
+          "header": "Wichtigste Techniken",
+          "techniques": {
+            "technique1": "Weichteilmobilisation",
+            "technique2": "Gelenkmobilisation",
+            "technique3": "Myofasziale Technik",
+            "technique4": "Triggerpunkt-Therapie",
+            "technique5": "Haltungsschulung"
+          }
+        }
+      }
+    },
+    "practice": {
+      "tag": "Anwendung",
+      "header": "Welche Techniken kommen zum Einsatz?",
+      "desc": "Je nach Beschwerde werden eine oder mehrere Techniken kombiniert. Jede Sitzung wird nach den aktuellen Befunden neu geplant.",
+      "practices": {
+        "prac1": {
+          "header": "Weichteilmobilisation",
+          "desc": "Löst verspannte Muskeln und Bindegewebe mit sanften Handtechniken und fördert die Durchblutung.",
+          "tag": "Muskeln & Gewebe"
+        },
+        "prac2": {
+          "header": "Gelenkmobilisation",
+          "desc": "Gibt Gelenken ihre Gleit- und Rollbewegung sanft zurück und verringert Steifheit.",
+          "tag": "Gelenke"
+        },
+        "prac3": {
+          "header": "Myofasziale Technik",
+          "desc": "Löst verklebte Faszien und erreicht die tiefe Ursache von Schmerz und Einschränkung.",
+          "tag": "Tiefes Gewebe"
+        },
+        "prac4": {
+          "header": "Triggerpunkt-Therapie",
+          "desc": "Behandelt empfindliche Triggerpunkte im Muskel und beugt ausstrahlenden Schmerzen vor.",
+          "tag": "Schmerzfokus"
+        }
+      }
+    },
+    "for-whom-manual": {
+      "tag": "Für wen",
+      "header": "Bei diesen Beschwerden wirksam",
+      "desc": "Wenn Sie eine dieser Beschwerden haben, kann die manuelle Therapie passend sein. Ob sie im Einzelfall passt, klären wir in der kostenlosen Voruntersuchung.",
+      "medical-issues": {
+        "issues1": "Rücken- und Nackenschmerzen",
+        "issues2": "Haltungsstörungen",
+        "issues3": "Steifheit nach dem Sport",
+        "issues4": "Steife Gelenke",
+        "issues5": "Spannungskopfschmerzen",
+        "issues6": "Schulter- und Rückenverspannung",
+        "issues7": "Stressbedingte Verspannung",
+        "issues8": "Muskelschmerzen (Fibromyalgie)"
+      },
+      "boxes": {
+        "box1": {
+          "header": "Wann sinnvoll?",
+          "desc": "Bei chronischen Beschwerden des Bewegungsapparats, Haltungsstörungen, Bewegungseinschränkung und stressbedingten Verspannungen.",
+          "tag": "Chronisch"
+        },
+        "box2": {
+          "header": "Wann später?",
+          "desc": "Bei akuten Brüchen, Infektionen oder schweren Gefäßproblemen holen wir zuerst ärztlichen Rat ein.",
+          "tag": "Erst zum Arzt"
+        },
+        "box3": {
+          "header": "Zwischen den Sitzungen",
+          "desc": "Sie bekommen ein kurzes Programm für zu Hause, damit Ihr Fortschritt erhalten bleibt.",
+          "tag": "Heimprogramm"
+        }
+      }
+    },
+    "session-flow": {
+      "tag": "Ablauf",
+      "header": "Wie läuft eine Sitzung ab?",
+      "session": {
+        "step1": {
+          "header": "Kostenlose Voruntersuchung",
+          "desc": "Im Erstgespräch hören wir Ihre Beschwerden an, prüfen Haltung und Bewegung und legen gemeinsam den Plan fest."
+        },
+        "step2": {
+          "header": "Individuelle Sitzung",
+          "desc": "In 30 Minuten wenden wir die passenden Techniken an und besprechen am Ende gemeinsam das Vorgehen."
+        },
+        "step3": {
+          "header": "Heimprogramm & Nachsorge",
+          "desc": "Sie bekommen ein kurzes Programm für zu Hause, wir messen den Fortschritt und passen den Plan an."
+        }
+      }
+    },
+    "hero-cta": {
+      "header": {
+        "title1": "Zurück zu Ihrer",
+        "title2": "Beweglichkeit"
+      },
+      "desc": "Schränken Rücken- oder Nackenschmerzen Ihren Alltag ein? Lassen Sie uns gemeinsam den passenden Plan festlegen.",
+      "btns": {
+        "btn1": "Termin buchen",
+        "btn2": "Anrufen"
+      }
+    }
   }
 }

@@ -14,6 +14,7 @@ import Method from "./Method";
 import Practice from "./Practice";
 import ForWhomManual from "./ForWhomManual";
 import SessionFlow from "./SessionFlow";
+import HeroCTA from "./HeroCTA";
 
 const ManualTherapy = () => {
   const { t } = useTranslation();
@@ -116,7 +117,7 @@ const ManualTherapy = () => {
                     <p>
                       {t(
                         "manual-therapy.content-right.summary.summary3.header",
-                      )}
+                      )}&
                     </p>
                     <span>
                       {t("manual-therapy.content-right.summary.summary3.desc")}
@@ -163,6 +164,9 @@ const ManualTherapy = () => {
         </div>
         <div className="session-flow-component">
           <SessionFlow />
+        </div>
+        <div className="hero-cta-component">
+          <HeroCTA />
         </div>
       </div>
     </section>

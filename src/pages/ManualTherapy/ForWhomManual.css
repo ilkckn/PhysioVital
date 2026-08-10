@@ -111,12 +111,12 @@
 
           & > svg {
             color: var(--accent);
-            font-size: clamp(1.5rem, 2.5vw, 2.2rem);
+            font-size: clamp(1.8rem, 2.5vw, 2.2rem);
           }
         }
 
         & > h4 {
-          font-size: clamp(1.3rem, 2vw, 1.55rem);
+          font-size: clamp(1.45rem, 2vw, 1.6rem);
           font-weight: 500;
           letter-spacing: 0.5px;
           margin-bottom: 1rem;
@@ -132,11 +132,62 @@
         }
 
         & > span {
-          font-size: clamp(1rem, 2vw, 1.25rem);
+          font-size: clamp(1.15rem, 2vw, 1.25rem);
           font-weight: 500;
           letter-spacing: 0.5px;
           color: var(--accent);
         }
+      }
+    }
+  }
+}
+
+
+/* ============ RESPONSIVE ============ */
+@media (max-width: 1024px) {
+  .for-whom-manual {
+    .content {
+      padding-block: 6rem;
+      padding-inline: 3rem;
+
+      .boxes {
+        .box {
+          padding-inline: 2rem;
+          padding-block: 2.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .for-whom-manual {
+    .content {
+      .medical-issues {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-bottom: 4rem;
+      }
+
+      .boxes {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .for-whom-manual {
+    .content {
+      padding-block: 4rem;
+      padding-inline: 2rem;
+
+      .header {
+        margin-bottom: 3rem;
+      }
+
+      .boxes {
+        grid-template-columns: 1fr;
       }
     }
   }

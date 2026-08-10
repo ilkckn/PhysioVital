@@ -984,6 +984,17 @@
           "desc": "Seanslar arasında uygulayacağınız kısa bir program verir, ilerlemeyi düzenli ölçüp planı güncelleriz."
         }
       }
+    },
+    "hero-cta": {
+      "header": {
+        "title1": "Hareketinize,",
+        "title2": "kavuşun"
+      },
+      "desc": "Bel ya da boyun ağrınız günlük hayatınızı kısıtlıyor mu? Ücretsiz ön değerlendirme ile size uygun planı birlikte belirleyelim.",
+      "btns": {
+        "btn1": "Randevu Alın",
+        "btn2": "Hemen Arayın"
+      }
     }
   }
 }

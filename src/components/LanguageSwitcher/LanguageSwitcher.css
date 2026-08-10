@@ -106,3 +106,54 @@
     }
   }
 }
+
+@media (max-width: 440px) {
+  .lang-switcher {
+    flex-direction: row;
+    border-right: 0;
+
+    .btns {
+      .lang-switcher-icon {
+        font-size: 2.3rem;
+      }
+      .lang-switcher-dropdown {
+        flex-direction: row;
+        top: -0.3rem;
+        left: 2rem;
+        background-color: transparent;
+        padding: 0;
+        padding-left: 1.5rem;
+
+        & > button {
+          font-size: 1.45rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 390px) {
+  .lang-switcher {
+    flex-direction: row;
+    border-right: 0;
+    padding-inline: 3rem;
+
+    .btns {
+      .lang-switcher-icon {
+        font-size: 2.3rem;
+      }
+      .lang-switcher-dropdown {
+        flex-direction: row;
+        top: -0.3rem;
+        left: 2rem;
+        background-color: transparent;
+        padding: 0;
+        padding-left: 1.5rem;
+
+        & > button {
+          font-size: 1.45rem;
+        }
+      }
+    }
+  }
+}

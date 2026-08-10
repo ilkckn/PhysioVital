@@ -840,5 +840,166 @@
         "btn2": "Call Us"
       }
     }
+  },
+  "manual-therapy": {
+    "navigation": {
+      "home": "Home",
+      "services": "Services",
+      "manual-therapy": "Manual Therapy"
+    },
+    "tag": {
+      "tag1": "Manual Therapy",
+      "tag2": "Hands-On Treatment"
+    },
+    "header": {
+      "title1": "Get moving again with",
+      "title2": "manual therapy"
+    },
+    "desc": "An evidence-based, entirely drug-free and hands-on treatment method focused on soft tissue and joint mobilization. It targets the source of your pain and restores your mobility.",
+    "list": {
+      "li1": "Expert physiotherapy team",
+      "li2": "Drug-free & non-surgical method",
+      "li3": "Personalized treatment plan"
+    },
+    "first-evaluation": "The initial consultation and assessment are free of charge",
+    "content-right": {
+      "header": "Session Overview",
+      "desc": "Quick facts about manual therapy",
+      "summary": {
+        "summary1": {
+          "header": "Session Duration",
+          "desc": "30–45 min"
+        },
+        "summary2": {
+          "header": "Recommended Frequency",
+          "desc": "2–3 sessions per week"
+        },
+        "summary3": {
+          "header": "First Step",
+          "desc": "Free initial assessment"
+        },
+        "summary4": {
+          "header": "Goal",
+          "desc": "Pain-free movement and functional recovery"
+        }
+      },
+      "extra": {
+        "text1": "Manual therapy expertise",
+        "text2": "Drug-free approach"
+      },
+      "button": "Request your free assessment"
+    },
+    "methods": {
+      "tag": "Method",
+      "header": "What is manual therapy?",
+      "desc": "Manual therapy is a hands-on treatment method in which the physiotherapist uses their hands to target soft tissue and joints. Its aim is to reduce pain, release tension and restore the body's natural movement.",
+      "methods-content": {
+        "header": "What are the benefits?",
+        "list": {
+          "li1": "Soft tissue release",
+          "li2": "Joint range of motion",
+          "li3": "Pain control",
+          "li4": "Drug-free approach"
+        },
+        "methods": {
+          "header": "Key techniques applied",
+          "techniques": {
+            "technique1": "Soft tissue mobilization",
+            "technique2": "Joint mobilization",
+            "technique3": "Myofascial release",
+            "technique4": "Trigger point therapy",
+            "technique5": "Posture and movement training"
+          }
+        }
+      }
+    },
+    "practice": {
+      "tag": "Application",
+      "header": "Which techniques are used in sessions?",
+      "desc": "Depending on your condition, one or several techniques are combined. Each session is re-planned according to that day's findings.",
+      "practices": {
+        "prac1": {
+          "header": "Soft tissue mobilization",
+          "desc": "Releases tense muscles and connective tissue with rhythmic hands-on techniques and boosts blood flow to the tissues.",
+          "tag": "Muscle & connective tissue"
+        },
+        "prac2": {
+          "header": "Joint mobilization",
+          "desc": "Gently restores the gliding and rolling motion of joints in measured doses, reducing stiffness and rigidity.",
+          "tag": "Joints"
+        },
+        "prac3": {
+          "header": "Myofascial release",
+          "desc": "Frees up adhered fascia and reaches the deep-seated source of pain and restricted movement.",
+          "tag": "Deep tissue"
+        },
+        "prac4": {
+          "header": "Trigger point therapy",
+          "desc": "Focuses on sensitive trigger points within the muscle and prevents pain from radiating to other areas.",
+          "tag": "Pain-focused"
+        }
+      }
+    },
+    "for-whom-manual": {
+      "tag": "Who it's for",
+      "header": "Effective for these conditions",
+      "desc": "If you are experiencing any of the complaints below, manual therapy may be a suitable option for you. We determine your exact suitability during the free initial assessment.",
+      "medical-issues": {
+        "issues1": "Lower back and neck pain",
+        "issues2": "Postural problems",
+        "issues3": "Post-exercise stiffness",
+        "issues4": "Restricted joint movement",
+        "issues5": "Tension-type headaches",
+        "issues6": "Shoulder and upper back tension",
+        "issues7": "Stress-related muscle tension",
+        "issues8": "Widespread muscle pain (fibromyalgia)"
+      },
+      "boxes": {
+        "box1": {
+          "header": "When is it used?",
+          "desc": "Preferred for chronic musculoskeletal pain, postural problems, restricted movement and stress-related tension.",
+          "tag": "Chronic conditions"
+        },
+        "box2": {
+          "header": "When is it postponed?",
+          "desc": "In cases of acute fractures, active infections or serious vascular conditions, a physician's opinion is sought first and the plan is shaped accordingly.",
+          "tag": "Physician first"
+        },
+        "box3": {
+          "header": "Between sessions",
+          "desc": "We provide a short program for you to follow at home, so the progress you make lasts between sessions.",
+          "tag": "Home program"
+        }
+      }
+    },
+    "session-flow": {
+      "tag": "Session Flow",
+      "header": "How does a session go?",
+      "session": {
+        "step1": {
+          "header": "Free initial assessment",
+          "desc": "In the first meeting we listen to your complaints, analyze your posture and movement, and determine the right plan together."
+        },
+        "step2": {
+          "header": "Personalized session",
+          "desc": "In the 30-minute session we apply the right techniques based on your findings, and discuss what was done with you at the end."
+        },
+        "step3": {
+          "header": "Home program & follow-up",
+          "desc": "We provide a short program to follow between sessions, regularly measure your progress and update the plan."
+        }
+      }
+    },
+    "hero-cta": {
+      "header": {
+        "title1": "Regain your",
+        "title2": "movement"
+      },
+      "desc": "Is back or neck pain limiting your daily life? Let's determine the right plan for you together with a free initial assessment.",
+      "btns": {
+        "btn1": "Book an Appointment",
+        "btn2": "Call Now"
+      }
+    }
   }
 }

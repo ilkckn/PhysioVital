@@ -161,3 +161,58 @@
     }
   }
 }
+
+
+/* ============ RESPONSIVE ============ */
+@media (max-width: 1024px) {
+  .method-container {
+    padding-block: 6rem;
+    padding-inline: 3rem;
+
+    .method-content {
+      .methods {
+        .right {
+          padding-inline: 3rem;
+          padding-block: 2.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .method-container {
+    .method-content {
+      .methods {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .method-container {
+    padding-block: 4rem;
+    padding-inline: 2rem;
+
+    .method-content {
+      .header {
+        margin-bottom: 3rem;
+      }
+
+      .methods {
+        .left {
+          .list-content {
+            grid-template-columns: 1fr;
+            gap: 1rem;
+          }
+        }
+
+        .right {
+          padding-inline: 2.5rem;
+        }
+      }
+    }
+  }
+}
