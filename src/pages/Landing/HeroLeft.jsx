@@ -6,15 +6,17 @@ import { HiMiniArrowSmallRight } from "react-icons/hi2";
 const HeroLeft = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
-  
+
   return (
     <section className="hero-left">
       <div className="tag">
         <p>{t("landing.tag")}</p>
       </div>
       <div className="main-header">
-        <h1>{t("landing.main-header.title1")}</h1>
-        <h1>{t("landing.main-header.title2")}</h1>
+        <h1>
+          {t("landing.main-header.title1")}{" "}
+          <span>{t("landing.main-header.title2")}</span>
+        </h1>
       </div>
       <p>{t("landing.description")}</p>
       <div className="btns">
@@ -41,7 +43,7 @@ const HeroLeft = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default HeroLeft
+export default HeroLeft;

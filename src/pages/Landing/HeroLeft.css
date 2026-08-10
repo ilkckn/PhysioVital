@@ -26,17 +26,19 @@
     margin-bottom: 1.5rem;
 
     & > h1 {
+      max-width: 20ch;
       font-family: var(--font-display);
       font-weight: 400;
       line-height: 1.2;
       letter-spacing: -1px;
-    }
 
-    & > h1:nth-child(2) {
-      font-style: italic;
-      font-family: var(--font-accent);
-      font-size: clamp(4.5rem, 7vw, 6.5rem);
-      color: var(--accent);
+      & > span {
+        font-family: var(--font-accent);
+        font-size: clamp(3.5rem, 7vw, 6rem);
+        font-weight: 600;
+        font-style: italic;
+        color: var(--accent-lighter);
+      }
     }
   }
 
@@ -132,13 +134,12 @@
   }
 }
 
-
 /* ============ RESPONSIVE ============ */
 @media (max-width: 1024px) {
   .hero-left {
     .main-header {
       & > h1 {
-        line-height: 1.1;   /* sabit 5rem yerine fontla ölçeklensin */
+        line-height: 1.1; /* sabit 5rem yerine fontla ölçeklensin */
       }
     }
 
@@ -183,7 +184,7 @@
 
     .btns {
       width: 100%;
-      flex-direction: column;   /* butonlar alt alta */
+      flex-direction: column; /* butonlar alt alta */
 
       & > button {
         width: 100%;
