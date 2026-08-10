@@ -99,7 +99,7 @@
               }
 
               &.active {
-                background-color: var(--accent-soft);
+                /*background-color: var(--accent-soft);*/
                 color: var(--accent);
                 font-weight: 500;
               }

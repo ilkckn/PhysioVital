@@ -20,8 +20,10 @@ const Contact = () => {
             <p>{t("contact.hero.small-header")}</p>
           </div>
           <div className="main-header">
-            <h1>{t("contact.hero.main-header.title1")}</h1>
-            <h1>{t("contact.hero.main-header.title2")}</h1>
+            <h1>
+              {t("contact.hero.main-header.title1")}{" "}
+              <span>{t("contact.hero.main-header.title2")}</span>
+            </h1>
           </div>
           <p>{t("contact.hero.description")}</p>
         </div>

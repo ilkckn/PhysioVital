@@ -19,8 +19,9 @@ const About = () => {
         <div className="hero">
           <div className="hero-top">
             <span className="tag">{t("about.hero.tag")}</span>
-            <h1>{t("about.hero.header1")}</h1>
-            <h1>{t("about.hero.header2")}</h1>
+            <h1>
+              {t("about.hero.header1")} <span>{t("about.hero.header2")}</span>
+            </h1>
             <p>{t("about.hero.desc")}</p>
           </div>
           <div className="hero-bottom">

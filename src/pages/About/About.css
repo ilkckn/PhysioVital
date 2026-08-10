@@ -34,11 +34,19 @@
         }
 
         & > h1 {
-          max-width: 55ch;
+          max-width: 20ch;
           font-family: var(--font-display);
           font-weight: 400;
           line-height: 1.2;
           letter-spacing: -1px;
+
+          & > span {
+            font-family: var(--font-accent);
+            font-size: clamp(3.5rem, 7vw, 6.5rem);
+            font-weight: 600;
+            font-style: italic;
+            color: var(--accent-lighter);
+          }
         }
 
         & > p {
@@ -120,6 +128,12 @@
   .about .container .hero {
     padding-block: 6rem;
     gap: 8rem;
+
+    .hero-top {
+      & > h1 {
+        max-width: 23ch;
+      }
+    }
 
     .hero-bottom {
       gap: 4rem;

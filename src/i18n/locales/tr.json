@@ -157,8 +157,8 @@
     "hero": {
       "tag": "Tedavi Hizmetlerimiz",
       "headers": {
-        "header1": "Sağlığınıza Kavuşmanız",
-        "header2": "İçin Doğru Tedavi"
+        "header1": "Sağlığınıza Kavuşmanız İçin",
+        "header2": "Doğru Tedavi"
       },
       "desc": "Her bireyin ihtiyacı farklıdır. Uzman ekibimiz, size özel tedavi planlarıyla sağlığınıza kavuşmanızı sağlar.",
       "btns": {
@@ -434,8 +434,8 @@
     "hero": {
       "small-header": "İletişim",
       "main-header": {
-        "title1": "Sizinle Tanışmak",
-        "title2": "İsteriz"
+        "title1": "Sizinle Tanışmak İçin",
+        "title2": "Sabırsızlanıyoruz"
       },
       "description": "Sorularınız, randevu talepleriniz veya işbirliği önerileriniz için bize ulaşın. Sağlığınız bizim için önemli.",
       "contact-info": {
@@ -956,7 +956,7 @@
           "tag": "Kronij durumlar"
         },
         "box2": {
-          "header":"Ne zaman ertelenir?",
+          "header": "Ne zaman ertelenir?",
           "desc": "Akut kırık, aktif enfeksiyon veya ciddi damar hastalıklarında önce hekim görüşü alınır; plan buna göre şekillenir.",
           "tag": "Öncelikle hekim"
         },

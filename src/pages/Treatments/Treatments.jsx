@@ -12,7 +12,6 @@ import TreatmentBgOrbs from "./TreatmentBgOrbs";
 const Treatments = () => {
   const { t } = useTranslation();
 
-
   return (
     <section className="treatments">
       <div className="container">
@@ -25,16 +24,16 @@ const Treatments = () => {
           </div>
           <div className="header">
             <div className="main-header">
-              <h1>{t("treatments.hero.headers.header1")}</h1>
-              <h1>{t("treatments.hero.headers.header2")}</h1>
+              <h1>
+                {t("treatments.hero.headers.header1")}{" "}
+                <span>{t("treatments.hero.headers.header2")}</span>
+              </h1>
             </div>
             <p>{t("treatments.hero.desc")}</p>
           </div>
           <div className="btns">
             <button>
-              <NavLink to="/services">
-                {t("treatments.hero.btns.btn1")}
-              </NavLink>
+              <NavLink to="/services">{t("treatments.hero.btns.btn1")}</NavLink>
             </button>
             <button>
               <NavLink to="/appointment">
