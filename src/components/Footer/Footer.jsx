@@ -63,7 +63,7 @@ const Footer = () => {
                 <h4>{t("footer.institutional.institutional-header")}</h4>
                 <ul>
                   <li>
-                    <NavLink to={"/institutional/about"}>
+                    <NavLink to={"/about"}>
                       {t("footer.institutional.about")}
                     </NavLink>
                   </li>
