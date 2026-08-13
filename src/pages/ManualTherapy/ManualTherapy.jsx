@@ -1,5 +1,5 @@
 import "./ManualTherapy.css";
-// import ManualBgOrbs from "./ManualBgOrbs";
+import ManualBgOrbs from "./ManualBgOrbs";
 import { useTranslation } from "react-i18next";
 import { NavLink, useNavigate } from "react-router-dom";
 import { HiChevronRight } from "react-icons/hi2";
@@ -23,7 +23,7 @@ const ManualTherapy = () => {
   return (
     <section className="manual-therapy">
       <div className="container">
-        {/* <ManualBgOrbs />*/}
+        <ManualBgOrbs />
         <div className="hero">
           <div className="content-left">
             <div className="navigation">

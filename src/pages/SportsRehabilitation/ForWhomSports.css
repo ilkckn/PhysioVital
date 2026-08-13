@@ -1,4 +1,4 @@
-.for-whom-manual {
+.for-whom-sports {
   width: 100%;
 
   .content {
@@ -6,7 +6,6 @@
     padding-block: 8rem;
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid var(--border);
 
     .header {
       width: 100%;
@@ -100,12 +99,12 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          background-color: var(--accent-soft-lighter);
+          background-color: var(--accent-cool-v2);
           border-radius: 1.2rem;
           margin-bottom: 1.5rem;
 
           & > svg {
-            color: var(--accent);
+            color: var(--accent-cool);
             font-size: clamp(1.8rem, 2.5vw, 2.2rem);
           }
         }
@@ -156,10 +155,10 @@
 }
 
 @media (max-width: 768px) {
-  .for-whom-manual {
+  .for-whom-sports {
     .content {
       .medical-issues {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 1rem;
         margin-bottom: 4rem;
       }
@@ -172,10 +171,13 @@
 }
 
 @media (max-width: 480px) {
-  .for-whom-manual {
+  .for-whom-sports {
     .content {
       padding-block: 4rem;
-      padding-inline: 2rem;
+      padding-inline: 1rem;
+      .medical-issues {
+        grid-template-columns: 1fr;
+      }
 
       .header {
         margin-bottom: 3rem;

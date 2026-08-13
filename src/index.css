@@ -16,6 +16,9 @@
   --border-greenish: oklch(90% 0.012 170);
   --border-greenish-lighter: oklch(90% 0.04 175);
   --border-greenish-darker: oklch(40% 0.012 170);
+  --border-cool: oklch(90% 0.012 250);
+  --border-cool-lighter: oklch(90% 0.04 250);
+  --border-cool-darker: oklch(40% 0.012 250);
   --accent: oklch(42% 0.15 175);
   --accent-darker: oklch(30% 0.15 175);
   --accent-darker-v2: oklch(18.5% 0.15 175);

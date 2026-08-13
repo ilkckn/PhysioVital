@@ -1,8 +1,8 @@
-import "./AboutBgOrbs.css";
+import "./SportsBgOrbs.css";
 
-const AboutBgOrbs = () => {
+const SportsBgOrbs = () => {
   return (
-    <section className="bg-orbs">
+    <section className="sports-bg-orbs">
       <div className="hero__orb hero__orb--1" />
       <div className="hero__orb hero__orb--2" />
       <div className="hero__orb hero__orb--3" />
@@ -10,4 +10,4 @@ const AboutBgOrbs = () => {
   );
 };
 
-export default AboutBgOrbs;
+export default SportsBgOrbs;

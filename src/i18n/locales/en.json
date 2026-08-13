@@ -1001,5 +1001,229 @@
         "btn2": "Call Now"
       }
     }
+  },
+  "sports-therapy": {
+    "navigation": {
+      "home": "Home",
+      "services": "Our Services",
+      "sports-therapy": "Sports Therapy"
+    },
+    "tag": {
+      "tag1": "Sports Therapy",
+      "tag2": "Performance & Rehabilitation"
+    },
+    "header": {
+      "title1": "Boost your performance",
+      "title2": "with sports therapy"
+    },
+    "desc": "Sport-specific physiotherapy for a safe return after injury, improved performance and injury prevention. A measurement-based, personalized plan that fits your training schedule.",
+    "list": {
+      "li1": "Sport-specific movement & strength analysis",
+      "li2": "Tested protocol for a safe return",
+      "li3": "A plan aligned with your training goals"
+    },
+    "first-evaluation": "The initial consultation and assessment is free of charge",
+    "content-right": {
+      "header": "Session Overview",
+      "desc": "Quick facts about sports therapy",
+      "summary": {
+        "summary1": {
+          "header": "Session Duration",
+          "desc": "45-60 min"
+        },
+        "summary2": {
+          "header": "Recommended frequency",
+          "desc": "2-3 sessions per week"
+        },
+        "summary3": {
+          "header": "Assessment",
+          "desc": "Movement & strength analysis"
+        }
+      },
+      "extra": {
+        "text1": "Expertise in athlete health",
+        "text2": "Performance-focused approach"
+      },
+      "button": "Request a free assessment"
+    },
+    "methods": {
+      "tag": "Method",
+      "header": "What is sports therapy?",
+      "desc": "Sports therapy is a sport-specific physiotherapy approach that helps athletes and active individuals return safely to sport after injury, improve their performance and prevent recurring injuries.",
+      "methods-content": {
+        "header": "What are the benefits?",
+        "list": {
+          "li1": "Reduces the risk of injury",
+          "li2": "Ensures a safe and structured return",
+          "li3": "Improves performance",
+          "li4": "Works together with your coach"
+        },
+        "methods": {
+          "header": "Main techniques we use",
+          "techniques": {
+            "technique1": "Movement and gait analysis",
+            "technique2": "Strength and power testing",
+            "technique3": "Flexibility and mobility measurement",
+            "technique4": "Load and pain monitoring",
+            "technique5": "Return-to-competition criteria"
+          }
+        }
+      }
+    },
+    "practice": {
+      "tag": "practice",
+      "header": "Our sport-focused work",
+      "desc": "Measurement-based sessions structured to your level and discipline. Every plan is reshaped around your training schedule and goals.",
+      "practices": {
+        "prac1": {
+          "header": "Injury rehabilitation",
+          "desc": "For muscle, tendon and joint injuries, it reduces pain, strengthens the tissue and speeds up recovery.",
+          "tag": "Post-injury"
+        },
+        "prac2": {
+          "header": "Performance analysis",
+          "desc": "Measures your movement, strength and power output and reveals the weak links in your performance.",
+          "tag": "Measurement"
+        },
+        "prac3": {
+          "header": "Prevention program",
+          "desc": "Prevents injuries from the outset with sport-specific strengthening and movement-quality work.",
+          "tag": "Prevention"
+        },
+        "prac4": {
+          "header": "Return-to-competition plan",
+          "desc": "Gets you back on the field and into competition with confidence via a gradual, tested roadmap.",
+          "tag": "Safe return"
+        },
+        "prac5": {
+          "header": "Athletic taping",
+          "desc": "The right taping techniques for joint support and tissue relief during training and sessions.",
+          "tag": "Support"
+        },
+        "prac6": {
+          "header": "Sport exercise program",
+          "desc": "A discipline-specific exercise plan you can do at home, aligned with your schedule.",
+          "tag": "Program"
+        }
+      }
+    },
+    "discipline-specific": {
+      "tag": "Discipline-Specific",
+      "header": "Tailored programs for your sport",
+      "desc": "Every sport has its own load, movement and injury profile. We build your program around your discipline.",
+      "boxes": {
+        "box1": {
+          "header": "Running & Triathlon",
+          "desc": "We work on running economy, hip-core strength and stress-fracture prevention.",
+          "tags": {
+            "tag1": "Running economy",
+            "tag2": "Hip & core strength",
+            "tag3": "Stress-fracture prevention"
+          },
+          "cta": {
+            "cta1": "2-3 sessions per week",
+            "cta2": "Get Info"
+          }
+        },
+        "box2": {
+          "header": "Football & Team Sports",
+          "desc": "Safe return after muscle injuries; agility and change-of-direction ability.",
+          "tags": {
+            "tag1": "Muscle injuries",
+            "tag2": "Agility & change of direction",
+            "tag3": "Balance & coordination"
+          },
+          "cta": {
+            "cta1": "2-3 sessions per week",
+            "cta2": "Get Info"
+          }
+        },
+        "box3": {
+          "header": "Basketball & Volleyball",
+          "desc": "Treatment tailored to knee and ankle injuries; jumping and balance.",
+          "tags": {
+            "tag1": "Knee & ankle",
+            "tag2": "Jump power",
+            "tag3": "Balance & coordination"
+          },
+          "cta": {
+            "cta1": "2-3 sessions per week",
+            "cta2": "Get Info"
+          }
+        },
+        "box4": {
+          "header": "Tennis & Racquet Sports",
+          "desc": "We focus on shoulder, arm and elbow health; serve and stroke mechanics.",
+          "tags": {
+            "tag1": "Shoulder & elbow",
+            "tag2": "Serve & stroke mechanics",
+            "tag3": "Balance & coordination"
+          },
+          "cta": {
+            "cta1": "2-3 sessions per week",
+            "cta2": "Get Info"
+          }
+        }
+      }
+    },
+    "for-whom-sports": {
+      "tag": "Who is it for",
+      "header": "Suitable for these athletes",
+      "desc": "For athletes and active individuals of every level, from amateur to professional. We determine exact suitability in a free preliminary assessment.",
+      "medical-issues": {
+        "issues1": "Runners and triathletes",
+        "issues2": "Football, basketball and volleyball players",
+        "issues3": "Those into tennis and racquet sports",
+        "issues4": "People doing strength & fitness training",
+        "issues5": "Those new to sport",
+        "issues6": "Semi-professional and professional athletes"
+      },
+      "boxes": {
+        "box1": {
+          "header": "When is it used?",
+          "desc": "Preferred when returning after injury, for recurring injuries and at points where performance has plateaued.",
+          "tag": "Return & performance"
+        },
+        "box2": {
+          "header": "When is it postponed?",
+          "desc": "In cases of acute fracture, recent surgery or active infection, a doctor's opinion is sought first; the plan is shaped accordingly.",
+          "tag": "Doctor first"
+        },
+        "box3": {
+          "header": "Alongside training",
+          "desc": "Sessions are planned around your training schedule; recovery and load balance are managed together.",
+          "tag": "Teamwork"
+        }
+      }
+    },
+    "session-flow-sports": {
+      "tag": "Session Flow",
+      "header": "How does a session go?",
+      "session": {
+        "step1": {
+          "header": "Free preliminary assessment",
+          "desc": "In the first meeting we listen to your complaint, analyze your posture and movement, and determine the right plan for you together."
+        },
+        "step2": {
+          "header": "Personalized session",
+          "desc": "In the 30-minute session we apply the right techniques based on your findings; at the end we go over what was done with you."
+        },
+        "step3": {
+          "header": "Home program & follow-up",
+          "desc": "We give you a short program to do between sessions, regularly measure your progress and update the plan."
+        }
+      }
+    },
+    "hero-cta-sports": {
+      "header": {
+        "title1": "Return to the field,",
+        "title2": "with confidence."
+      },
+      "desc": "Want to speed up your return after injury or take your performance to the next level? Let's start with a free preliminary assessment.",
+      "btns": {
+        "btn1": "Book an Appointment",
+        "btn2": "Call Now"
+      }
+    }
   }
 }

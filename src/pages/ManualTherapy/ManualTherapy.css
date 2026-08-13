@@ -10,13 +10,8 @@
       display: grid;
       grid-template-columns: 5fr 4fr;
       gap: 6rem;
-      padding-inline: 4rem;
       padding-block: 8rem;
-      background: linear-gradient(
-        to right,
-        var(--accent-soft-lighter-v3),
-        var(--bg)
-      );
+      border-bottom: 1px solid var(--border);
 
       .content-left {
         width: 100%;

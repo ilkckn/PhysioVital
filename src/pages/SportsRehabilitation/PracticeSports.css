@@ -1,4 +1,4 @@
-.practice-container {
+.practice-sports {
   width: 100%;
   max-width: 1280px;
   margin-inline: auto;
@@ -47,7 +47,7 @@
       width: 100%;
       padding-block: 3rem;
       padding-inline: 3rem;
-      border: 1px solid var(--accent-soft-lighter);
+      border: 1px solid var(--border);
       border-radius: 3rem;
       background-color: var(--surface);
       transition: all .3s ease-in-out;
@@ -63,12 +63,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: var(--accent-soft-lighter);
+        background-color: var(--accent-cool-v2);
         border-radius: 1.5rem;
         margin-bottom: 1.5rem;
 
         & > svg {
-          color: var(--accent);
+          color: var(--accent-cool);
           font-size: clamp(1.5rem, 2.5vw, 2.2rem);
         }
       }
@@ -93,7 +93,7 @@
         font-size: clamp(1.15rem, 2vw, 1.25rem);
         font-weight: 500;
         letter-spacing: .5px;
-        color: var(--accent);
+        color: var(--accent-cool);
       }
     }
   }
@@ -102,14 +102,13 @@
 
 /* ============ RESPONSIVE ============ */
 @media (max-width: 1024px) {
-  .practice-container {
-    padding-inline: 3rem;
+  .practice-sports {
     padding-bottom: 6rem;
   }
 }
 
 @media (max-width: 768px) {
-  .practice-container {
+  .practice-sports {
     .practices {
       grid-template-columns: 1fr;
     }
@@ -117,7 +116,7 @@
 }
 
 @media (max-width: 480px) {
-  .practice-container {
+  .practice-sports {
     padding-inline: 2rem;
     padding-bottom: 4rem;
 

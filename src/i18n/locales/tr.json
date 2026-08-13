@@ -996,5 +996,229 @@
         "btn2": "Hemen Arayın"
       }
     }
+  },
+  "sports-therapy": {
+    "navigation": {
+      "home": "Ana Sayfa",
+      "services": "Hizmetlerimiz",
+      "sports-therapy": "Spor Terapi"
+    },
+    "tag": {
+      "tag1": "Spor Terapi",
+      "tag2": "Performans & Rehabilitasyon"
+    },
+    "header": {
+      "title1": "Spor Terapisi ile",
+      "title2": "performansınızı artırın"
+    },
+    "desc": "Yaralanma sonrası güvenli dönüş, performans artışı ve sakatlık önleme için spora özel fizyoterapi. Antrenman takviminize uyumlu, ölçüme dayalı ve size özel bir plan.",
+    "list": {
+      "li1": "Spora özel hareket & güç analizi",
+      "li2": "Güvenli dönüş için test edilmiş protokol",
+      "li3": "Antrenman hedeflerinizle uyumlu plan"
+    },
+    "first-evaluation": "İlk görüşme ve ön değerlendirme ücretsizdir",
+    "content-right": {
+      "header": "Seans Özeti",
+      "desc": "Spor terapi hakkında hızlı bilgiler",
+      "summary": {
+        "summary1": {
+          "header": "Seans Süresi",
+          "desc": "45-60 dk"
+        },
+        "summary2": {
+          "header": "Önerilen sıklık",
+          "desc": "Haftada 2-3 seans"
+        },
+        "summary3": {
+          "header": "Değerlendirme",
+          "desc": "Hareket & Güç analizi"
+        }
+      },
+      "extra": {
+        "text1": "Sporcu sağlığı uzmanlığı",
+        "text2": "Performans odaklı yaklaşım"
+      },
+      "button": "Ücretsiz değerlendirme isteyin"
+    },
+    "methods": {
+      "tag": "Yöntem",
+      "header": "Spor terapisi nedir?",
+      "desc": "Spor terapisi; sporcu veya aktif bireylerin yaralanma sonrası güvenle spora dönmesini, performansını artırmasını ve tekrarlayan sakatlıkları önlemesini hedefleyen, spora özel bir fizyoterapi yaklaşımıdır.",
+      "methods-content": {
+        "header": "Neler kazandırır?",
+        "list": {
+          "li1": "Yaralanma riskini azaltır",
+          "li2": "Güvenli ve planlı dönüş sağlar",
+          "li3": "Performansı yükseltir",
+          "li4": "Antrenörünüzle birlikte çalışır"
+        },
+        "methods": {
+          "header": "Başlıca uygulama teknikleri",
+          "techniques": {
+            "technique1": "Hareket ve yürüyüş analizi",
+            "technique2": "Kuvvet ve güç testleri",
+            "technique3": "Esneklik ve mobilite ölçümü",
+            "technique4": "Yüklenme ve ağrı takibi",
+            "technique5": "Müsabakaya dönüş kriterleri"
+          }
+        }
+      }
+    },
+    "practice": {
+      "tag": "uygulama",
+      "header": "Spor odaklı çalışmalarımız",
+      "desc": "Seviyenize ve branşınıza göre yapılandırılmış, ölçüme dayalı çalışmalar. Her plan antrenman takviminize ve hedeflerinize göre yeniden şekillenir.",
+      "practices": {
+        "prac1": {
+          "header": "Sakatlık rehabilitasyonu",
+          "desc": "Kas, tendon ve eklem yaralanmalarında ağrıyı azaltır, dokuyu güçlendirir ve iyileşmeyi hızlandırır.",
+          "tag": "Yaralanma sonrası"
+        },
+        "prac2": {
+          "header": "Performans analizi",
+          "desc": "Hareket, kuvvet ve güç çıktılarınızı ölçer; performansınızdaki zayıf halkaları ortaya çıkarır.",
+          "tag": "Ölçüm"
+        },
+        "prac3": {
+          "header": "Koruyucu program",
+          "desc": "Sporunuza özel kuvvetlendirme ve hareket kalitesi çalışmalarıyla sakatlık riskini baştan önler.",
+          "tag": "Önleme"
+        },
+        "prac4": {
+          "header": "Müsabakaya dönüş planı",
+          "desc": "Kademeli, test edilmiş bir yol haritasıyla sahaya ve müsabakaya güvenle dönmenizi sağlar.",
+          "tag": "Güvenli dönüş"
+        },
+        "prac5": {
+          "header": "Atletik bantlama",
+          "desc": "Antrenman ve seans sırasında eklem desteği ile doku rahatlatma için doğru bantlama teknikleri.",
+          "tag": "Destek"
+        },
+        "prac6": {
+          "header": "Spora özel egzersiz programı",
+          "desc": "Evde uygulayabileceğiniz, antrenman takviminize uyumlu, branşınıza özel egzersiz planı.",
+          "tag": "Program"
+        }
+      }
+    },
+    "discipline-specific": {
+      "tag": "Branşa Özel",
+      "header": "Sporunuz için özel programlar",
+      "desc": "Her sporun kendine özgü yüklenme, hareket ve sakatlık profili vardır. Programınızı branşınıza göre kurgularız.",
+      "boxes": {
+        "box1": {
+          "header": "Koşu & Triatlon",
+          "desc": "Koşu ekonomisi, kalça-çekirdek kuvveti ve stres kırığı koruması üzerine çalışırız.",
+          "tags": {
+            "tag1": "Koşu ekonomisi",
+            "tag2": "Kalça & core kuvveti",
+            "tag3": "Stres kırığı koruması"
+          },
+          "cta": {
+            "cta1": "Haftada 2-3 seans",
+            "cta2": "Bilgi Alın"
+          }
+        },
+        "box2": {
+          "header": "Futbol & Takım Sporları",
+          "desc": "Kas yaralanmaları sonrası güvenli dönüş; çeviklik ve yön değiştirme becerisi.",
+          "tags": {
+            "tag1": "Kas yaralanmaları",
+            "tag2": "Çeviklik & yön değiştirme",
+            "tag3": "Denge & koordinasyon"
+          },
+          "cta": {
+            "cta1": "Haftada 2-3 seans",
+            "cta2": "Bilgi Alın"
+          }
+        },
+        "box3": {
+          "header": "Basketbol & Voleybol",
+          "desc": "Diz ve ayak bileği yaralanmalarına özel tedavi; sıçrama ve denge.",
+          "tags": {
+            "tag1": "Diz & ayak bileği",
+            "tag2": "Sıçrama gücü",
+            "tag3": "Denge & koordinasyon"
+          },
+          "cta": {
+            "cta1": "Haftada 2-3 seans",
+            "cta2": "Bilgi Alın"
+          }
+        },
+        "box4": {
+          "header": "Tenis & Raket Sporları",
+          "desc": "Omuz, kol ve dirsek sağlığı; servis ve vuruş mekaniği üzerine odaklanırız.",
+          "tags": {
+            "tag1": "Omuz & dirsek",
+            "tag2": "Servis & vuruş mekaniği",
+            "tag3": "Denge & koordinasyon"
+          },
+          "cta": {
+            "cta1": "Haftada 2-3 seans",
+            "cta2": "Bilgi Alın"
+          }
+        }
+      }
+    },
+    "for-whom-sports": {
+      "tag": "Kimler için",
+      "header": "Bu sporcular için uygun",
+      "desc": "Amatörden profesyonele her seviyeden sporcu ve aktif birey için. Kesin uygunluğu ücretsiz ön değerlendirmede belirleriz.",
+      "medical-issues": {
+        "issues1": "Koşucular ve triatletler",
+        "issues2": "Futbol, basketbol, voleybol oyuncuları",
+        "issues3": "Tenis ve raket sporuyla ilgilenenler",
+        "issues4": "Kuvvet & fitness antrenmanı yapanlar",
+        "issues5": "Yeni spora başlayanlar",
+        "issues6": "Yarı profesyonel ve profesyonel sporcular"
+      },
+      "boxes": {
+        "box1": {
+          "header": "Ne zaman uygulanır?",
+          "desc": "Yaralanma sonrası dönüşte, tekrarlayan sakatlıklarda ve performansın tıkandığı noktalarda tercih edilir.",
+          "tag": "Dönüş & performans"
+        },
+        "box2": {
+          "header": "Ne zaman ertelenir?",
+          "desc": "Akut kırık, yeni cerrahi veya aktif enfeksiyon durumlarında önce hekim görüşü alınır; plan buna göre şekillenir.",
+          "tag": "Öncelikle hekim"
+        },
+        "box3": {
+          "header": "Antrenmanla birlikte",
+          "desc": "Seanslar antrenman takviminize göre planlanır; iyileşme ve yüklenme dengesi birlikte yönetilir.",
+          "tag": "Takım çalışması"
+        }
+      }
+    },
+    "session-flow-sports": {
+      "tag": "Seans Akışı",
+      "header": "Seans nasıl geçer?",
+      "session": {
+        "step1": {
+          "header": "Ücretsiz ön değerlendirme",
+          "desc": "İlk görüşmede şikayetinizi dinler, duruş ve hareketinizi analiz eder, size uygun planı birlikte belirleriz."
+        },
+        "step2": {
+          "header": "Kişiye özel seans",
+          "desc": "30 dakikalık seansta bulgularınıza göre doğru teknikleri uygularız; seans sonunda yapılanları sizinle konuşuruz."
+        },
+        "step3": {
+          "header": "Ev programı & takip",
+          "desc": "Seanslar arasında uygulayacağınız kısa bir program verir, ilerlemeyi düzenli ölçüp planı güncelleriz."
+        }
+      }
+    },
+    "hero-cta-sports": {
+      "header": {
+        "title1": "Sahaya,",
+        "title2": "güvenle dönün."
+      },
+      "desc": "Sakatlık sonrası dönüşünüzü hızlandırmak ya da performansınızı bir üst seviyeye taşımak ister misiniz? Ücretsiz ön değerlendirme ile başlayalım.",
+      "btns": {
+        "btn1": "Randevu Alın",
+        "btn2": "Hemen Arayın"
+      }
+    }
   }
 }

@@ -34,7 +34,7 @@
         }
 
         & > h1 {
-          max-width: 20ch;
+          max-width: 22ch;
           font-family: var(--font-display);
           font-weight: 400;
           line-height: 1.2;

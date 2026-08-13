@@ -109,7 +109,7 @@
 
         .treatment-list {
           width: 100%;
-          min-height: 40dvh;
+          min-height: 30dvh;
           display: flex;
           flex-direction: column;
           background-color: var(--surface);
@@ -135,10 +135,10 @@
           }
 
           .service-list {
-            margin-top: 3rem;
+            margin-top: 2rem;
             display: flex;
             flex-direction: column;
-            gap: 1.5rem;
+            gap: rem;
 
             .list {
               width: 100%;

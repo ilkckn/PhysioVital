@@ -1001,5 +1001,229 @@
         "btn2": "Anrufen"
       }
     }
+  },
+  "sports-therapy": {
+    "navigation": {
+      "home": "Startseite",
+      "services": "Unsere Leistungen",
+      "sports-therapy": "Sporttherapie"
+    },
+    "tag": {
+      "tag1": "Sporttherapie",
+      "tag2": "Leistung & Rehabilitation"
+    },
+    "header": {
+      "title1": "Steigern Sie Ihre Leistung",
+      "title2": "mit Sporttherapie"
+    },
+    "desc": "Sportspezifische Physiotherapie für eine sichere Rückkehr nach einer Verletzung, mehr Leistung und Verletzungsprävention. Ein messbasierter, individueller Plan, der zu Ihrem Trainingsplan passt.",
+    "list": {
+      "li1": "Sportspezifische Bewegungs- & Kraftanalyse",
+      "li2": "Erprobtes Protokoll für eine sichere Rückkehr",
+      "li3": "Ein auf Ihre Trainingsziele abgestimmter Plan"
+    },
+    "first-evaluation": "Das Erstgespräch und die Voruntersuchung sind kostenlos",
+    "content-right": {
+      "header": "Sitzungsüberblick",
+      "desc": "Kurzinfos zur Sporttherapie",
+      "summary": {
+        "summary1": {
+          "header": "Sitzungsdauer",
+          "desc": "45-60 Min."
+        },
+        "summary2": {
+          "header": "Empfohlene Häufigkeit",
+          "desc": "2-3 Sitzungen pro Woche"
+        },
+        "summary3": {
+          "header": "Beurteilung",
+          "desc": "Bewegungs- & Kraftanalyse"
+        }
+      },
+      "extra": {
+        "text1": "Expertise in Sportlergesundheit",
+        "text2": "Leistungsorientierter Ansatz"
+      },
+      "button": "Kostenlose Beurteilung anfragen"
+    },
+    "methods": {
+      "tag": "Methode",
+      "header": "Was ist Sporttherapie?",
+      "desc": "Sporttherapie ist ein sportspezifischer physiotherapeutischer Ansatz, der Sportlern und aktiven Menschen hilft, nach einer Verletzung sicher zum Sport zurückzukehren, ihre Leistung zu steigern und wiederkehrende Verletzungen zu vermeiden.",
+      "methods-content": {
+        "header": "Was bringt sie?",
+        "list": {
+          "li1": "Verringert das Verletzungsrisiko",
+          "li2": "Ermöglicht eine sichere und geplante Rückkehr",
+          "li3": "Steigert die Leistung",
+          "li4": "Arbeitet mit Ihrem Trainer zusammen"
+        },
+        "methods": {
+          "header": "Wichtigste angewandte Techniken",
+          "techniques": {
+            "technique1": "Bewegungs- und Ganganalyse",
+            "technique2": "Kraft- und Leistungstests",
+            "technique3": "Beweglichkeits- und Mobilitätsmessung",
+            "technique4": "Belastungs- und Schmerzkontrolle",
+            "technique5": "Kriterien für die Wettkampfrückkehr"
+          }
+        }
+      }
+    },
+    "practice": {
+      "tag": "Anwendung",
+      "header": "Unsere sportorientierte Arbeit",
+      "desc": "Messbasierte Einheiten, strukturiert nach Ihrem Niveau und Ihrer Sportart. Jeder Plan wird an Ihren Trainingsplan und Ihre Ziele angepasst.",
+      "practices": {
+        "prac1": {
+          "header": "Verletzungsrehabilitation",
+          "desc": "Bei Muskel-, Sehnen- und Gelenkverletzungen lindert sie Schmerzen, stärkt das Gewebe und beschleunigt die Heilung.",
+          "tag": "Nach der Verletzung"
+        },
+        "prac2": {
+          "header": "Leistungsanalyse",
+          "desc": "Misst Ihre Bewegungs-, Kraft- und Leistungswerte und deckt die Schwachstellen in Ihrer Leistung auf.",
+          "tag": "Messung"
+        },
+        "prac3": {
+          "header": "Präventionsprogramm",
+          "desc": "Beugt Verletzungen von Anfang an vor – mit sportspezifischer Kräftigung und Bewegungsqualitätstraining.",
+          "tag": "Prävention"
+        },
+        "prac4": {
+          "header": "Plan zur Wettkampfrückkehr",
+          "desc": "Bringt Sie mit einem schrittweisen, erprobten Fahrplan sicher zurück auf das Feld und in den Wettkampf.",
+          "tag": "Sichere Rückkehr"
+        },
+        "prac5": {
+          "header": "Sportliches Taping",
+          "desc": "Die richtigen Taping-Techniken zur Gelenkunterstützung und Gewebeentlastung während Training und Sitzung.",
+          "tag": "Unterstützung"
+        },
+        "prac6": {
+          "header": "Sportspezifisches Übungsprogramm",
+          "desc": "Ein sportartspezifischer Übungsplan für zu Hause, abgestimmt auf Ihren Trainingsplan.",
+          "tag": "Programm"
+        }
+      }
+    },
+    "discipline-specific": {
+      "tag": "Sportartspezifisch",
+      "header": "Maßgeschneiderte Programme für Ihre Sportart",
+      "desc": "Jede Sportart hat ihr eigenes Belastungs-, Bewegungs- und Verletzungsprofil. Wir gestalten Ihr Programm passend zu Ihrer Sportart.",
+      "boxes": {
+        "box1": {
+          "header": "Laufen & Triathlon",
+          "desc": "Wir arbeiten an Laufökonomie, Hüft- und Rumpfkraft sowie der Vorbeugung von Ermüdungsbrüchen.",
+          "tags": {
+            "tag1": "Laufökonomie",
+            "tag2": "Hüft- & Rumpfkraft",
+            "tag3": "Ermüdungsbruch-Prävention"
+          },
+          "cta": {
+            "cta1": "2-3 Sitzungen pro Woche",
+            "cta2": "Infos erhalten"
+          }
+        },
+        "box2": {
+          "header": "Fußball & Mannschaftssport",
+          "desc": "Sichere Rückkehr nach Muskelverletzungen; Wendigkeit und Richtungswechsel.",
+          "tags": {
+            "tag1": "Muskelverletzungen",
+            "tag2": "Wendigkeit & Richtungswechsel",
+            "tag3": "Gleichgewicht & Koordination"
+          },
+          "cta": {
+            "cta1": "2-3 Sitzungen pro Woche",
+            "cta2": "Infos erhalten"
+          }
+        },
+        "box3": {
+          "header": "Basketball & Volleyball",
+          "desc": "Auf Knie- und Sprunggelenkverletzungen abgestimmte Behandlung; Sprung und Gleichgewicht.",
+          "tags": {
+            "tag1": "Knie & Sprunggelenk",
+            "tag2": "Sprungkraft",
+            "tag3": "Gleichgewicht & Koordination"
+          },
+          "cta": {
+            "cta1": "2-3 Sitzungen pro Woche",
+            "cta2": "Infos erhalten"
+          }
+        },
+        "box4": {
+          "header": "Tennis & Rückschlagsportarten",
+          "desc": "Wir konzentrieren uns auf die Gesundheit von Schulter, Arm und Ellenbogen sowie die Aufschlag- und Schlagmechanik.",
+          "tags": {
+            "tag1": "Schulter & Ellenbogen",
+            "tag2": "Aufschlag- & Schlagmechanik",
+            "tag3": "Gleichgewicht & Koordination"
+          },
+          "cta": {
+            "cta1": "2-3 Sitzungen pro Woche",
+            "cta2": "Infos erhalten"
+          }
+        }
+      }
+    },
+    "for-whom-sports": {
+      "tag": "Für wen",
+      "header": "Geeignet für diese Sportler",
+      "desc": "Für Sportler und aktive Menschen jeden Niveaus, vom Amateur bis zum Profi. Die genaue Eignung klären wir in einer kostenlosen Voruntersuchung.",
+      "medical-issues": {
+        "issues1": "Läufer und Triathleten",
+        "issues2": "Fußball-, Basketball- und Volleyballspieler",
+        "issues3": "Tennis- und Rückschlagsport-Interessierte",
+        "issues4": "Personen im Kraft- & Fitnesstraining",
+        "issues5": "Sporteinsteiger",
+        "issues6": "Halbprofi- und Profisportler"
+      },
+      "boxes": {
+        "box1": {
+          "header": "Wann wird sie angewendet?",
+          "desc": "Bevorzugt bei der Rückkehr nach einer Verletzung, bei wiederkehrenden Verletzungen und wenn die Leistung stagniert.",
+          "tag": "Rückkehr & Leistung"
+        },
+        "box2": {
+          "header": "Wann wird sie verschoben?",
+          "desc": "Bei akuten Brüchen, frischen Operationen oder aktiven Infektionen wird zunächst ärztlicher Rat eingeholt; der Plan richtet sich danach.",
+          "tag": "Zuerst zum Arzt"
+        },
+        "box3": {
+          "header": "Zusammen mit dem Training",
+          "desc": "Die Sitzungen werden nach Ihrem Trainingsplan geplant; Erholung und Belastung werden gemeinsam gesteuert.",
+          "tag": "Teamarbeit"
+        }
+      }
+    },
+    "session-flow-sports": {
+      "tag": "Sitzungsablauf",
+      "header": "Wie läuft eine Sitzung ab?",
+      "session": {
+        "step1": {
+          "header": "Kostenlose Voruntersuchung",
+          "desc": "Im Erstgespräch hören wir uns Ihre Beschwerden an, analysieren Ihre Haltung und Bewegung und legen gemeinsam den passenden Plan fest."
+        },
+        "step2": {
+          "header": "Individuelle Sitzung",
+          "desc": "In der 30-minütigen Sitzung wenden wir die richtigen Techniken auf Basis Ihrer Befunde an; am Ende besprechen wir das Durchgeführte mit Ihnen."
+        },
+        "step3": {
+          "header": "Heimprogramm & Nachverfolgung",
+          "desc": "Wir geben Ihnen ein kurzes Programm für die Zeit zwischen den Sitzungen, messen regelmäßig Ihren Fortschritt und passen den Plan an."
+        }
+      }
+    },
+    "hero-cta-sports": {
+      "header": {
+        "title1": "Kehren Sie sicher",
+        "title2": "auf das Feld zurück."
+      },
+      "desc": "Möchten Sie Ihre Rückkehr nach einer Verletzung beschleunigen oder Ihre Leistung auf das nächste Level bringen? Beginnen wir mit einer kostenlosen Voruntersuchung.",
+      "btns": {
+        "btn1": "Termin buchen",
+        "btn2": "Jetzt anrufen"
+      }
+    }
   }
 }
