@@ -18,6 +18,7 @@ import HeroCTANeuro from "./HeroCTANeuro";
 const NeuroRehabilitation = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
+  
 
   return (
     <section className="neuro-therapy">
