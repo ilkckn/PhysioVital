@@ -1225,5 +1225,229 @@
         "btn2": "Call Now"
       }
     }
+  },
+  "neuro-therapy": {
+    "navigation": {
+      "home": "Home",
+      "services": "Services",
+      "neuro-therapy": "Neurological Physiotherapy"
+    },
+    "tag": {
+      "tag1": "Neurological Physiotherapy",
+      "tag2": "Neurorehabilitation"
+    },
+    "header": {
+      "title1": "Relearning movement,",
+      "title2": "tailored to you"
+    },
+    "desc": "Brain-plasticity–based physiotherapy to help you regain movement after stroke, Parkinson's, MS or spinal cord injury. A personalised, measurement-driven plan focused on everyday life.",
+    "list": {
+      "li1": "Analysis specific to neurological assessment",
+      "li2": "A safe, brain-plasticity–based plan",
+      "li3": "Functional goals geared to daily living"
+    },
+    "first-evaluation": "The first consultation and initial assessment are free of charge",
+    "content-right": {
+      "header": "Session Summary",
+      "desc": "Quick facts about neurological physiotherapy",
+      "summary": {
+        "summary1": {
+          "header": "Session length",
+          "desc": "45 minutes"
+        },
+        "summary2": {
+          "header": "Recommended frequency",
+          "desc": "2-3 sessions per week"
+        },
+        "summary3": {
+          "header": "Assessment",
+          "desc": "Functional & balance analysis"
+        }
+      },
+      "extra": {
+        "text1": "Neurorehabilitation expertise",
+        "text2": "Function-focused approach"
+      },
+      "button": "Request a free assessment"
+    },
+    "methods": {
+      "tag": "Method",
+      "header": "What is neurological physiotherapy?",
+      "desc": "Neurological physiotherapy is a neurorehabilitation-focused approach aimed at restoring movement, increasing independence in daily life and reducing pain in conditions arising from the brain, spinal cord and nervous system.",
+      "methods-content": {
+        "header": "What does it deliver?",
+        "list": {
+          "li1": "Increases independence in daily life",
+          "li2": "Re-teaches movement and balance",
+          "li3": "Improves muscle strength and endurance",
+          "li4": "Works together with your doctor and family"
+        },
+        "methods": {
+          "header": "Assessment tools",
+          "techniques": {
+            "technique1": "Functional movement assessment",
+            "technique2": "Balance and coordination tests",
+            "technique3": "Muscle strength and tone measurement",
+            "technique4": "Gait and transfer analysis",
+            "technique5": "Activities of daily living tracking"
+          }
+        }
+      }
+    },
+    "practice": {
+      "tag": "practice",
+      "header": "Our neuro-focused work",
+      "desc": "Measurement-driven work structured around your diagnosis and functional level. Every plan is reshaped to your daily life and your goals.",
+      "practices": {
+        "prac1": {
+          "header": "Stroke rehabilitation",
+          "desc": "A structured programme to restore movement, balance and daily-living skills after a stroke.",
+          "tag": "Post-stroke"
+        },
+        "prac2": {
+          "header": "Balance & coordination",
+          "desc": "Graded, tested exercises for safe movement in cases of balance loss and coordination difficulties.",
+          "tag": "Balance"
+        },
+        "prac3": {
+          "header": "Strength & movement training",
+          "desc": "Strengthens weak muscle groups, preserves joint range of motion and re-teaches movement.",
+          "tag": "Strength"
+        },
+        "prac4": {
+          "header": "Gait & transfer training",
+          "desc": "Improves everyday transfer skills such as safe walking, sitting to standing and turning in bed.",
+          "tag": "Gait"
+        },
+        "prac5": {
+          "header": "Spasticity management",
+          "desc": "Stretching and neuro-mobilisation techniques so muscle stiffness and excessive tone don't hinder daily life.",
+          "tag": "Tone"
+        },
+        "prac6": {
+          "header": "Technology-assisted therapy",
+          "desc": "Intensive, repetitive and measurable neurorehabilitation sessions using robotic devices and biofeedback.",
+          "tag": "Technology"
+        }
+      }
+    },
+    "diagnosis-specific": {
+      "tag": "Diagnosis-Specific",
+      "header": "Tailored programmes for your neurological condition",
+      "desc": "Every neurological picture has its own movement, balance and strength profile. We build your programme around your diagnosis and level.",
+      "boxes": {
+        "box1": {
+          "header": "Post-stroke",
+          "desc": "We work on movement, balance and daily-living skills in both the early and later stages after a stroke.",
+          "tags": {
+            "tag1": "Hand function",
+            "tag2": "Gait",
+            "tag3": "Independence"
+          },
+          "cta": {
+            "cta1": "2-3 sessions per week",
+            "cta2": "Learn More"
+          }
+        },
+        "box2": {
+          "header": "Parkinson's",
+          "desc": "Balance, rhythm and gait strategies for tremor, rigidity and freezing episodes.",
+          "tags": {
+            "tag1": "Balance",
+            "tag2": "Rhythm training",
+            "tag3": "Gait"
+          },
+          "cta": {
+            "cta1": "2-3 sessions per week",
+            "cta2": "Learn More"
+          }
+        },
+        "box3": {
+          "header": "Multiple Sclerosis",
+          "desc": "Energy-focused plans to manage fatigue and sustain balance and muscle strength.",
+          "tags": {
+            "tag1": "Fatigue management",
+            "tag2": "Balance",
+            "tag3": "Strength"
+          },
+          "cta": {
+            "cta1": "2-3 sessions per week",
+            "cta2": "Learn More"
+          }
+        },
+        "box4": {
+          "header": "Spinal cord injury",
+          "desc": "Independence work through wheelchair skills, transfer training and upper-body strength.",
+          "tags": {
+            "tag1": "Transfer training",
+            "tag2": "Upper-body strength",
+            "tag3": "Independence"
+          },
+          "cta": {
+            "cta1": "2-3 sessions per week",
+            "cta2": "Learn More"
+          }
+        }
+      }
+    },
+    "for-whom-neuro": {
+      "tag": "Who it's for",
+      "header": "Suitable for these conditions",
+      "desc": "For every stage after the acute phase. We determine exact suitability during the free initial assessment, together with your doctor's opinion.",
+      "medical-issues": {
+        "issues1": "People who have had a stroke",
+        "issues2": "People with Parkinson's disease",
+        "issues3": "People living with multiple sclerosis (MS)",
+        "issues4": "The period following spinal cord injury",
+        "issues5": "Peripheral nerve damage and neuropathy",
+        "issues6": "Childhood neurodevelopmental conditions"
+      },
+      "boxes": {
+        "box1": {
+          "header": "When is it used?",
+          "desc": "Starting in the early period after a stroke or injury is recommended; it is preferred for movement loss, balance impairment and daily-living limitations.",
+          "tag": "Early stage recommended"
+        },
+        "box2": {
+          "header": "When is it postponed?",
+          "desc": "In an acute neurological picture, a new infarct or uncontrolled medical conditions, a neurologist's opinion is sought first; the plan is shaped accordingly.",
+          "tag": "Doctor first"
+        },
+        "box3": {
+          "header": "Together with your doctor",
+          "desc": "The programme is run in coordination with your neurologist; progress measurements and goals are updated together.",
+          "tag": "Teamwork"
+        }
+      }
+    },
+    "session-flow-neuro": {
+      "tag": "Session Flow",
+      "header": "How does a session go?",
+      "session": {
+        "step1": {
+          "header": "Free assessment",
+          "desc": "We listen to your concerns and goals, carry out a functional and balance analysis, and decide on a plan suited to your diagnosis together."
+        },
+        "step2": {
+          "header": "Neurological session",
+          "desc": "In a 45-minute session we combine movement training and strengthening, working towards your daily life."
+        },
+        "step3": {
+          "header": "Home programme & follow-up",
+          "desc": "We prepare a home programme for repetitions between sessions, measure progress and update the plan together with your doctor."
+        }
+      }
+    },
+    "hero-cta-neuro": {
+      "header": {
+        "title1": "Regain your",
+        "title2": "movement."
+      },
+      "desc": "Would you like to safely relearn your movement after stroke, Parkinson's, MS or spinal cord injury? Let's start with a free initial assessment.",
+      "btns": {
+        "btn1": "Book an Appointment",
+        "btn2": "Call Now"
+      }
+    }
   }
 }

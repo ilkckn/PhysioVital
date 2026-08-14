@@ -13,7 +13,7 @@ import Contact from "./pages/Contact/Contact";
 import Appointment from "./pages/Appointment/Appointment";
 import ManualTherapy from "./pages/ManualTherapy/ManualTherapy";
 import SportsRehabilitation from "./pages/SportsRehabilitation/SportsRehabilitation";
-import NeurologicalPhysiotherapy from "./pages/NeurologicalPhysiotherapy/NeurologicalPhysiotherapy";
+import NeuroRehabilitation from "./pages/NeurologicalPhysiotherapy/NeuroRehabilitation";
 import OrthopedicRehabilitation from "./pages/OrthopedicRehabilitation/OrthopedicRehabilitation";
 import DryNeedling from "./pages/DryNeedling/DryNeedling";
 import IndividualExercisePrograms from "./pages/IndividualExercisePrograms/IndividualExercisePrograms";
@@ -46,7 +46,7 @@ const App = () => {
           />
           <Route
             path="/services/neurological-physiotherapy"
-            element={<NeurologicalPhysiotherapy />}
+            element={<NeuroRehabilitation />}
           />
           <Route
             path="/services/orthopedic-rehabilitation"

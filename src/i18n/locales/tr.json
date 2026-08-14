@@ -1220,5 +1220,229 @@
         "btn2": "Hemen Arayın"
       }
     }
+  },
+  "neuro-therapy": {
+    "navigation": {
+      "home": "Ana Sayfa",
+      "services": "Hizmetlerimiz",
+      "neuro-therapy": "Nörolojik Fizyoterapi"
+    },
+    "tag": {
+      "tag1": "Nörolojik Fizyoterapi",
+      "tag2": "Nörorehabilitasyon"
+    },
+    "header": {
+      "title1": "Sinir sistemine özel",
+      "title2": "yeniden öğrenme"
+    },
+    "desc": "İnme, Parkinson, MS ve omurilik yaralanması sonrası hareket yetisini yeniden kazanmak için beyin-plastisite temelli fizyoterapi. Günlük yaşama yönelik, ölçüme dayalı ve size özel bir plan.",
+    "list": {
+      "li1": "Nörolojik değerlendirmeye özel analiz",
+      "li2": "Beyin-plastisite temelli güvenli plan",
+      "li3": "Günlük yaşama yönelik işlevsel hedefler"
+    },
+    "first-evaluation": "İlk görüşme ve ön değerlendirme ücretsizdir",
+    "content-right": {
+      "header": "Seans Özeti",
+      "desc": "Nörolojik fizyoterapi hakkında hızlı bilgiler",
+      "summary": {
+        "summary1": {
+          "header": "Seans süresi",
+          "desc": "45 dakika"
+        },
+        "summary2": {
+          "header": "Önerilen sıklık",
+          "desc": "Haftada 2-3 seans"
+        },
+        "summary3": {
+          "header": "Değerlendirme",
+          "desc": "Fonksiyonel & denge analizi"
+        }
+      },
+      "extra": {
+        "text1": "Nörorehabilitasyon uzmanlığı",
+        "text2": "Fonksiyon odaklı yaklaşım"
+      },
+      "button": "Ücretsiz değerlendirme isteyin"
+    },
+    "methods": {
+      "tag": "Yöntem",
+      "header": "Nörolojik fizyoterapi nedir?",
+      "desc": "Nörolojik fizyoterapi; beyin, omurilik ve sinir sistemi kaynaklı hastalıklarda hareket yetisinin yeniden kazanılmasını, günlük yaşamda bağımsızlığın artırılmasını ve ağrının azaltılmasını hedefleyen, nöro-rehabilitasyon odaklı bir fizyoterapi yaklaşımıdır.",
+      "methods-content": {
+        "header": "Neler kazandırır?",
+        "list": {
+          "li1": "Günlük yaşam bağımsızlığını artırır",
+          "li2": "Hareket ve dengeyi yeniden öğretir",
+          "li3": "Kas gücünü ve dayanıklılığı yükseltir",
+          "li4": "Hekim ve aileyle birlikte çalışır"
+        },
+        "methods": {
+          "header": "Değerlendirme araçları",
+          "techniques": {
+            "technique1": "Fonksiyonel hareket değerlendirmesi",
+            "technique2": "Denge ve koordinasyon testleri",
+            "technique3": "Kas gücü ve tonus ölçümü",
+            "technique4": "Yürüyüş ve transfer analizi",
+            "technique5": "Günlük yaşam aktivitesi takibi"
+          }
+        }
+      }
+    },
+    "practice": {
+      "tag": "uygulama",
+      "header": "Nöro odaklı çalışmalarımız",
+      "desc": "Tanınıza ve fonksiyonel seviyenize göre yapılandırılmış, ölçüme dayalı çalışmalar. Her plan günlük yaşamınıza ve hedeflerinize göre yeniden şekillenir.",
+      "practices": {
+        "prac1": {
+          "header": "İnme rehabilitasyonu",
+          "desc": "Felç sonrası hareket, denge ve günlük yaşam becerilerini yeniden kazandırmak için yapılandırılmış program.",
+          "tag": "İnme sonrası"
+        },
+        "prac2": {
+          "header": "Denge & koordinasyon",
+          "desc": "Denge kaybı ve koordinasyon bozukluğunda güvenli hareket için kademeli, test edilmiş çalışmalar.",
+          "tag": "Denge"
+        },
+        "prac3": {
+          "header": "Kas gücü & hareket eğitimi",
+          "desc": "Zayıf kas gruplarını güçlendirir, eklem hareket açıklığını korur ve hareketi yeniden öğretir.",
+          "tag": "Güç"
+        },
+        "prac4": {
+          "header": "Yürüyüş & transfer eğitimi",
+          "desc": "Güvenli yürüyüş, oturup kalkma ve yatakta dönme gibi günlük transfer becerilerini geliştirir.",
+          "tag": "Yürüyüş"
+        },
+        "prac5": {
+          "header": "Spastisite yönetimi",
+          "desc": "Kas sertliği ve aşırı tonusun günlük yaşamı zorlaştırmaması için germe ve nöro-mobilizasyon teknikleri.",
+          "tag": "Tonus"
+        },
+        "prac6": {
+          "header": "Teknoloji destekli terapi",
+          "desc": "Robotik cihazlar ve biofeedback ile yoğun, tekrarlı ve ölçülebilir nörorehabilitasyon seansları.",
+          "tag": "Teknoloji"
+        }
+      }
+    },
+    "diagnosis-specific": {
+      "tag": "Tanıya Özel",
+      "header": "Nörolojik durumunuz için özel programlar",
+      "desc": "Her nörolojik tablonun kendine özgü hareket, denge ve güç profili vardır. Programınızı tanınıza ve seviyenize göre kurgularız.",
+      "boxes": {
+        "box1": {
+          "header": "İnme sonrası",
+          "desc": "Felç sonrası erken ve geç dönemde hareket, denge ve günlük yaşam becerileri üzerine çalışırız.",
+          "tags": {
+            "tag1": "El fonksiyonu",
+            "tag2": "Yürüyüş",
+            "tag3": "Bağımsızlık"
+          },
+          "cta": {
+            "cta1": "Haftada 2-3 seans",
+            "cta2": "Bilgi Alın"
+          }
+        },
+        "box2": {
+          "header": "Parkinson",
+          "desc": "Titreme, sertlik ve donma anlarına yönelik denge, ritim ve yürüyüş stratejileri.",
+          "tags": {
+            "tag1": "Denge",
+            "tag2": "Ritim eğitimi",
+            "tag3": "Yürüyüş"
+          },
+          "cta": {
+            "cta1": "Haftada 2-3 seans",
+            "cta2": "Bilgi Alın"
+          }
+        },
+        "box3": {
+          "header": "Multipl Skleroz",
+          "desc": "Yorgunluk yönetimi, denge ve kas gücünü sürdürmek için enerji odaklı planlar.",
+          "tags": {
+            "tag1": "Yorgunluk yönetimi",
+            "tag2": "Denge",
+            "tag3": "Güç"
+          },
+          "cta": {
+            "cta1": "Haftada 2-3 seans",
+            "cta2": "Bilgi Alın"
+          }
+        },
+        "box4": {
+          "header": "Omurilik yaralanması",
+          "desc": "Tekerlekli sandalye kullanımı, transfer eğitimi ve üst gövde gücü ile bağımsızlık çalışmaları.",
+          "tags": {
+            "tag1": "Transfer eğitimi",
+            "tag2": "Üst gövde gücü",
+            "tag3": "Bağımsızlık"
+          },
+          "cta": {
+            "cta1": "Haftada 2-3 seans",
+            "cta2": "Bilgi Alın"
+          }
+        }
+      }
+    },
+    "for-whom-neuro": {
+      "tag": "Kimler için",
+      "header": "Bu durumlar için uygun",
+      "desc": "Akut dönemden sonraki her evre için. Kesin uygunluğu ücretsiz ön değerlendirmede hekim görüşüyle birlikte belirleriz.",
+      "medical-issues": {
+        "issues1": "İnme (felç) geçirenler",
+        "issues2": "Parkinson hastaları",
+        "issues3": "Multipl skleroz (MS) ile yaşayanlar",
+        "issues4": "Omurilik yaralanması sonrası dönem",
+        "issues5": "Periferik sinir hasarı ve nöropati",
+        "issues6": "Çocukluk çağı nörogelişimsel durumlar"
+      },
+      "boxes": {
+        "box1": {
+          "header": "Ne zaman uygulanır?",
+          "desc": "İnme veya yaralanma sonrası erken dönemde başlanması önerilir; hareket kaybı, denge bozukluğu ve günlük yaşam kısıtlılıklarında tercih edilir.",
+          "tag": "Erken dönem önerilir"
+        },
+        "box2": {
+          "header": "Ne zaman ertelenir?",
+          "desc": "Akut nörolojik tablo, yeni enfarkt veya kontrol edilmemiş tıbbi durumlarda önce nörolog görüşü alınır; plan buna göre şekillenir.",
+          "tag": "Öncelikle hekim"
+        },
+        "box3": {
+          "header": "Hekimle birlikte",
+          "desc": "Program nörolog hekiminizle koordineli yürütülür; ilerleme ölçümleri ve hedefler birlikte güncellenir.",
+          "tag": "Takım çalışması"
+        }
+      }
+    },
+    "session-flow-neuro": {
+      "tag": "Seans Akışı",
+      "header": "Seans nasıl geçer?",
+      "session": {
+        "step1": {
+          "header": "Ücretsiz değerlendirme",
+          "desc": "Şikayetinizi ve hedeflerinizi dinler, fonksiyonel ve denge analizi yapar, tanınıza uygun planı birlikte belirleriz."
+        },
+        "step2": {
+          "header": "Nörolojik seans",
+          "desc": "45 dakikalık seansta hareket eğitimi ve kuvvetlendirmeyi birleştirir; günlük yaşamınıza yönelik çalışırız."
+        },
+        "step3": {
+          "header": "Ev programı & takip",
+          "desc": "Seans dışı tekrarlar için ev programı hazırlar, ilerlemeyi ölçer ve hekiminizle planı birlikte güncelleriz."
+        }
+      }
+    },
+    "hero-cta-neuro": {
+      "header": {
+        "title1": "Hareketi,",
+        "title2": "yeniden kazanın."
+      },
+      "desc": "İnme, Parkinson, MS ya da omurilik yaralanması sonrası hareketinizi güvenle yeniden öğrenmek ister misiniz? Ücretsiz ön değerlendirme ile başlayalım.",
+      "btns": {
+        "btn1": "Randevu Alın",
+        "btn2": "Hemen Arayın"
+      }
+    }
   }
 }

@@ -1225,5 +1225,229 @@
         "btn2": "Jetzt anrufen"
       }
     }
+  },
+  "neuro-therapy": {
+    "navigation": {
+      "home": "Start",
+      "services": "Leistungen",
+      "neuro-therapy": "Neuro-Physiotherapie"
+    },
+    "tag": {
+      "tag1": "Neuro-Physiotherapie",
+      "tag2": "Neuroreha"
+    },
+    "header": {
+      "title1": "Bewegung neu erlernen,",
+      "title2": "für Sie gemacht"
+    },
+    "desc": "Auf Hirnplastizität basierende Therapie, um nach Schlaganfall, Parkinson, MS oder Rückenmarksverletzung wieder in Bewegung zu kommen. Ein persönlicher, messbasierter und alltagsnaher Plan.",
+    "list": {
+      "li1": "Auf den Neuro-Befund abgestimmte Analyse",
+      "li2": "Sicherer, plastizitätsbasierter Plan",
+      "li3": "Funktionelle Alltagsziele"
+    },
+    "first-evaluation": "Erstgespräch und Erstbefund sind kostenlos",
+    "content-right": {
+      "header": "Überblick",
+      "desc": "Kurzinfos zur Neuro-Physiotherapie",
+      "summary": {
+        "summary1": {
+          "header": "Dauer",
+          "desc": "45 Minuten"
+        },
+        "summary2": {
+          "header": "Häufigkeit",
+          "desc": "2-3× pro Woche"
+        },
+        "summary3": {
+          "header": "Befund",
+          "desc": "Funktion & Balance"
+        }
+      },
+      "extra": {
+        "text1": "Neuroreha-Expertise",
+        "text2": "Funktionsorientiert"
+      },
+      "button": "Gratis-Befund anfragen"
+    },
+    "methods": {
+      "tag": "Methode",
+      "header": "Was ist Neuro-Physiotherapie?",
+      "desc": "Die Neuro-Physiotherapie ist ein neuroreha-orientierter Ansatz. Ziel ist es, bei Erkrankungen von Gehirn, Rückenmark und Nerven die Bewegung zurückzugewinnen, den Alltag selbstständiger zu machen und Schmerzen zu lindern.",
+      "methods-content": {
+        "header": "Was bringt sie?",
+        "list": {
+          "li1": "Mehr Autonomie im Alltag",
+          "li2": "Trainiert Bewegung & Balance neu",
+          "li3": "Steigert Kraft & Ausdauer",
+          "li4": "Arbeitet mit Arzt & Familie"
+        },
+        "methods": {
+          "header": "Befund-Tools",
+          "techniques": {
+            "technique1": "Funktioneller Bewegungsbefund",
+            "technique2": "Balance- & Koordinationstest",
+            "technique3": "Kraft- & Tonusmessung",
+            "technique4": "Gang- & Transferanalyse",
+            "technique5": "Alltags-Beobachtung"
+          }
+        }
+      }
+    },
+    "practice": {
+      "tag": "anwendung",
+      "header": "Unsere Neuro-Arbeit",
+      "desc": "Messbasierte Arbeit, abgestimmt auf Diagnose und Niveau. Jeder Plan wird an Ihren Alltag und Ihre Ziele angepasst.",
+      "practices": {
+        "prac1": {
+          "header": "Schlaganfall-Reha",
+          "desc": "Strukturiertes Programm, um nach einem Schlaganfall Bewegung, Balance und Alltagsfähigkeiten zurückzugewinnen.",
+          "tag": "Nach Schlaganfall"
+        },
+        "prac2": {
+          "header": "Balance & Koordination",
+          "desc": "Stufenweise, erprobte Übungen für sichere Bewegung bei Balance- und Koordinationsproblemen.",
+          "tag": "Balance"
+        },
+        "prac3": {
+          "header": "Kraft- & Bewegungstraining",
+          "desc": "Stärkt schwache Muskeln, erhält die Gelenkbeweglichkeit und trainiert Bewegung neu.",
+          "tag": "Kraft"
+        },
+        "prac4": {
+          "header": "Gang- & Transfertraining",
+          "desc": "Verbessert den Alltag: sicheres Gehen, Aufstehen und Umdrehen im Bett.",
+          "tag": "Gang"
+        },
+        "prac5": {
+          "header": "Spastik-Management",
+          "desc": "Dehnung und Neuromobilisation, damit Steifheit und hoher Tonus den Alltag nicht bremsen.",
+          "tag": "Tonus"
+        },
+        "prac6": {
+          "header": "Gerätegestützte Therapie",
+          "desc": "Intensive, wiederholte und messbare Neuroreha mit Robotik und Biofeedback.",
+          "tag": "Technik"
+        }
+      }
+    },
+    "diagnosis-specific": {
+      "tag": "Diagnosespezifisch",
+      "header": "Programme für Ihr Krankheitsbild",
+      "desc": "Jedes neurologische Bild hat sein eigenes Bewegungs-, Balance- und Kraftprofil. Wir gestalten Ihr Programm nach Diagnose und Niveau.",
+      "boxes": {
+        "box1": {
+          "header": "Nach Schlaganfall",
+          "desc": "Wir arbeiten in früher und später Phase an Bewegung, Balance und Alltagsfähigkeiten.",
+          "tags": {
+            "tag1": "Handfunktion",
+            "tag2": "Gang",
+            "tag3": "Autonomie"
+          },
+          "cta": {
+            "cta1": "2-3× pro Woche",
+            "cta2": "Mehr erfahren"
+          }
+        },
+        "box2": {
+          "header": "Parkinson",
+          "desc": "Balance-, Rhythmus- und Gangstrategien bei Zittern, Steifheit und Freezing.",
+          "tags": {
+            "tag1": "Balance",
+            "tag2": "Rhythmus",
+            "tag3": "Gang"
+          },
+          "cta": {
+            "cta1": "2-3× pro Woche",
+            "cta2": "Mehr erfahren"
+          }
+        },
+        "box3": {
+          "header": "Multiple Sklerose",
+          "desc": "Energieorientierte Pläne gegen Fatigue, für Balance und Kraft.",
+          "tags": {
+            "tag1": "Fatigue",
+            "tag2": "Balance",
+            "tag3": "Kraft"
+          },
+          "cta": {
+            "cta1": "2-3× pro Woche",
+            "cta2": "Mehr erfahren"
+          }
+        },
+        "box4": {
+          "header": "Rückenmarksverletzung",
+          "desc": "Mehr Autonomie durch Rollstuhl-Skills, Transfertraining und Rumpfkraft.",
+          "tags": {
+            "tag1": "Transfer",
+            "tag2": "Rumpfkraft",
+            "tag3": "Autonomie"
+          },
+          "cta": {
+            "cta1": "2-3× pro Woche",
+            "cta2": "Mehr erfahren"
+          }
+        }
+      }
+    },
+    "for-whom-neuro": {
+      "tag": "Für wen",
+      "header": "Für diese Krankheitsbilder",
+      "desc": "Für jede Phase nach dem Akutstadium. Die genaue Eignung klären wir beim kostenlosen Erstbefund gemeinsam mit dem Arzt.",
+      "medical-issues": {
+        "issues1": "Menschen nach Schlaganfall",
+        "issues2": "Menschen mit Parkinson",
+        "issues3": "Menschen mit MS",
+        "issues4": "Nach Rückenmarksverletzung",
+        "issues5": "Nervenschäden & Neuropathie",
+        "issues6": "Neuro-Störungen im Kindesalter"
+      },
+      "boxes": {
+        "box1": {
+          "header": "Wann sinnvoll?",
+          "desc": "Ein früher Start nach Schlaganfall oder Verletzung wird empfohlen – bei Bewegungsverlust, Balanceproblemen und Alltagsgrenzen.",
+          "tag": "Früh empfohlen"
+        },
+        "box2": {
+          "header": "Wann später?",
+          "desc": "Bei akutem Bild, neuem Infarkt oder unklarem Zustand zuerst der Neurologe; der Plan richtet sich danach.",
+          "tag": "Zuerst der Arzt"
+        },
+        "box3": {
+          "header": "Mit dem Arzt",
+          "desc": "Das Programm läuft mit Ihrem Neurologen; Fortschritt und Ziele werden gemeinsam angepasst.",
+          "tag": "Teamarbeit"
+        }
+      }
+    },
+    "session-flow-neuro": {
+      "tag": "Ablauf",
+      "header": "Wie läuft eine Sitzung ab?",
+      "session": {
+        "step1": {
+          "header": "Gratis-Befund",
+          "desc": "Wir hören Beschwerden und Ziele, machen einen Funktions- und Balance-Check und legen gemeinsam den Plan fest."
+        },
+        "step2": {
+          "header": "Neuro-Sitzung",
+          "desc": "In 45 Minuten verbinden wir Bewegungstraining und Kräftigung – ausgerichtet auf Ihren Alltag."
+        },
+        "step3": {
+          "header": "Heimplan & Kontrolle",
+          "desc": "Wir geben einen Heimplan für zwischendurch, messen den Fortschritt und passen den Plan mit dem Arzt an."
+        }
+      }
+    },
+    "hero-cta-neuro": {
+      "header": {
+        "title1": "Zurück zur",
+        "title2": "Bewegung."
+      },
+      "desc": "Nach Schlaganfall, Parkinson, MS oder Rückenmarksverletzung sicher wieder in Bewegung kommen? Starten wir mit einem kostenlosen Erstbefund.",
+      "btns": {
+        "btn1": "Termin buchen",
+        "btn2": "Jetzt anrufen"
+      }
+    }
   }
 }
