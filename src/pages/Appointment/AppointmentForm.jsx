@@ -38,7 +38,7 @@ const AppointmentForm = () => {
     e.preventDefault();
     setStatus("loading");
     try {
-      await axios.post("http://localhost:3000/appointments", formData);
+      await axios.post(`${import.meta.env.VITE_API_URL}/appointments`, formData);
       setFormData({
         name: "",
         email: "",
