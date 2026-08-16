@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { MdOutlineDone } from "react-icons/md";
 import { IoWarningOutline } from "react-icons/io5";
 import { HiOutlineCalendar } from "react-icons/hi2";
+import { RxPeople } from "react-icons/rx";
 
 const ForWhomNeuro = () => {
   const { t } = useTranslation();
@@ -76,7 +77,7 @@ const ForWhomNeuro = () => {
           </div>
           <div className="box">
             <div className="icon">
-              <HiOutlineCalendar />
+              <RxPeople />
             </div>
             <h4>{t("neuro-therapy.for-whom-neuro.boxes.box3.header")}</h4>
             <p>{t("neuro-therapy.for-whom-neuro.boxes.box3.desc")}</p>

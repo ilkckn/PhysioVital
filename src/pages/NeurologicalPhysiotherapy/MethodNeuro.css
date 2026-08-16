@@ -20,7 +20,7 @@
         font-weight: 500;
         font-size: clamp(1.3rem, 2vw, 1.4rem);
         text-transform: uppercase;
-        color: var(--accent);
+        color: var(--accent-cool);
         letter-spacing: 1px;
         margin-bottom: 1.5rem;
       }
@@ -80,7 +80,7 @@
 
               & > svg {
                 transform: translateY(0.1rem);
-                color: var(--accent);
+                color: var(--accent-cool);
                 font-size: clamp(1.2rem, 1.7vw, 1.7rem);
               }
             }
@@ -104,7 +104,7 @@
           display: flex;
           align-items: center;
           gap: 1rem;
-          margin-bottom: 1.5rem;
+          margin-bottom: .5rem;
 
           .icon {
             display: flex;
@@ -136,25 +136,30 @@
           flex-direction: column;
           margin-top: 1rem;
 
-          & > p {
+          .box {
+            width: 100%;
             border-bottom: 1px solid var(--border-greenish);
-            padding-block: 1.3rem;
-            font-size: clamp(1.2rem, 2vw, 1.4rem);
-            font-weight: 600;
-            color: var(--accent-cool);
-            line-height: 1.6;
-            letter-spacing: 0.5px;
-            display: inline-flex;
-            align-items: center;
-            gap: 1rem;
+            padding-block: 1.5rem;
 
-            & > span {
-              font-weight: 300;
-              color: var(--font-text-black);
+            & > p {
+              width: 100%;
+              display: flex;
+              align-items: center;
+              gap: 1rem;
+              font-size: clamp(1.3rem, 2vw, 1.4rem);
+              font-weight: 600;
+              color: var(--accent);
+              line-height: 1.6;
+              letter-spacing: 0.5px;
+
+              & > span {
+                font-weight: 300;
+                color: var(--font-text-black);
+              }
             }
           }
 
-          & > p:last-child {
+          .box:last-child {
             border-bottom: none;
           }
         }

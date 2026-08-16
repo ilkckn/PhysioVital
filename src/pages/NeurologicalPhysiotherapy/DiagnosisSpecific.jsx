@@ -1,8 +1,11 @@
 import "./DiagnosisSpecific.css";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { TbBrain, TbActivityHeartbeat, TbBolt, TbWheelchair } from "react-icons/tb";
+import { TbBrain, TbActivityHeartbeat, TbBolt, TbWheelchair,TbClockHour5 } from "react-icons/tb";
 import { BsArrowRightShort } from "react-icons/bs";
+import { FiLayers } from "react-icons/fi";
+import { RiHeart2Line } from "react-icons/ri";
+import { GoPerson } from "react-icons/go";
 
 const DiagnosisSpecific = () => {
   const { t } = useTranslation();
@@ -21,7 +24,7 @@ const DiagnosisSpecific = () => {
         <div className="boxes">
           <div className="box">
             <div className="icon">
-              <TbBrain />
+              <TbClockHour5 />
             </div>
             <h4>{t("neuro-therapy.diagnosis-specific.boxes.box1.header")}</h4>
             <p>{t("neuro-therapy.diagnosis-specific.boxes.box1.desc")}</p>
@@ -48,7 +51,7 @@ const DiagnosisSpecific = () => {
           </div>
           <div className="box">
             <div className="icon">
-              <TbActivityHeartbeat />
+              <FiLayers />
             </div>
             <h4>{t("neuro-therapy.diagnosis-specific.boxes.box2.header")}</h4>
             <p>{t("neuro-therapy.diagnosis-specific.boxes.box2.desc")}</p>
@@ -75,7 +78,7 @@ const DiagnosisSpecific = () => {
           </div>
           <div className="box">
             <div className="icon">
-              <TbBolt />
+              <RiHeart2Line />
             </div>
             <h4>{t("neuro-therapy.diagnosis-specific.boxes.box3.header")}</h4>
             <p>{t("neuro-therapy.diagnosis-specific.boxes.box3.desc")}</p>
@@ -102,7 +105,7 @@ const DiagnosisSpecific = () => {
           </div>
           <div className="box">
             <div className="icon">
-              <TbWheelchair />
+              <GoPerson />
             </div>
             <h4>{t("neuro-therapy.diagnosis-specific.boxes.box4.header")}</h4>
             <p>{t("neuro-therapy.diagnosis-specific.boxes.box4.desc")}</p>

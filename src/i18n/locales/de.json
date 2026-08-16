@@ -1449,5 +1449,442 @@
         "btn2": "Jetzt anrufen"
       }
     }
+  },
+  "orthopedic-therapy": {
+    "navigation": {
+      "home": "Start",
+      "services": "Leistungen",
+      "orthopedic-therapy": "Orthopädie"
+    },
+    "tags": {
+      "tag1": "Orthopädie",
+      "tag2": "Gelenk-Reha"
+    },
+    "header": {
+      "title1": "Für Ihre Gelenke",
+      "title2": "aktiv werden"
+    },
+    "desc": "Messbasierte Physiotherapie für mehr Beweglichkeit, Kraft und Alltagsfunktion nach OP oder bei Gelenkschmerzen. Ihr Plan, abgestimmt mit Ihrem Arzt.",
+    "list": {
+      "li1": "Plan für Ihre OP-Nachsorge",
+      "li2": "Fokus auf Bewegung und Kraft",
+      "li3": "Sicher, mit Arzt abgestimmt"
+    },
+    "first-evaluation": "Erstgespräch und Check sind kostenlos",
+    "content-right": {
+      "header": "Übersicht",
+      "desc": "Kurzinfo zur Orthopädie-Therapie",
+      "summary": {
+        "summary1": {
+          "header": "Dauer",
+          "desc": "45 Minuten"
+        },
+        "summary2": {
+          "header": "Häufigkeit",
+          "desc": "2-3x pro Woche"
+        },
+        "summary3": {
+          "header": "Check",
+          "desc": "Analyse von Bewegung & Kraft"
+        }
+      },
+      "extra": {
+        "text1": "Erfahrung in Orthopädie",
+        "text2": "Fokus auf Bewegung"
+      },
+      "button": "Kostenlosen Check anfragen"
+    },
+    "methods": {
+      "tag": "Methode",
+      "header": "Was ist Orthopädie-Therapie?",
+      "desc": "Sie hilft bei Schmerzen und Bewegungsproblemen in Gelenken, Knochen, Muskeln, Bändern und Sehnen – vor und nach OPs. Ziel: Funktion zurück, Schmerz weg, keine neue Verletzung.",
+      "methods-content": {
+        "header": "Was bringt sie?",
+        "list": {
+          "li1": "Mehr Bewegung im Gelenk",
+          "li2": "Mehr Kraft und Stabilität",
+          "li3": "Schnellere Genesung nach OP",
+          "li4": "Teamarbeit mit Arzt und Familie"
+        },
+        "methods": {
+          "header": "Check-Methoden",
+          "techniques": {
+            "technique1": "Test der Beweglichkeit",
+            "technique2": "Kraft- und Balancetest",
+            "technique3": "Haltungs-Check",
+            "technique4": "Bewegungstest",
+            "technique5": "Gang-Analyse"
+          }
+        }
+      }
+    },
+    "practice": {
+      "tag": "Praxis",
+      "header": "Unsere Schwerpunkte",
+      "desc": "Aufbau nach Maß, je nach OP oder Beschwerde. Jeder Plan passt sich Ihrer OP und Ihren Zielen an.",
+      "practices": {
+        "prac1": {
+          "header": "Hüft- & Knie-Prothese",
+          "desc": "Plan für Bewegung, Kraft und Gang nach Hüft- oder Knie-OP.",
+          "tag": "Nach Prothese"
+        },
+        "prac2": {
+          "header": "Kreuzband (ACL)",
+          "desc": "Kraft, Balance und Rückkehr zum Sport nach Bandriss oder OP.",
+          "tag": "Bandriss"
+        },
+        "prac3": {
+          "header": "Schulter-Reha",
+          "desc": "Schmerzfreie Schulter nach steifer Schulter, Manschettenriss oder Ausrenkung.",
+          "tag": "Schulter"
+        },
+        "prac4": {
+          "header": "Rücken & Nacken",
+          "desc": "Mobilisierung und Kraftaufbau bei Bandscheibe, Verschleiß oder Haltungsschmerz.",
+          "tag": "Wirbelsäule"
+        },
+        "prac5": {
+          "header": "Meniskus & Knorpel",
+          "desc": "Kraft und Stabilität im Knie nach Meniskus-OP oder Knorpelschaden.",
+          "tag": "Knie"
+        },
+        "prac6": {
+          "header": "Osteoporose & Knochen",
+          "desc": "Balance, Haltung und Kraft, um Brüche zu vermeiden.",
+          "tag": "Knochen"
+        }
+      }
+    },
+    "operation-specific": {
+      "tag": "Nach OP-Art",
+      "header": "Ihr Plan, passend zur OP",
+      "desc": "Jede OP heilt anders. Wir bauen Ihren Plan in Stufen, mit Ihrem Arzt abgestimmt.",
+      "boxes": {
+        "box1": {
+          "header": "Nach Prothese",
+          "desc": "Stufenplan ab den ersten Wochen nach Hüft- oder Knie-OP bis zum Alltag.",
+          "tags": {
+            "tag1": "Gang",
+            "tag2": "Bewegung",
+            "tag3": "Kraft"
+          },
+          "cta": {
+            "cta1": "2-3x pro Woche",
+            "cta2": "Mehr erfahren"
+          }
+        },
+        "box2": {
+          "header": "Sportverletzung",
+          "desc": "Sicher zurück zum Sport nach Band-, Meniskus- oder Sehnenverletzung.",
+          "tags": {
+            "tag1": "ACL",
+            "tag2": "Meniskus",
+            "tag3": "Rückkehr Sport"
+          },
+          "cta": {
+            "cta1": "2-3x pro Woche",
+            "cta2": "Mehr erfahren"
+          }
+        },
+        "box3": {
+          "header": "Schulter & Nacken",
+          "desc": "Schmerzfreie Bewegung bei steifer Schulter, Manschettenriss oder Nackenproblem.",
+          "tags": {
+            "tag1": "Steife Schulter",
+            "tag2": "Manschette",
+            "tag3": "Haltung"
+          },
+          "cta": {
+            "cta1": "2-3x pro Woche",
+            "cta2": "Mehr erfahren"
+          }
+        },
+        "box4": {
+          "header": "Chronischer Schmerz & Osteoporose",
+          "desc": "Kraft, Balance und Vorsorge bei Rücken-/Nackenschmerz und Knochenschwund.",
+          "tags": {
+            "tag1": "Rückenschmerz",
+            "tag2": "Haltung",
+            "tag3": "Balance"
+          },
+          "cta": {
+            "cta1": "2-3x pro Woche",
+            "cta2": "Mehr erfahren"
+          }
+        }
+      }
+    },
+    "for-whom-orthopedic": {
+      "tag": "Für wen?",
+      "header": "Geeignet bei diesen Fällen",
+      "desc": "Von OP-Vorbereitung bis Nachsorge, von akuter Verletzung bis chronischem Schmerz. Genaue Eignung klären wir im Gespräch mit Ihrem Arzt.",
+      "medical-issues": {
+        "issues1": "Nach Hüft- oder Knie-Prothese",
+        "issues2": "Nach Band- oder Meniskus-OP",
+        "issues3": "Nach Sportverletzung",
+        "issues4": "Bei Rücken- und Nackenschmerz",
+        "issues5": "Bei Arthrose",
+        "issues6": "Bei Haltungsschwäche oder Osteoporose-Risiko"
+      },
+      "boxes": {
+        "box1": {
+          "header": "Wann starten?",
+          "desc": "Am besten in den ersten Wochen nach OP; bei wenig Bewegung, Schmerz oder Funktionsverlust.",
+          "tag": "Früher Start"
+        },
+        "box2": {
+          "header": "Wann warten?",
+          "desc": "Bei offener Wunde, OP-Komplikation oder unklarer Diagnose erst zum Orthopäden.",
+          "tag": "Erst zum Arzt"
+        },
+        "box3": {
+          "header": "Mit Arzt abgestimmt",
+          "desc": "Ihr Plan läuft mit Ihrem Orthopäden zusammen; Ziele und Fortschritt werden gemeinsam geprüft.",
+          "tag": "Teamarbeit"
+        }
+      }
+    },
+    "session-flow-orthopedic": {
+      "tag": "Ablauf",
+      "header": "So läuft eine Sitzung",
+      "session": {
+        "step1": {
+          "header": "Kostenloser Check",
+          "desc": "Wir hören Ihre Beschwerde, prüfen Bewegung und Kraft und planen gemeinsam Ihre Therapie."
+        },
+        "step2": {
+          "header": "Sitzung",
+          "desc": "45 Minuten mit Bewegung, Kraftaufbau und Mobilisierung – abgestimmt auf Ihren Alltag."
+        },
+        "step3": {
+          "header": "Übungen & Kontrolle",
+          "desc": "Wir geben Ihnen Übungen für zu Hause, prüfen den Fortschritt und stimmen den Plan mit Ihrem Arzt ab."
+        }
+      }
+    }
+  },
+  "dry-needling": {
+    "navigation": {
+      "home": "Start",
+      "services": "Leistungen",
+      "dry-needling": "Dry Needling"
+    },
+    "tag": {
+      "tag1": "Dry Needling",
+      "tag2": "Myofasziale Schmerztherapie"
+    },
+    "header": {
+      "title1": "Triggerpunkte,",
+      "title2": "gezielt gelöst"
+    },
+    "desc": "Dry Needling ist eine medikamentenfreie Behandlung mit dünnen, sterilen Nadeln gegen verspannte Triggerpunkte im Muskel. Sie lindert Schmerzen und bringt Bewegung zurück.",
+    "list": {
+      "li1": "Natürliche Entspannung ohne Medikamente",
+      "li2": "Gezielte Behandlung des Triggerpunkts",
+      "li3": "Ergänzt Manualtherapie und Übungen"
+    },
+    "first-evaluation": "Erstgespräch und Voruntersuchung sind kostenlos",
+    "content-right": {
+      "header": "Sitzungsüberblick",
+      "desc": "Kurzinfos zu Dry Needling",
+      "summary": {
+        "summary1": {
+          "header": "Dauer",
+          "desc": "15-30 Minuten"
+        },
+        "summary2": {
+          "header": "Häufigkeit",
+          "desc": "1-2x pro Woche"
+        },
+        "summary3": {
+          "header": "Untersuchung",
+          "desc": "Analyse von Spasmen und Triggerpunkten"
+        }
+      },
+      "extra": {
+        "text1": "Experten für myofasziale Schmerzen",
+        "text2": "Entspannung durch Nadeln"
+      },
+      "button": "Kostenlose Untersuchung anfragen"
+    },
+    "methods": {
+      "tag": "Methode",
+      "header": "Was ist Dry Needling?",
+      "desc": "Dry Needling ist eine physiotherapeutische Methode mit einer dünnen, sterilen Nadel an Triggerpunkten im Muskel. Sie löst Verspannungen und fördert die Durchblutung. Es wird nichts gespritzt; die Nadel zielt nur auf den Triggerpunkt.",
+      "methods-content": {
+        "header": "Welche Vorteile bringt es?",
+        "list": {
+          "li1": "Lindert Schmerzen durch Triggerpunkte",
+          "li2": "Löst Muskelspasmen und Verspannung",
+          "li3": "Fördert die Durchblutung im Muskel",
+          "li4": "Natürliche Linderung ohne Medikamente"
+        },
+        "methods": {
+          "header": "Anwendungstechniken",
+          "techniques": {
+            "technique1": "Tastbefund der Triggerpunkte",
+            "technique2": "Analyse von Spannung und Sensibilität",
+            "technique3": "Messung der Beweglichkeit",
+            "technique4": "Haltungs- und Belastungsanalyse",
+            "technique5": "Schmerzkartierung"
+          }
+        }
+      }
+    },
+    "practice": {
+      "tag": "Anwendung",
+      "header": "Wofür wir Dry Needling einsetzen",
+      "desc": "Bei Muskelverspannung und Triggerpunkt-Schmerz, abgestimmt auf Ihre Beschwerde, ergänzt durch Manualtherapie und Übungen.",
+      "practices": {
+        "prac1": {
+          "header": "Nacken- & Schulterverspannung",
+          "desc": "Behandlung der Triggerpunkte in Trapezius, Skalenus und Schultergürtel.",
+          "tag": "Nacken & Schulter"
+        },
+        "prac2": {
+          "header": "Rückenschmerzen",
+          "desc": "Hilft bei Verspannung, Spasmen und Bewegungseinschränkung der tiefen Rücken- und Lendenmuskulatur.",
+          "tag": "Lendenbereich"
+        },
+        "prac3": {
+          "header": "Sportverletzungen",
+          "desc": "Lindert Muskelspasmen nach Verletzungen und fördert Heilung und Rückkehr zum Sport.",
+          "tag": "Sport"
+        },
+        "prac4": {
+          "header": "Spannungskopfschmerz",
+          "desc": "Lindert Kopfschmerzen durch Behandlung der Nackenmuskulatur.",
+          "tag": "Kopfschmerz"
+        },
+        "prac5": {
+          "header": "Hüft- & Gesäßverspannung",
+          "desc": "Lösen der tiefen Hüftmuskulatur reduziert Rücken- und Beinschmerzen.",
+          "tag": "Hüfte"
+        },
+        "prac6": {
+          "header": "Chronische Muskelschmerzen",
+          "desc": "Hilft bei Muskelempfindlichkeit und Fibromyalgie-ähnlichen Beschwerden.",
+          "tag": "Chron. Schmerz"
+        }
+      }
+    },
+    "region-specific": {
+      "tag": "Nach Bereich",
+      "header": "Dry Needling für Ihren Bereich",
+      "desc": "Behandlungsprogramme nach Untersuchung, abgestimmt auf Schmerzbereich und Muskelgruppe.",
+      "boxes": {
+        "box1": {
+          "header": "Nacken & Schulter",
+          "desc": "Gezielte Behandlung von Trapezius, Levator und Schultergürtel.",
+          "tags": {
+            "tag1": "Trapezius",
+            "tag2": "Skalenus",
+            "tag3": "Schultergürtel"
+          },
+          "cta": {
+            "cta1": "1-2x pro Woche",
+            "cta2": "Info anfordern"
+          }
+        },
+        "box2": {
+          "header": "Rücken & Hüfte",
+          "desc": "Lösen von Quadratus lumborum, Gesäß- und Psoasmuskulatur.",
+          "tags": {
+            "tag1": "QL-Muskel",
+            "tag2": "Gesäßmuskeln",
+            "tag3": "Psoas"
+          },
+          "cta": {
+            "cta1": "1-2x pro Woche",
+            "cta2": "Info anfordern"
+          }
+        },
+        "box3": {
+          "header": "Arme & Beine",
+          "desc": "Behandlung der Triggerpunkte in Wade, Oberschenkel und Unterarm.",
+          "tags": {
+            "tag1": "Wade",
+            "tag2": "Oberschenkel",
+            "tag3": "Unterarm"
+          },
+          "cta": {
+            "cta1": "1-2x pro Woche",
+            "cta2": "Info anfordern"
+          }
+        },
+        "box4": {
+          "header": "Gesicht & Kiefer",
+          "desc": "Verspannung in Masseter, Temporalis und Kaumuskulatur; bei Schmerzen durch Zähneknirschen.",
+          "tags": {
+            "tag1": "Masseter",
+            "tag2": "Temporalis",
+            "tag3": "Kaumuskulatur"
+          },
+          "cta": {
+            "cta1": "1x pro Woche",
+            "cta2": "Info anfordern"
+          }
+        }
+      }
+    },
+    "for-whom-needling": {
+      "tag": "Für wen?",
+      "header": "Geeignet bei diesen Beschwerden",
+      "desc": "Von akuter Verletzung bis chronischer Verspannung. Die genaue Eignung klären wir mit dem Arzt bei der kostenlosen Voruntersuchung.",
+      "medical-issues": {
+        "issues1": "Nacken-, Schulter- und Rückenverspannung",
+        "issues2": "Langanhaltende (chronische) Muskelschmerzen",
+        "issues3": "Muskelspasmen und Ermüdung nach dem Sport",
+        "issues4": "Spannungskopfschmerz",
+        "issues5": "Haltungsbedingte Verspannung bei Sitzarbeit",
+        "issues6": "Muskelempfindlichkeit (Fibromyalgie)"
+      },
+      "boxes": {
+        "box1": {
+          "header": "Wann angewendet?",
+          "desc": "Bevorzugt bei Muskelverspannung und Triggerpunkt-Schmerz; als Ergänzung zu anderen Behandlungen.",
+          "tag": "Bei Muskelschmerz"
+        },
+        "box2": {
+          "header": "Wann verschoben?",
+          "desc": "Bei Blutverdünnern, Schwangerschaft oder Infektion an der Stelle wird zuerst der Arzt befragt.",
+          "tag": "Erst zum Arzt"
+        },
+        "box3": {
+          "header": "Mit Manualtherapie",
+          "desc": "Gesundheitszustand und Medikamente werden vorher geprüft; Sicherheit klärt der Arzt.",
+          "tag": "Sichere Behandlung"
+        }
+      }
+    },
+    "session-flow-needling": {
+      "tag": "Sitzungsablauf",
+      "header": "Wie läuft eine Sitzung ab?",
+      "session": {
+        "step1": {
+          "header": "Kostenlose Untersuchung",
+          "desc": "Wir hören Ihre Beschwerde an, analysieren Triggerpunkte und Verspannung und planen die Behandlung gemeinsam."
+        },
+        "step2": {
+          "header": "Dry-Needling-Behandlung",
+          "desc": "In 30 Minuten werden mit dünnen, sterilen Nadeln die Triggerpunkte behandelt; die lokale Entspannung wird beobachtet."
+        },
+        "step3": {
+          "header": "Heimprogramm & Nachsorge",
+          "desc": "Nach der Sitzung erstellen wir Dehn- und Übungsempfehlungen, verfolgen den Fortschritt und passen den Plan an."
+        }
+      }
+    },
+    "hero-cta-needling": {
+      "header": {
+        "title1": "Lösen wir",
+        "title2": "Ihren Schmerz an der Wurzel."
+      },
+      "desc": "Haben Sie Muskelschmerzen durch Triggerpunkte? Starten Sie mit einer medikamentenfreien Lösung. Vereinbaren Sie eine kostenlose Voruntersuchung.",
+      "btns": {
+        "btn1": "Termin buchen",
+        "btn2": "Jetzt anrufen"
+      }
+    }
   }
 }

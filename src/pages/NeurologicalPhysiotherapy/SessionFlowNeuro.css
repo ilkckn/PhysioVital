@@ -19,7 +19,7 @@
         font-weight: 500;
         font-size: clamp(1.3rem, 2vw, 1.4rem);
         text-transform: uppercase;
-        color: var(--accent);
+        color: var(--accent-cool);
         letter-spacing: 1px;
         margin-bottom: 1.5rem;
       }

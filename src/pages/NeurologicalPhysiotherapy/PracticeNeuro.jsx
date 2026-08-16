@@ -1,9 +1,9 @@
 import "./PracticeNeuro.css";
 import { useTranslation } from "react-i18next";
-import { TbActivityHeartbeat, TbPin } from "react-icons/tb";
-import { TbHeartbeat } from "react-icons/tb";
-import { LuShieldCheck } from "react-icons/lu";
-import { FiFlag, FiPlusCircle } from "react-icons/fi";
+import { TbClockHour5 } from "react-icons/tb";
+import { LuShieldCheck, LuDumbbell, LuFootprints } from "react-icons/lu";
+import { IoWarningOutline } from "react-icons/io5";
+import { HiMiniCpuChip } from "react-icons/hi2";
 
 const PracticeNeuro = () => {
   const { t } = useTranslation();
@@ -18,7 +18,7 @@ const PracticeNeuro = () => {
       <div className="practices">
         <div className="box">
           <div className="icon">
-            <TbHeartbeat />
+            <TbClockHour5 />
           </div>
           <h4>{t("neuro-therapy.practice.practices.prac1.header")}</h4>
           <p>{t("neuro-therapy.practice.practices.prac1.desc")}</p>
@@ -26,7 +26,7 @@ const PracticeNeuro = () => {
         </div>
         <div className="box">
           <div className="icon">
-            <TbActivityHeartbeat />
+            <LuShieldCheck />
           </div>
           <h4>{t("neuro-therapy.practice.practices.prac2.header")}</h4>
           <p>{t("neuro-therapy.practice.practices.prac2.desc")}</p>
@@ -34,7 +34,7 @@ const PracticeNeuro = () => {
         </div>
         <div className="box">
           <div className="icon">
-            <LuShieldCheck />
+            <LuDumbbell />
           </div>
           <h4>{t("neuro-therapy.practice.practices.prac3.header")}</h4>
           <p>{t("neuro-therapy.practice.practices.prac3.desc")}</p>
@@ -42,7 +42,7 @@ const PracticeNeuro = () => {
         </div>
         <div className="box">
           <div className="icon">
-            <FiFlag />
+            <LuFootprints />
           </div>
           <h4>{t("neuro-therapy.practice.practices.prac4.header")}</h4>
           <p>{t("neuro-therapy.practice.practices.prac4.desc")}</p>
@@ -50,7 +50,7 @@ const PracticeNeuro = () => {
         </div>
         <div className="box">
           <div className="icon">
-            <FiPlusCircle />
+            <IoWarningOutline />
           </div>
           <h4>{t("neuro-therapy.practice.practices.prac5.header")}</h4>
           <p>{t("neuro-therapy.practice.practices.prac5.desc")}</p>
@@ -58,7 +58,7 @@ const PracticeNeuro = () => {
         </div>
         <div className="box">
           <div className="icon">
-            <TbPin />
+            <HiMiniCpuChip />
           </div>
           <h4>{t("neuro-therapy.practice.practices.prac6.header")}</h4>
           <p>{t("neuro-therapy.practice.practices.prac6.desc")}</p>

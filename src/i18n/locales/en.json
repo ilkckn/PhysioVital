@@ -1449,5 +1449,442 @@
         "btn2": "Call Now"
       }
     }
+  },
+  "orthopedic-therapy": {
+    "navigation": {
+      "home": "Home",
+      "services": "Services",
+      "orthopedic-therapy": "Orthopedic Therapy"
+    },
+    "tags": {
+      "tag1": "Orthopedic Therapy",
+      "tag2": "Joint Rehab"
+    },
+    "header": {
+      "title1": "For your joint health,",
+      "title2": "get moving"
+    },
+    "desc": "Measurement-based physiotherapy to regain range of motion, strength, and daily function after orthopedic surgery or joint pain. A personalized plan, coordinated with your surgeon.",
+    "list": {
+      "li1": "Custom post-surgery rehab plan",
+      "li2": "Focus on joint motion and strength",
+      "li3": "Safe program, coordinated with your doctor"
+    },
+    "first-evaluation": "First consultation and assessment are free",
+    "content-right": {
+      "header": "Session Summary",
+      "desc": "Quick facts about orthopedic therapy",
+      "summary": {
+        "summary1": {
+          "header": "Session length",
+          "desc": "45 minutes"
+        },
+        "summary2": {
+          "header": "Recommended frequency",
+          "desc": "2-3 sessions/week"
+        },
+        "summary3": {
+          "header": "Assessment",
+          "desc": "Joint motion & strength analysis"
+        }
+      },
+      "extra": {
+        "text1": "Orthopedic rehab expertise",
+        "text2": "Movement-focused approach"
+      },
+      "button": "Request a free assessment"
+    },
+    "methods": {
+      "tag": "Method",
+      "header": "What is orthopedic therapy?",
+      "desc": "Orthopedic therapy targets pain and limited motion in joints, bones, muscles, ligaments, and tendons—before and after surgery—to restore function, reduce pain, and prevent re-injury.",
+      "methods-content": {
+        "header": "What does it improve?",
+        "list": {
+          "li1": "Restores joint range of motion",
+          "li2": "Builds strength and stability",
+          "li3": "Speeds up post-op recovery",
+          "li4": "Works closely with your doctor and family"
+        },
+        "methods": {
+          "header": "Assessment tools",
+          "techniques": {
+            "technique1": "Range of motion testing",
+            "technique2": "Strength and balance tests",
+            "technique3": "Posture and alignment analysis",
+            "technique4": "Functional movement screening",
+            "technique5": "Gait and step analysis"
+          }
+        }
+      }
+    },
+    "practice": {
+      "tag": "Practice",
+      "header": "Our orthopedic focus areas",
+      "desc": "Structured, measurement-based work tailored to your surgery or complaint. Each plan adapts to your procedure and daily goals.",
+      "practices": {
+        "prac1": {
+          "header": "Hip & knee replacement",
+          "desc": "Structured program to regain motion, strength, and gait after total hip or knee replacement.",
+          "tag": "Post-replacement"
+        },
+        "prac2": {
+          "header": "ACL repair",
+          "desc": "Gradual strength, balance, and return-to-sport training after ligament repair or reconstruction.",
+          "tag": "Ligament repair"
+        },
+        "prac3": {
+          "header": "Shoulder rehab",
+          "desc": "Regain pain-free, functional shoulder motion after frozen shoulder, rotator cuff, or dislocation.",
+          "tag": "Shoulder"
+        },
+        "prac4": {
+          "header": "Back & neck pain",
+          "desc": "Mobilization and strengthening for disc, degenerative, or posture-related back and neck pain.",
+          "tag": "Spine"
+        },
+        "prac5": {
+          "header": "Meniscus & cartilage",
+          "desc": "Load control, knee stability, and strength work after meniscus repair or cartilage damage.",
+          "tag": "Knee"
+        },
+        "prac6": {
+          "header": "Osteoporosis & bone health",
+          "desc": "Preventive program with balance, posture, and resistance training to lower fracture risk.",
+          "tag": "Bone health"
+        }
+      }
+    },
+    "operation-specific": {
+      "tag": "By Procedure",
+      "header": "Orthopedic programs tailored to you",
+      "desc": "Every surgery and injury has its own recovery timeline. We build your program in stages, coordinated with your surgeon.",
+      "boxes": {
+        "box1": {
+          "header": "Post-replacement",
+          "desc": "Staged, measurement-based plan from the first weeks after hip or knee replacement to daily life.",
+          "tags": {
+            "tag1": "Gait",
+            "tag2": "Motion",
+            "tag3": "Strength"
+          },
+          "cta": {
+            "cta1": "2-3 sessions/week",
+            "cta2": "Get Info"
+          }
+        },
+        "box2": {
+          "header": "Sports injuries",
+          "desc": "Safe return-to-sport training after ligament, meniscus, or tendon injuries.",
+          "tags": {
+            "tag1": "ACL",
+            "tag2": "Meniscus",
+            "tag3": "Return to sport"
+          },
+          "cta": {
+            "cta1": "2-3 sessions/week",
+            "cta2": "Get Info"
+          }
+        },
+        "box3": {
+          "header": "Shoulder & neck",
+          "desc": "Pain-free movement and posture training for frozen shoulder, rotator cuff, or neck issues.",
+          "tags": {
+            "tag1": "Frozen shoulder",
+            "tag2": "Rotator cuff",
+            "tag3": "Posture"
+          },
+          "cta": {
+            "cta1": "2-3 sessions/week",
+            "cta2": "Get Info"
+          }
+        },
+        "box4": {
+          "header": "Chronic pain & osteoporosis",
+          "desc": "Strength, balance, and prevention for back/neck pain and bone density loss.",
+          "tags": {
+            "tag1": "Back pain",
+            "tag2": "Posture",
+            "tag3": "Balance"
+          },
+          "cta": {
+            "cta1": "2-3 sessions/week",
+            "cta2": "Get Info"
+          }
+        }
+      }
+    },
+    "for-whom-orthopedic": {
+      "tag": "Who It's For",
+      "header": "Suited for these cases",
+      "desc": "From pre-surgery prep to post-op, from acute injury to chronic pain. Exact fit is confirmed with your doctor in a free assessment.",
+      "medical-issues": {
+        "issues1": "Hip or knee replacement patients",
+        "issues2": "Ligament or meniscus surgery patients",
+        "issues3": "Sports injury cases",
+        "issues4": "Chronic back and neck pain",
+        "issues5": "Joint osteoarthritis",
+        "issues6": "Posture issues or osteoporosis risk"
+      },
+      "boxes": {
+        "box1": {
+          "header": "When to start",
+          "desc": "Best started in the first weeks after surgery; recommended for limited motion, pain, or function loss.",
+          "tag": "Early start advised"
+        },
+        "box2": {
+          "header": "When to wait",
+          "desc": "With open wounds, new surgical complications, or unmanaged conditions, get an orthopedist's review first.",
+          "tag": "Doctor first"
+        },
+        "box3": {
+          "header": "Doctor-coordinated",
+          "desc": "Your program runs alongside your orthopedist; progress and goals are updated together.",
+          "tag": "Team approach"
+        }
+      }
+    },
+    "session-flow-orthopedic": {
+      "tag": "Session Flow",
+      "header": "What happens in a session?",
+      "session": {
+        "step1": {
+          "header": "Free assessment",
+          "desc": "We hear your complaint, analyze joint motion and strength, and set a plan for your procedure together."
+        },
+        "step2": {
+          "header": "Orthopedic session",
+          "desc": "45 minutes combining movement training, strengthening, and mobilization, geared to your daily life."
+        },
+        "step3": {
+          "header": "Home program & follow-up",
+          "desc": "We prepare a home program for between sessions, track progress, and update the plan with your doctor."
+        }
+      }
+    }
+  },
+  "dry-needling": {
+    "navigation": {
+      "home": "Home",
+      "services": "Services",
+      "dry-needling": "Dry Needling"
+    },
+    "tag": {
+      "tag1": "Dry Needling",
+      "tag2": "Myofascial Pain Treatment"
+    },
+    "header": {
+      "title1": "Trigger points,",
+      "title2": "targeted precisely"
+    },
+    "desc": "Dry needling is a drug-free treatment that uses thin, sterile needles to target tight trigger points in the muscle. It eases pain and restores movement through the muscle's relaxation response.",
+    "list": {
+      "li1": "Drug-free, natural muscle relief",
+      "li2": "Direct targeting of trigger points",
+      "li3": "Complements manual therapy and exercise"
+    },
+    "first-evaluation": "First consultation and assessment are free",
+    "content-right": {
+      "header": "Session Overview",
+      "desc": "Quick facts about dry needling",
+      "summary": {
+        "summary1": {
+          "header": "Session length",
+          "desc": "15-30 minutes"
+        },
+        "summary2": {
+          "header": "Recommended frequency",
+          "desc": "1-2 sessions per week"
+        },
+        "summary3": {
+          "header": "Assessment",
+          "desc": "Muscle spasm and trigger point analysis"
+        }
+      },
+      "extra": {
+        "text1": "Myofascial pain expertise",
+        "text2": "Relief through needling"
+      },
+      "button": "Request a free assessment"
+    },
+    "methods": {
+      "tag": "Method",
+      "header": "What is dry needling?",
+      "desc": "Dry needling is a physiotherapy technique that uses a thin, sterile needle on sensitive trigger points in the muscle, releasing local spasm and improving blood flow. No injection is given; the needle tip only targets the trigger point.",
+      "methods-content": {
+        "header": "What are the benefits?",
+        "list": {
+          "li1": "Reduces trigger point pain",
+          "li2": "Relaxes muscle spasm and tension",
+          "li3": "Boosts blood flow in the muscle",
+          "li4": "Natural relief without medication"
+        },
+        "methods": {
+          "header": "Application techniques",
+          "techniques": {
+            "technique1": "Trigger point palpation",
+            "technique2": "Muscle tension and sensitivity analysis",
+            "technique3": "Range of motion assessment",
+            "technique4": "Posture and load analysis",
+            "technique5": "Pain mapping"
+          }
+        }
+      }
+    },
+    "practice": {
+      "tag": "Application",
+      "header": "Conditions we treat with dry needling",
+      "desc": "For muscle tension and trigger point pain, tailored to your complaint and pain area, and complemented by manual therapy and exercise.",
+      "practices": {
+        "prac1": {
+          "header": "Neck & shoulder tension",
+          "desc": "Targets trigger points in the trapezius, scalene, and shoulder girdle muscles.",
+          "tag": "Neck & shoulder"
+        },
+        "prac2": {
+          "header": "Lower back pain",
+          "desc": "Supportive treatment for tension, spasm, and limited mobility in the deep back and lumbar muscles.",
+          "tag": "Lower back"
+        },
+        "prac3": {
+          "header": "Sports injuries",
+          "desc": "Reduces muscle spasm after injury and supports tissue healing and return to sport.",
+          "tag": "Sports"
+        },
+        "prac4": {
+          "header": "Tension headaches",
+          "desc": "Eases headaches by treating trigger points in the upper neck muscles.",
+          "tag": "Headache"
+        },
+        "prac5": {
+          "header": "Hip & gluteal tension",
+          "desc": "Releasing trigger points in the deep hip muscles reduces lower back and leg pain.",
+          "tag": "Hip"
+        },
+        "prac6": {
+          "header": "Chronic muscle pain",
+          "desc": "Helps manage pain from widespread muscle tenderness and fibromyalgia-like conditions.",
+          "tag": "Chronic pain"
+        }
+      }
+    },
+    "region-specific": {
+      "tag": "Region-Specific",
+      "header": "Dry needling programs tailored to you",
+      "desc": "Assessment-based treatment programs, designed around the pain area and muscle group.",
+      "boxes": {
+        "box1": {
+          "header": "Neck & shoulder",
+          "desc": "Targeted treatment for tension in the trapezius, levator, and shoulder girdle muscles.",
+          "tags": {
+            "tag1": "Trapezius",
+            "tag2": "Scalene muscles",
+            "tag3": "Shoulder girdle"
+          },
+          "cta": {
+            "cta1": "1-2 sessions per week",
+            "cta2": "Get Info"
+          }
+        },
+        "box2": {
+          "header": "Back & hip",
+          "desc": "Releasing the quadratus lumborum, gluteal, and psoas muscles.",
+          "tags": {
+            "tag1": "QL muscle",
+            "tag2": "Gluteal muscles",
+            "tag3": "Psoas muscle"
+          },
+          "cta": {
+            "cta1": "1-2 sessions per week",
+            "cta2": "Get Info"
+          }
+        },
+        "box3": {
+          "header": "Limbs",
+          "desc": "Treatment of trigger points in the calf, thigh, and forearm muscles.",
+          "tags": {
+            "tag1": "Calf",
+            "tag2": "Thigh",
+            "tag3": "Forearm"
+          },
+          "cta": {
+            "cta1": "1-2 sessions per week",
+            "cta2": "Get Info"
+          }
+        },
+        "box4": {
+          "header": "Face & jaw",
+          "desc": "Tension in the masseter, temporalis, and chewing muscles; for pain from teeth clenching.",
+          "tags": {
+            "tag1": "Masseter",
+            "tag2": "Temporalis",
+            "tag3": "Chewing muscles"
+          },
+          "cta": {
+            "cta1": "1 session per week",
+            "cta2": "Get Info"
+          }
+        }
+      }
+    },
+    "for-whom-needling": {
+      "tag": "Who is it for?",
+      "header": "Suitable for these conditions",
+      "desc": "From acute muscle injury to chronic tension. Exact suitability is confirmed together with a doctor during the free initial assessment.",
+      "medical-issues": {
+        "issues1": "Those with neck, shoulder, and back tension",
+        "issues2": "Those with long-term (chronic) muscle pain",
+        "issues3": "Those with post-exercise muscle spasm and fatigue",
+        "issues4": "Those with tension headaches",
+        "issues5": "Those with posture-related tension from desk work",
+        "issues6": "Those with widespread muscle tenderness (fibromyalgia)"
+      },
+      "boxes": {
+        "box1": {
+          "header": "When is it used?",
+          "desc": "Preferred for muscle tension and trigger point pain; planned as a complement to other treatments.",
+          "tag": "For sore muscles"
+        },
+        "box2": {
+          "header": "When is it postponed?",
+          "desc": "A doctor's opinion is obtained first for blood thinner use, pregnancy, or infection at the treatment site.",
+          "tag": "Doctor first"
+        },
+        "box3": {
+          "header": "Combined with manual therapy",
+          "desc": "Your health status and medications are reviewed beforehand; safety is confirmed with a doctor's opinion.",
+          "tag": "Safe treatment"
+        }
+      }
+    },
+    "session-flow-needling": {
+      "tag": "Session Flow",
+      "header": "How does a session go?",
+      "session": {
+        "step1": {
+          "header": "Free assessment",
+          "desc": "We listen to your complaint, analyze trigger points and muscle tension, and plan treatment together."
+        },
+        "step2": {
+          "header": "Dry needling treatment",
+          "desc": "In a 30-minute session, thin sterile needles target the trigger points; the muscle's local relaxation response is monitored."
+        },
+        "step3": {
+          "header": "Home program & follow-up",
+          "desc": "We prepare stretching and exercise recommendations after the session, track progress, and update the plan with you."
+        }
+      }
+    },
+    "hero-cta-needling": {
+      "header": {
+        "title1": "Let's resolve",
+        "title2": "your pain at its root."
+      },
+      "desc": "If muscle pain from trigger points is holding you back, why not start with a drug-free solution? Let's begin with a free initial assessment.",
+      "btns": {
+        "btn1": "Book Appointment",
+        "btn2": "Call Now"
+      }
+    }
   }
 }

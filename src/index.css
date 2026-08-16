@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap");
 
 :root {
   --navbar-height: 10rem;
@@ -23,7 +23,7 @@
   --accent-darker: oklch(30% 0.15 175);
   --accent-darker-v2: oklch(18.5% 0.15 175);
   --accent-lighter: oklch(50% 0.1 175);
-  --accent-teal-blue: oklch(42% 0.15 195); 
+  --accent-teal-blue: oklch(42% 0.15 195);
   --accent-soft: oklch(92% 0.04 175);
   --accent-soft-lighter: oklch(90% 0.04 175);
   --accent-soft-lighter-v1: oklch(97% 0.02 175);
@@ -34,6 +34,7 @@
   --accent-warm-soft: oklch(93% 0.035 40);
   --accent-cool: oklch(55% 0.12 250);
   --accent-cool-darker: oklch(45% 0.12 250);
+  --accent-cool-darker-v2: oklch(25% 0.12 250);
   --accent-cool-soft: oklch(90% 0.04 250);
   --accent-cool-v2: oklch(94% 0.05 250);
   --accent-cool-lighter: oklch(100% 0.025 250);
@@ -41,8 +42,7 @@
   --hover: oklch(95% 0 0);
 
   --font-display: "Poppins", sans-serif;
-  --font-body:
-    "Poppins", sans-serif;
+  --font-body: "Poppins", sans-serif;
   --font-accent: "Dancing Script", cursive;
   --font-few: "Cormorant", "Garamond", sans-serif;
 

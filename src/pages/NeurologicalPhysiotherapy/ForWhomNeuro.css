@@ -18,7 +18,7 @@
         font-weight: 500;
         font-size: clamp(1.3rem, 2vw, 1.4rem);
         text-transform: uppercase;
-        color: var(--accent);
+        color: var(--accent-cool);
         letter-spacing: 1px;
         margin-bottom: 1.5rem;
       }
@@ -65,7 +65,7 @@
 
             & > svg {
               transform: translateY(0.2rem);
-              color: var(--accent-lighter);
+              color: var(--accent-cool);
               font-size: clamp(1.3rem, 2vw, 1.6rem);
             }
           }
@@ -129,7 +129,7 @@
           font-size: clamp(1.15rem, 2vw, 1.25rem);
           font-weight: 500;
           letter-spacing: 0.5px;
-          color: var(--accent);
+          color: var(--accent-cool);
         }
       }
     }

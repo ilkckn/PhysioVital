@@ -48,7 +48,7 @@
         & > span {
           display: block;
           color: transparent;
-          -webkit-text-stroke: 1px var(--accent-cool);
+          -webkit-text-stroke: 1px var(--accent);
           font-size: clamp(1.6rem, 4.5vw, 3.8rem);
         }
 

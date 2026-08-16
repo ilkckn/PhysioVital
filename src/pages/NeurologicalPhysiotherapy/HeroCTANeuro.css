@@ -1,6 +1,6 @@
 .hero-cta-neuro {
   width: 100%;
-  background-color: var(--accent-darker-v2);
+  background-color: var(--accent-cool-darker-v2);
   border-radius: 3rem;
 
   .content {
@@ -30,7 +30,7 @@
           line-height: 1;
           font-family: var(--font-accent);
           font-size: clamp(3rem, 5vw, 4.3rem);
-          color: var(--accent-soft-lighter);
+          color: var(--accent-cool-soft);
         }
       }
 
@@ -98,7 +98,7 @@
           }
 
           &:hover {
-            color: var(--accent);
+            color: var(--accent-cool);
             transform: translateY(0);
             &::after {
               transform: scale(1);

@@ -198,8 +198,8 @@
 
           .summary {
             width: 100%;
-            border-top: 1px solid var(--border-cool-lighter);
-            border-bottom: 1px solid var(--border-cool-lighter);
+            border-top: 1px solid var(--border-greenish-lighter);
+            border-bottom: 1px solid var(--border-greenish-lighter);
             display: flex;
             flex-direction: column;
             gap: 1.5rem;
@@ -209,19 +209,19 @@
               display: flex;
               align-items: center;
               gap: 1rem;
-              border-bottom: 1px solid var(--border-cool-lighter);
+              border-bottom: 1px solid var(--border-greenish-lighter);
 
               .icon {
                 width: 4rem;
                 height: 4rem;
-                background-color: var(--accent-cool-v2);
+                background-color: var(--accent-soft);
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 border-radius: 1rem;
 
                 & > svg {
-                  color: var(--accent-cool);
+                  color: var(--accent);
                   font-size: clamp(1.5rem, 2vw, 1.8rem);
                 }
               }
@@ -276,7 +276,7 @@
             }
 
             & > span:last-child {
-              color: var(--accent-cool);
+              color: var(--accent);
               font-weight: 600;
             }
           }
@@ -295,7 +295,7 @@
               width: 100%;
               padding-block: 1.3rem;
               border-radius: 4rem;
-              background-color: var(--accent-cool);
+              background-color: var(--accent);
               color: var(--surface);
               font-size: clamp(1.3rem, 2vw, 1.5rem);
               font-weight: 300;

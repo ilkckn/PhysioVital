@@ -12,7 +12,7 @@
       "neurological-physiotherapy": "Nörolojik Fizyoterapi",
       "orthopedic-rehabilitation": "Ortopedik Terapi",
       "dry-needling": "Kuru İğne",
-      "individual-exercise-programs": "Bireysel Egzersiz Programları"
+      "individual-exercise-programs": "Bireysel Egzersiz"
     },
     "mobile-appointment": "Randevu Al"
   },
@@ -1439,6 +1439,667 @@
         "title2": "yeniden kazanın."
       },
       "desc": "İnme, Parkinson, MS ya da omurilik yaralanması sonrası hareketinizi güvenle yeniden öğrenmek ister misiniz? Ücretsiz ön değerlendirme ile başlayalım.",
+      "btns": {
+        "btn1": "Randevu Alın",
+        "btn2": "Hemen Arayın"
+      }
+    }
+  },
+  "orthopedic-therapy": {
+    "navigation": {
+      "home": "Ana Sayfa",
+      "services": "Hizmetlerimiz",
+      "orthopedic-therapy": "Ortopedik Fizyoterapi"
+    },
+    "tags": {
+      "tag1": "Ortopedik Fizyoterapi",
+      "tag2": "Eklem Rehabilitasyonu"
+    },
+    "header": {
+      "title1": "Eklem sağlığınız için",
+      "title2": "harekete geçin"
+    },
+    "desc": "Ortopedik cerrahi sonrası ve eklem kaynaklı ağrılarda hareket açıklığını, kas gücünü ve günlük yaşam fonksiyonlarını yeniden kazanmak için ölçüme dayalı fizyoterapi. Cerrahınızla koordineli, size özel bir plan.",
+    "list": {
+      "li1": "Cerrahi sonrası rehabilitasyona özel plan",
+      "li2": "Eklem hareketi ve güç odaklı çalışma",
+      "li3": "Hekimle koordineli, güvenli program"
+    },
+    "first-evaluation": "İlk görüşme ve ön değerlendirme ücretsizdir",
+    "content-right": {
+      "header": "Seans Özeti",
+      "desc": "Ortopedik fizyoterapi hakkında hızlı bilgiler",
+      "summary": {
+        "summary1": {
+          "header": "Seans süresi",
+          "desc": "45 dakika"
+        },
+        "summary2": {
+          "header": "Önerilen sıklık",
+          "desc": "Haftada 2-3 seans"
+        },
+        "summary3": {
+          "header": "Değerlendirme",
+          "desc": "Eklem hareket & güç analizi"
+        }
+      },
+      "extra": {
+        "text1": "Ortopedik rehabilitasyon uzmanlığı",
+        "text2": "Hareket odaklı yaklaşım"
+      },
+      "button": "Ücretsiz değerlendirme isteyin"
+    },
+    "methods": {
+      "tag": "Yöntem",
+      "header": "Ortopedik fizyoterapi nedir?",
+      "desc": "Ortopedik fizyoterapi; eklem, kemik, kas, bağ ve tendon kaynaklı ağrı ve hareket kısıtlılıklarında, cerrahi öncesi ve sonrası dönemde fonksiyonu geri kazandırmayı, ağrıyı azaltmayı ve yeniden yaralanmayı önlemeyi hedefleyen, ortopedi odaklı bir fizyoterapi yaklaşımıdır.",
+      "methods-content": {
+        "header": "Neler kazandırır?",
+        "list": {
+          "li1": "Eklem hareket açıklığını geri kazandırır",
+          "li2": "Kas gücünü ve stabiliteyi yükseltir",
+          "li3": "Ameliyat sonrası toparlanmayı hızlandırır",
+          "li4": "Hekim ve aileyle birlikte çalışır"
+        },
+        "methods": {
+          "header": "Değerlendirme araçları",
+          "techniques": {
+            "technique1": "Eklem hareket açıklığı ölçümü",
+            "technique2": "Kas gücü ve denge testleri",
+            "technique3": "Postür ve dizilim analizi",
+            "technique4": "Fonksiyonel hareket değerlendirmesi",
+            "technique5": "Yürüyüş ve adım analizi"
+          }
+        }
+      }
+    },
+    "practice": {
+      "tag": "Uygulama",
+      "header": "Ortopedik odaklı çalışmalarımız",
+      "desc": "Operasyon tipinize ve şikayetinize göre yapılandırılmış, ölçüme dayalı çalışmalar. Her plan ameliyatınıza ve günlük yaşam hedeflerinize göre yeniden şekillenir.",
+      "practices": {
+        "prac1": {
+          "header": "Kalça & diz protezi",
+          "desc": "Total kalça ve diz protezi sonrası hareket, güç ve yürüyüşün yeniden kazanılması için yapılandırılmış program.",
+          "tag": "Protez sonrası"
+        },
+        "prac2": {
+          "header": "Ön çapraz bağ (ACL)",
+          "desc": "Bağ onarımı ve rekonstrüksiyon sonrası kademeli güç, denge ve spora dönüş eğitimi.",
+          "tag": "Bağ onarımı"
+        },
+        "prac3": {
+          "header": "Omuz rehabilitasyonu",
+          "desc": "Donuk omuz, rotator manşet ve çıkık sonrası ağrısız, fonksiyonel omuz hareketinin yeniden kazanılması.",
+          "tag": "Omuz"
+        },
+        "prac4": {
+          "header": "Bel & boyun ağrısı",
+          "desc": "Fıtık, dejeneratif süreç ve duruş kaynaklı bel-boyun ağrısında mobilizasyon ve güçlendirme çalışmaları.",
+          "tag": "Omurga"
+        },
+        "prac5": {
+          "header": "Menisküs & kıkırdak",
+          "desc": "Menisküs onarımı ve kıkırdak hasarında yük kontrolü, diz dengesi ve güç çalışmaları.",
+          "tag": "Diz"
+        },
+        "prac6": {
+          "header": "Osteoporoz & kemik sağlığı",
+          "desc": "Kırık riskini azaltmak için denge, duruş ve dirençli güçlendirme içeren koruyucu program.",
+          "tag": "Kemik sağlığı"
+        }
+      }
+    },
+    "operation-specific": {
+      "tag": "Operasyona Özel",
+      "header": "Durumunuza özel ortopedik programlar",
+      "desc": "Her operasyon ve yaralanmanın kendine özgü iyileşme dönemi vardır. Programınızı cerrahınızla koordineli, evrelere göre kurgularız.",
+      "boxes": {
+        "box1": {
+          "header": "Protez sonrası",
+          "desc": "Kalça ve diz protezi sonrası ilk haftalardan günlük yaşama dönüşe kadar evreli, ölçüme dayalı plan.",
+          "tags": {
+            "tag1": "Yürüyüş",
+            "tag2": "Hareket",
+            "tag3": "Güç"
+          },
+          "cta": {
+            "cta1": "Haftada 2-3 seans",
+            "cta2": "Bilgi Alın"
+          }
+        },
+        "box2": {
+          "header": "Spor yaralanmaları",
+          "desc": "Bağ, menisküs ve tendon yaralanmalarında yaralanma sonrası güvenli spora dönüş eğitimi.",
+          "tags": {
+            "tag1": "ACL",
+            "tag2": "Meniküs",
+            "tag3": "Spora dönüşü"
+          },
+          "cta": {
+            "cta1": "Haftada 2-3 seans",
+            "cta2": "Bilgi Alın"
+          }
+        },
+        "box3": {
+          "header": "Omuz & boyun",
+          "desc": "Donuk omuz, rotator manşet ve boyun kaynaklı kısıtlılıklarda ağrısız hareket ve postür eğitimi.",
+          "tags": {
+            "tag1": "Donuk omuz",
+            "tag2": "Rotator manşet",
+            "tag3": "Postür"
+          },
+          "cta": {
+            "cta1": "Haftada 2-3 seans",
+            "cta2": "Bilgi Alın"
+          }
+        },
+        "box4": {
+          "header": "Kronik ağrı & osteoporoz",
+          "desc": "Bel-boyun ağrısı ve kemik yoğunluğu kaybında güçlendirme, denge ve koruyucu yaklaşımlar.",
+          "tags": {
+            "tag1": "Bel ağrusu",
+            "tag2": "Duruş",
+            "tag3": "Denge"
+          },
+          "cta": {
+            "cta1": "Haftada 2-3 seans",
+            "cta2": "Bilgi Alın"
+          }
+        }
+      }
+    },
+    "for-whom-orthopedic": {
+      "tag": "Kimler için?",
+      "header": "Bu durumlar için uygun",
+      "desc": "Ameliyat öncesi hazırlıktan sonrasına, akut yaralanmadan kronik ağrıya. Kesin uygunluğu ücretsiz ön değerlendirmede hekim görüşüyle birlikte belirleriz.",
+      "medical-issues": {
+        "issues1": "Kalça veya diz protezi geçirenler",
+        "issues2": "Bağ ve menisküs ameliyatı olanlar",
+        "issues3": "Spor yaralanması yaşayanlar",
+        "issues4": "Kronik bel ve boyun ağrısı çekenler",
+        "issues5": "Eklem kireçlenmesi (osteoartrit) olanlar",
+        "issues6": "Duruş bozukluğu ve osteoporoz riski taşıyanlar"
+      },
+      "boxes": {
+        "box1": {
+          "header": "Ne zaman uygulanır?",
+          "desc": "Ameliyat sonrası ilk haftalarda başlanması önerilir; hareket kısıtlılığı, ağrı ve fonksiyon kaybında tercih edilir.",
+          "tag": "Erken dönem önerilir"
+        },
+        "box2": {
+          "header": "Ne zaman ertelenir?",
+          "desc": "Açık yara, yeni operasyon komplikasyonu veya kontrol edilmemiş tıbbi durumlarda önce ortopedist görüşü alınır.",
+          "tag": "Öncelikle hekim"
+        },
+        "box3": {
+          "header": "Hekimle birlikte",
+          "desc": "Program ortopedi hekiminizle koordineli yürütülür; ilerleme ölçümleri ve hedefler birlikte güncellenir.",
+          "tag": "Takım çalışması"
+        }
+      }
+    },
+    "session-flow-orthopedic": {
+      "tag": "Seans Akışı",
+      "header": "Seans nasıl geçer?",
+      "session": {
+        "step1": {
+          "header": "Ücretsiz değerlendirme",
+          "desc": "Şikayetinizi dinler, eklem hareketi ve güç analizi yapar, operasyonunuza uygun planı birlikte belirleriz."
+        },
+        "step2": {
+          "header": "Ortopedik seans",
+          "desc": "45 dakikalık seansta hareket eğitimi, güçlendirme ve mobilizasyonu birleştirir; günlük yaşamınıza yönelik çalışırız."
+        },
+        "step3": {
+          "header": "Ev programı & takip",
+          "desc": "Seans dışı tekrarlar için ev programı hazırlar, ilerlemeyi ölçer ve hekiminizle planı birlikte güncelleriz."
+        }
+      }
+    }
+  },
+  "dry-needling": {
+    "navigation": {
+      "home": "Ana Sayfa",
+      "services": "Hizmetlerimiz",
+      "dry-needling": "Kuru İğneleme"
+    },
+    "tag": {
+      "tag1": "Kuru İğneleme",
+      "tag2": "Myofasyal Ağrı Tedavisi"
+    },
+    "header": {
+      "title1": "Tetik noktalara",
+      "title2": "nokta atışı"
+    },
+    "desc": "Kuru iğne; kas içindeki gergin tetik noktaları hedefleyen, ince uçlu steril iğnelerle uygulanan ilaçsız bir tedavi yöntemidir. Kasın gevşeme tepkisini kullanarak ağrıyı azaltır, hareketi geri kazandırır.",
+    "list": {
+      "li1": "İlaçsız, doğal kas gevşetme",
+      "li2": "Tetik noktayı doğrudan hedefleyen uygulama",
+      "li3": "Elle terapi ve egzersizle tamamlayıcı"
+    },
+    "first-evaluation": "İlk görüşme ve ön değerlendirme ücretsizdir",
+    "content-right": {
+      "header": "Seans Özeti",
+      "desc": "Kuru iğneleme hakkında hızlı bilgiler",
+      "summary": {
+        "summary1": {
+          "header": "Seans süresi",
+          "desc": "15-30 dakika"
+        },
+        "summary2": {
+          "header": "Önerilen sıklık",
+          "desc": "Haftada 1-2 seans"
+        },
+        "summary3": {
+          "header": "Değerlendirme",
+          "desc": "Kas spazmı ve tetik nokta analizi"
+        }
+      },
+      "extra": {
+        "text1": "Myofasyal ağrı uzmanlığı",
+        "text2": "İğneyle gevşeme"
+      },
+      "button": "Ücretsiz değerlendirme isteyin"
+    },
+    "methods": {
+      "tag": "Yöntem",
+      "header": "Kuru iğneleme nedir?",
+      "desc": "Kuru iğne; kas içindeki hassas tetik noktalarına ince, steril bir iğne ile uygulanan, lokal kas spazmını çözen ve kanlanmayı artıran bir fizyoterapi yöntemidir. Uygulama sırasında enjeksiyon yapılmaz; iğne ucu yalnızca tetik noktayı hedefler.",
+      "methods-content": {
+        "header": "Neler kazandırır?",
+        "list": {
+          "li1": "Tetik nokta kaynaklı ağrıyı azaltır",
+          "li2": "Kas spazmını ve gerginliği gevşetir",
+          "li3": "Kas içi kanlanmayı destekler",
+          "li4": "İlaç kullanmadan doğal rahatlama sağlar"
+        },
+        "methods": {
+          "header": "Uygulama teknikleri",
+          "techniques": {
+            "technique1": "Tetik nokta palpasyonu",
+            "technique2": "Kas gerginlik ve hassasiyet analizi",
+            "technique3": "Hareket kısıtlılığı ölçümü",
+            "technique4": "Postür ve yüklenme analizi",
+            "technique5": "Ağrı haritası çıkarımı"
+          }
+        }
+      }
+    },
+    "practice": {
+      "tag": "Uygulama",
+      "header": "Kuru iğne uyguladığımız durumlar",
+      "desc": "Kas gerginliği ve tetik nokta kaynaklı ağrıda; şikayetinize ve ağrı bölgesine göre planlanan, elle terapi ve egzersizle tamamlayıcı çalışmalar.",
+      "practices": {
+        "prac1": {
+          "header": "Boyun & omuz gerginliği",
+          "desc": "Trapez, skalen ve omuz kuşağı kaslarındaki tetik noktalara yönelik uygulama.",
+          "tag": "Boyun & omuz"
+        },
+        "prac2": {
+          "header": "Bel ağrısı",
+          "desc": "Sırt ve bel derin kaslarındaki gerginlik, spazm ve hareket kısıtlılığında destekleyici çalışma.",
+          "tag": "Bel bölgesi"
+        },
+        "prac3": {
+          "header": "Spor yaralanmaları",
+          "desc": "Kas yaralanması sonrası spazmı azaltır, doku iyileşmesini ve spora dönüşü destekler.",
+          "tag": "Spor"
+        },
+        "prac4": {
+          "header": "Gerilim tipi baş ağrısı",
+          "desc": "Boyun üstü kaslarının tetik noktalarına uygulanarak baş ağrısını hafifletir.",
+          "tag": "Baş ağrısı"
+        },
+        "prac5": {
+          "header": "Kalça & gluteal gerginlik",
+          "desc": "Kalça derin kaslarındaki tetik noktaların gevşetilmesiyle bel ve bacak ağrısını azaltır.",
+          "tag": "Kalça"
+        },
+        "prac6": {
+          "header": "Kronik kas ağrısı",
+          "desc": "Yaygın kas hassasiyeti ve fibromiyalji benzeri tablolarda ağrı kontrolüne katkı sağlar.",
+          "tag": "Kronik ağrı"
+        }
+      }
+    },
+    "region-specific": {
+      "tag": "Bölgeye Özel",
+      "header": "Durumunuza özel kuru iğne programları",
+      "desc": "Ağrının bulunduğu bölgeye ve kas grubuna göre kurgulanan, değerlendirmeye dayalı uygulama programları.",
+      "boxes": {
+        "box1": {
+          "header": "Boyun & omuz",
+          "desc": "Trapez, levator ve omuz kuşağı kaslarındaki gerginliğe özel uygulamalar.",
+          "tags": {
+            "tag1": "Trapez kası",
+            "tag2": "Skalen kasları",
+            "tag3": "Omuz kuşağı"
+          },
+          "cta": {
+            "cta1": "Haftada 1-2 seans",
+            "cta2": "Bilgi Alın"
+          }
+        },
+        "box2": {
+          "header": "Bel & kalça",
+          "desc": "Quadratus lumborum, gluteal ve psoas kaslarının gevşetilmesi.",
+          "tags": {
+            "tag1": "QL kası",
+            "tag2": "Gluteal kaslar",
+            "tag3": "Psoas kası"
+          },
+          "cta": {
+            "cta1": "Haftada 1-2 seans",
+            "cta2": "Bilgi Alın"
+          }
+        },
+        "box3": {
+          "header": "Ekstremiteler",
+          "desc": "Baldır, uyluk ve ön kol kaslarındaki tetik noktalara yönelik çalışma.",
+          "tags": {
+            "tag1": "Baldır",
+            "tag2": "Uyluk",
+            "tag3": "Ön kol"
+          },
+          "cta": {
+            "cta1": "Haftada 1-2 seans",
+            "cta2": "Bilgi Alın"
+          }
+        },
+        "box4": {
+          "header": "Yüz & çene",
+          "desc": "Masseter, temporal ve çiğneme kaslarındaki gerginlik; diş sıkma kaynaklı ağrıda.",
+          "tags": {
+            "tag1": "Masseter",
+            "tag2": "Temporal",
+            "tag3": "Çiğneme"
+          },
+          "cta": {
+            "cta1": "Haftada 1 seans",
+            "cta2": "Bilgi Alın"
+          }
+        }
+      }
+    },
+    "for-whom-needling": {
+      "tag": "Kimler için?",
+      "header": "Bu durumlar için uygun",
+      "desc": "Akut kas yaralanmasından kronik gerginliğe. Kesin uygunluğu ücretsiz ön değerlendirmede hekim görüşüyle birlikte belirleriz.",
+      "medical-issues": {
+        "issues1": "Boyun, omuz ve sırt gerginliği yaşayanlar",
+        "issues2": "Uzun süreli (kronik) kas ağrısı çekenler",
+        "issues3": "Spor sonrası kas spazmı ve yorgunluğu olanlar",
+        "issues4": "Gerilim tipi baş ağrısı yaşayanlar",
+        "issues5": "Oturarak çalışan, duruş kaynaklı gerginliği olanlar",
+        "issues6": "Yaygın kas hassasiyeti (fibromiyalji) olanlar"
+      },
+      "boxes": {
+        "box1": {
+          "header": "Ne zaman uygulanır?",
+          "desc": "Kas gerginliği ve tetik nokta kaynaklı ağrıda tercih edilir; diğer tedavilerle tamamlayıcı olarak planlanır.",
+          "tag": "Ağrılı kaslarda"
+        },
+        "box2": {
+          "header": "Ne zaman ertelenir?",
+          "desc": "Kan sulandırıcı kullanımı, hamilelik veya uygulama bölgesinde enfeksiyon varlığında önce hekim görüşü alınır.",
+          "tag": "Öncelikle hekim"
+        },
+        "box3": {
+          "header": "Elle terapi ile birlikte",
+          "desc": "Uygulama öncesi sağlık durumunuz ve ilaçlarınız değerlendirilir; güvenlik kontrolü hekim görüşüyle netleştirilir.",
+          "tag": "Güvenli uygulama"
+        }
+      }
+    },
+    "session-flow-needling": {
+      "tag": "Seans Akışı",
+      "header": "Seans nasıl geçer?",
+      "session": {
+        "step1": {
+          "header": "Ücretsiz değerlendirme",
+          "desc": "Şikayetinizi dinler, tetik noktaları ve kas gerginliğini analiz eder, uygulama planını birlikte belirleriz."
+        },
+        "step2": {
+          "header": "Kuru iğne uygulaması",
+          "desc": "30 dakikalık seansta ince uçlu steril iğnelerle tetik noktalar hedeflenir; kasın lokal gevşeme tepkisi takip edilir."
+        },
+        "step3": {
+          "header": "Ev programı & takip",
+          "desc": "Seans sonrası esneme ve egzersiz önerileri hazırlar; ilerlemeyi izler ve planı sizinle güncelleriz."
+        }
+      }
+    },
+    "hero-cta-needling": {
+      "header": {
+        "title1": "Ağrınızı",
+        "title2": "kökünden çözelim."
+      },
+      "desc": "Tetik nokta kaynaklı kas ağrınız varsa, ilaçsız bir çözümle başlamak ister misiniz? Ücretsiz ön değerlendirme ile tanışalım.",
+      "btns": {
+        "btn1": "Randevu Alın",
+        "btn2": "Hemen Arayın"
+      }
+    }
+  },
+  "individual-exercise-programs": {
+    "navigation": {
+      "home": "Ana Sayfa",
+      "services": "Hizmetlerimiz",
+      "individual-exercise-programs": "Bireysel Egzersiz Programları"
+    },
+    "tag": {
+      "tag1": "Bireysel Egzersiz Programları",
+      "tag2": "Evde Egzersiz"
+    },
+    "header": {
+      "title1": "Size özel",
+      "title2": "egzersiz planı"
+    },
+    "desc": "Fizyoterapistiniz tarafından belirlenen, size özel egzersiz programı. Evde veya spor salonunda güvenle uygulayabileceğiniz, ilerlemenizi takip edebileceğiniz bir plan.",
+    "list": {
+      "li1": "Fizyoterapist tarafından kişiye özel hazırlanır",
+      "li2": "Evde veya spor salonunda uygulanabilir",
+      "li3": "İlerlemeniz takip edilir ve güncellenir"
+    },
+    "first-evaluation": "İlk görüşme ve ön değerlendirme ücretsizdir",
+    "content-right": {
+      "header": "Seans Özeti",
+      "desc": "Egzersiz programları hakkında hızlı bilgiler",
+      "summary": {
+        "summary1": {
+          "header": "Program süresi",
+          "desc": "4-12 hafta"
+        },
+        "summary2": {
+          "header": "Önerilen sıklık",
+          "desc": "Haftada 3-5 gün"
+        },
+        "summary3": {
+          "header": "Değerlendirme",
+          "desc": "Fizyoterapist kontrolü ve ilerleme takibi"
+        }
+      },
+      "extra": {
+        "text1": "Kişiye özel egzersiz planı",
+        "text2": "Evde, spor salonunda uygulanabilir"
+      },
+      "button": "Ücretsiz değerlendirme isteyin"
+    },
+    "methods": {
+      "tag": "Yöntem",
+      "header": "Bireysel egzersiz programları nedir?",
+      "desc": "Bireysel egzersiz programları; fizyoterapistiniz tarafından belirlenen, size özel, evde veya spor salonunda güvenle uygulayabileceğiniz bir egzersiz planıdır. Program, mevcut durumunuza, hedeflerinize ve ilerlemenize göre düzenlenir.",
+      "methods-content": {
+        "header": "Neler kazandırır?",
+        "list": {
+          "li1": "Kas gücünü ve dayanıklılığı artırır",
+          "li2": "Denge ve koordinasyonu geliştirir",
+          "li3": "Ağrıyı azaltır",
+          "li4": "Günlük yaşam aktivitelerini kolaylaştırır"
+        },
+        "methods": {
+          "header": "Değerlendirme araçları",
+          "techniques": {
+            "technique1": "Fonksiyonel hareket değerlendirmesi",
+            "technique2": "Denge ve koordinasyon testleri",
+            "technique3": "Kas gücü ve tonus ölçümü",
+            "technique4": "Yürüyüş ve transfer analizi",
+            "technique5": "Günlük yaşam aktivitesi takibi"
+          }
+        }
+      }
+    },
+    "practice": {
+      "tag": "Uygulama",
+      "header": "Bireysel egzersiz programlarımız",
+      "desc": "Mevcut durumunuza ve hedeflerinize göre yapılandırılmış, ölçüme dayalı egzersiz programları. Her plan ilerlemenize göre yeniden şekillenir.",
+      "practices": {
+        "prac1": {
+          "header": "Kas güçlendirme",
+          "desc": "Zayıf kas gruplarını güçlendirir ve eklem stabilitesini artırır.",
+          "tag": "Güçlendirme"
+        },
+        "prac2": {
+          "header": "Denge & koordinasyon",
+          "desc": "Denge ve koordinasyon kaybında güvenli hareket için kademeli egzersizler.",
+          "tag": "Denge"
+        },
+        "prac3": {
+          "header": "Esneklik & mobilite",
+          "desc": "Kas ve eklem esnekliğini artırarak hareket açıklığını geliştirir.",
+          "tag": "Esneklik"
+        },
+        "prac4": {
+          "header": "Ağrı yönetimi",
+          "desc": "Kronik ağrı ve kas gerginliğini azaltan özel germe egzersizleri.",
+          "tag": "Ağrı yönetimi"
+        },
+        "prac5": {
+          "header": "Postür & duruş",
+          "desc": "Duruş bozukluklarını düzeltmek ve omurga sağlığını desteklemek için egzersizler.",
+          "tag": "Postür"
+        },
+        "prac6": {
+          "header": "Fonksiyonel hareket",
+          "desc": "Günlük yaşam aktivitelerini kolaylaştıran, fonksiyonel hareket becerilerini geliştiren egzersizler.",
+          "tag": "Fonksiyonel"
+        }
+      }
+    },
+    "goal-specific": {
+      "tag": "Hedefe Özel",
+      "header": "Hedefinize özel egzersiz programları",
+      "desc": "Amacınıza ve yaşam tarzınıza göre kurgulanan, değerlendirmeye dayalı program paketleri.",
+      "boxes": {
+        "box1": {
+          "header": "Ameliyat sonrası rehabilitasyon",
+          "desc": "Hareket açıklığını ve gücü kademeli olarak geri kazandıran güvenli program.",
+          "tags": {
+            "tag1": "Hareket açıklığı",
+            "tag2": "Kas gücü",
+            "tag3": "Kademeli yükleme"
+          },
+          "cta": {
+            "cta1": "Haftada 3-4 gün",
+            "cta2": "Bilgi Alın"
+          }
+        },
+        "box2": {
+          "header": "Yaşlılıkta güç & denge",
+          "desc": "Bacak gücünü ve dengeyi geliştirerek düşme riskini azaltan program.",
+          "tags": {
+            "tag1": "Denge",
+            "tag2": "Bacak gücü",
+            "tag3": "Düşme önleme"
+          },
+          "cta": {
+            "cta1": "Haftada 3-4 gün",
+            "cta2": "Bilgi Alın"
+          }
+        },
+        "box3": {
+          "header": "Ofis & masa başı",
+          "desc": "Uzun oturmaya bağlı duruş bozukluğu ve gerginliği azaltan program.",
+          "tags": {
+            "tag1": "Postür",
+            "tag2": "Boyun & sırt",
+            "tag3": "Mobilite"
+          },
+          "cta": {
+            "cta1": "Haftada 3-4 gün",
+            "cta2": "Bilgi Alın"
+          }
+        },
+        "box4": {
+          "header": "Sporcu & performans",
+          "desc": "Güç, dayanıklılık ve çevikliği artırarak sportif performansı destekler.",
+          "tags": {
+            "tag1": "Güç",
+            "tag2": "Dayanıklılık",
+            "tag3": "Çeviklik"
+          },
+          "cta": {
+            "cta1": "Haftada 3-4 gün",
+            "cta2": "Bilgi Alın"
+          }
+        }
+      }
+    },
+    "for-whom-individual": {
+      "tag": "Kimler için?",
+      "header": "Bu durumlar için uygun",
+      "desc": "Ameliyat sonrası rehabilitasyondan yaşlılıkta düşme riskine, ofis çalışanlarından sporculara. Kesin uygunluğu ücretsiz ön değerlendirmede fizyoterapist görüşüyle birlikte belirleriz.",
+      "medical-issues": {
+        "issues1": "Ameliyat sonrası hareket kısıtlılığı yaşayanlar",
+        "issues2": "Yaşlılıkta güç ve denge kaybı olanlar",
+        "issues3": "Ofis çalışanları ve masa başı gerginliği yaşayanlar",
+        "issues4": "Sporcular ve performans artırmak isteyenler",
+        "issues5": "Kronik ağrı ve kas gerginliği çekenler",
+        "issues6": "Duruş bozukluğu ve postür sorunları olanlar"
+      },
+      "boxes": {
+        "box1": {
+          "header": "Ne zaman uygulanır?",
+          "desc": "Hedefinize uygun egzersiz programı, mevcut durumunuza ve yaşam tarzınıza göre planlanır; ilerleme ölçümleriyle güncellenir.",
+          "tag": "Hedef odaklı"
+        },
+        "box2": {
+          "header": "Ne zaman ertelenir?",
+          "desc": "Ağır akut yaralanma, enfeksiyon veya kontrol edilmemiş tıbbi durumlarda önce fizyoterapist veya hekim görüşü alınır.",
+          "tag": "Öncelikle hekim"
+        },
+        "box3": {
+          "header": "Fizyoterapist ile birlikte",
+          "desc": "Program fizyoterapistinizle koordineli yürütülür; ilerleme ölçümleri ve hedefler birlikte güncellenir.",
+          "tag": "Takım çalışması"
+        }
+      }
+    },
+    "session-flow-individual": {
+      "tag": "Seans Akışı",
+      "header": "Seans nasıl geçer?",
+      "session": {
+        "step1": {
+          "header": "Ücretsiz değerlendirme",
+          "desc": "Mevcut durumunuzu ve hedeflerinizi dinler, fonksiyonel ve kas analizi yapar, size özel egzersiz planını birlikte belirleriz."
+        },
+        "step2": {
+          "header": "Egzersiz programı",
+          "desc": "Programın uygulanması sırasında fizyoterapistiniz rehberlik eder; doğru form ve güvenli uygulama sağlanır."
+        },
+        "step3": {
+          "header": "Ev programı & takip",
+          "desc": "Seans sonrası evde uygulanacak egzersizleri hazırlar, ilerlemenizi takip eder ve planı sizinle güncelleriz."
+        }
+      }
+    },
+    "hero-cta-individual": {
+      "header": {
+        "title1": "Hedefinize",
+        "title2": "ulaşın."
+      },
+      "desc": "Kişiye özel egzersiz programınızla, evde veya spor salonunda güvenle ilerlemek ister misiniz? Ücretsiz ön değerlendirme ile başlayalım.",
       "btns": {
         "btn1": "Randevu Alın",
         "btn2": "Hemen Arayın"

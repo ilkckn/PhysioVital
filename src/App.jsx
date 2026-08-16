@@ -40,18 +40,9 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/appointment" element={<Appointment />} />
           <Route path="/services/manual-therapy" element={<ManualTherapy />} />
-          <Route
-            path="/services/sports-rehabilitation"
-            element={<SportsRehabilitation />}
-          />
-          <Route
-            path="/services/neurological-physiotherapy"
-            element={<NeuroRehabilitation />}
-          />
-          <Route
-            path="/services/orthopedic-rehabilitation"
-            element={<OrthopedicRehabilitation />}
-          />
+          <Route path="/services/sports-rehabilitation" element={<SportsRehabilitation />} />
+          <Route path="/services/neurological-physiotherapy" element={<NeuroRehabilitation />} />
+          <Route path="/services/orthopedic-rehabilitation" element={<OrthopedicRehabilitation />} />
           <Route path="/services/dry-needling" element={<DryNeedling />} />
           <Route path="/services/individual-exercise-programs" element={<IndividualExercisePrograms />} />
           <Route path="*" element={<NotFound />} />

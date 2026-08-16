@@ -1,11 +1,11 @@
-import "./MethodSports.css"
-import { useTranslation } from "react-i18next"
-import { MdOutlineDone } from "react-icons/md"
-import { TbActivityHeartbeat } from "react-icons/tb"
+import "./MethodSports.css";
+import { useTranslation } from "react-i18next";
+import { MdOutlineDone } from "react-icons/md";
+import { TbActivityHeartbeat } from "react-icons/tb";
 
 const MethodSports = () => {
-  const { t } = useTranslation()
-  
+  const { t } = useTranslation();
+
   return (
     <section className="method-sports">
       <div className="method-content">
@@ -50,51 +50,62 @@ const MethodSports = () => {
               </h4>
             </div>
             <div className="method">
-              <p>01
-                <span>
-                  {t(
-                    "sports-therapy.methods.methods-content.methods.techniques.technique1",
-                  )}
-                </span>
-              </p>
-              <p>
-                02
-                <span>
-                  {t(
-                    "sports-therapy.methods.methods-content.methods.techniques.technique2",
-                  )}
-                </span>
-              </p>
-              <p>
-                03
-                <span>
-                  {t(
-                    "sports-therapy.methods.methods-content.methods.techniques.technique3",
-                  )}
-                </span>
-              </p>
-              <p>
-                04
-                <span>
-                  {t(
-                    "sports-therapy.methods.methods-content.methods.techniques.technique4",
-                  )}
-                </span>
-              </p>
-              <p>
-                05
-                <span>
-                  {t(
-                    "sports-therapy.methods.methods-content.methods.techniques.technique5",
-                  )}
-                </span>
-              </p>
+              <div className="box">
+                <p>
+                  01
+                  <span>
+                    {t(
+                      "sports-therapy.methods.methods-content.methods.techniques.technique1",
+                    )}
+                  </span>
+                </p>
+              </div>
+              <div className="box">
+                <p>
+                  02
+                  <span>
+                    {t(
+                      "sports-therapy.methods.methods-content.methods.techniques.technique2",
+                    )}
+                  </span>
+                </p>
+              </div>
+              <div className="box">
+                <p>
+                  03
+                  <span>
+                    {t(
+                      "sports-therapy.methods.methods-content.methods.techniques.technique3",
+                    )}
+                  </span>
+                </p>
+              </div>
+              <div className="box">
+                <p>
+                  04
+                  <span>
+                    {t(
+                      "sports-therapy.methods.methods-content.methods.techniques.technique4",
+                    )}
+                  </span>
+                </p>
+              </div>
+              <div className="box">
+                <p>
+                  05
+                  <span>
+                    {t(
+                      "sports-therapy.methods.methods-content.methods.techniques.technique5",
+                    )}
+                  </span>
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default MethodSports
+export default MethodSports;

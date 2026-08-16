@@ -1,0 +1,105 @@
+.session-flow-individual {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-block: 8rem;
+  padding-inline: 4rem;
+
+  .content {
+    width: 100%;
+
+    .header {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 4rem;
+  
+      .tag {
+        font-family: var(--font-display);
+        font-weight: 500;
+        font-size: clamp(1.3rem, 2vw, 1.4rem);
+        text-transform: uppercase;
+        color: var(--accent);
+        letter-spacing: 1px;
+        margin-bottom: 1.5rem;
+      }
+  
+      & > h2 {
+        font-size: clamp(2rem, 3vw, 2.8rem);
+        font-weight: 400;
+        line-height: 1;
+      }
+    }
+
+    .sessions {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+
+      .session {
+        width: 100%;
+        padding-block: 3rem;
+        padding-inline: 3rem;
+        border: 1px solid var(--accent-soft-lighter);
+        border-radius: 2rem;
+        background-color: var(--surface);
+
+        & > span {
+          display: block;
+          color: transparent;
+          -webkit-text-stroke: 1px var(--accent);
+          font-size: clamp(1.6rem, 4.5vw, 3.8rem);
+        }
+
+        & > h4 {
+          font-size: clamp(1.4rem, 2vw, 1.7rem);
+          font-weight: 500;
+          margin-block: 1rem;
+        }
+
+        & > p {
+          font-size: clamp(1.2rem, 1.5vw, 1.4rem);
+          font-weight: 300;
+          line-height: 1.6;
+        }
+      }
+    }
+  }
+}
+
+
+/* ============ RESPONSIVE ============ */
+@media (max-width: 1024px) {
+  .session-flow-individual {
+    padding-block: 6rem;
+    padding-inline: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .session-flow-individual {
+    .content {
+      .sessions {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .session-flow-individual {
+    padding-block: 4rem;
+    padding-inline: 2rem;
+
+    .content {
+      .header {
+        margin-bottom: 3rem;
+      }
+
+      .sessions {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+}

@@ -50,46 +50,56 @@ const MethodNeuro = () => {
               </h4>
             </div>
             <div className="method">
-              <p>
-                01
-                <span>
-                  {t(
-                    "neuro-therapy.methods.methods-content.methods.techniques.technique1",
-                  )}
-                </span>
-              </p>
-              <p>
-                02
-                <span>
-                  {t(
-                    "neuro-therapy.methods.methods-content.methods.techniques.technique2",
-                  )}
-                </span>
-              </p>
-              <p>
-                03
-                <span>
-                  {t(
-                    "neuro-therapy.methods.methods-content.methods.techniques.technique3",
-                  )}
-                </span>
-              </p>
-              <p>
-                04
-                <span>
-                  {t(
-                    "neuro-therapy.methods.methods-content.methods.techniques.technique4",
-                  )}
-                </span>
-              </p>
-              <p>
-                05
-                <span>
-                  {t(
-                    "neuro-therapy.methods.methods-content.methods.techniques.technique5",
-                  )}
-                </span>
-              </p>
+              <div className="box">
+                <p>
+                  01
+                  <span>
+                    {t(
+                      "neuro-therapy.methods.methods-content.methods.techniques.technique1",
+                    )}
+                  </span>
+                </p>
+              </div>
+              <div className="box">
+                <p>
+                  02
+                  <span>
+                    {t(
+                      "neuro-therapy.methods.methods-content.methods.techniques.technique2",
+                    )}
+                  </span>
+                </p>
+              </div>
+              <div className="box">
+                <p>
+                  03
+                  <span>
+                    {t(
+                      "neuro-therapy.methods.methods-content.methods.techniques.technique3",
+                    )}
+                  </span>
+                </p>
+              </div>
+              <div className="box">
+                <p>
+                  04
+                  <span>
+                    {t(
+                      "neuro-therapy.methods.methods-content.methods.techniques.technique4",
+                    )}
+                  </span>
+                </p>
+              </div>
+              <div className="box">
+                <p>
+                  05
+                  <span>
+                    {t(
+                      "neuro-therapy.methods.methods-content.methods.techniques.technique5",
+                    )}
+                  </span>
+                </p>
+              </div>
             </div>
           </div>
         </div>

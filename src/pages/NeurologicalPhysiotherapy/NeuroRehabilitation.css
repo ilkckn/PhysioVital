@@ -131,7 +131,7 @@
 
               & > svg {
                 transform: translateY(0.2rem);
-                color: var(--accent-lighter);
+                color: var(--accent-cool);
                 font-size: clamp(1.3rem, 2vw, 1.6rem);
               }
             }
@@ -150,7 +150,7 @@
 
             & > svg {
               transform: translateY(0.05rem);
-              color: var(--accent);
+              color: var(--accent-cool);
             }
           }
         }
