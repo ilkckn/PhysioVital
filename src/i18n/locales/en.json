@@ -1886,5 +1886,229 @@
         "btn2": "Call Now"
       }
     }
+  },
+  "individual-exercise-programs": {
+    "navigation": {
+      "home": "Home",
+      "services": "Services",
+      "individual-exercise-programs": "Individual Exercise Programs"
+    },
+    "tag": {
+      "tag1": "Individual Exercise Programs",
+      "tag2": "Home Exercise"
+    },
+    "header": {
+      "title1": "Your personal",
+      "title2": "exercise plan"
+    },
+    "desc": "A tailored exercise program set by your physiotherapist. A plan you can safely follow at home or in the gym, with your progress tracked along the way.",
+    "list": {
+      "li1": "Personally designed by a physiotherapist",
+      "li2": "Can be done at home or in the gym",
+      "li3": "Your progress is tracked and updated"
+    },
+    "first-evaluation": "First consultation and assessment are free",
+    "content-right": {
+      "header": "Session Overview",
+      "desc": "Quick facts about exercise programs",
+      "summary": {
+        "summary1": {
+          "header": "Program length",
+          "desc": "4-12 weeks"
+        },
+        "summary2": {
+          "header": "Recommended frequency",
+          "desc": "3-5 days per week"
+        },
+        "summary3": {
+          "header": "Assessment",
+          "desc": "Physiotherapist check and progress tracking"
+        }
+      },
+      "extra": {
+        "text1": "Tailored exercise plan",
+        "text2": "For home or the gym"
+      },
+      "button": "Request a free assessment"
+    },
+    "methods": {
+      "tag": "Method",
+      "header": "What are individual exercise programs?",
+      "desc": "Individual exercise programs are tailored plans set by your physiotherapist, which you can safely follow at home or in the gym. The program is arranged around your current condition, goals, and progress.",
+      "methods-content": {
+        "header": "What are the benefits?",
+        "list": {
+          "li1": "Builds muscle strength and endurance",
+          "li2": "Improves balance and coordination",
+          "li3": "Reduces pain",
+          "li4": "Makes daily activities easier"
+        },
+        "methods": {
+          "header": "Assessment tools",
+          "techniques": {
+            "technique1": "Functional movement assessment",
+            "technique2": "Balance and coordination tests",
+            "technique3": "Muscle strength and tone measurement",
+            "technique4": "Gait and transfer analysis",
+            "technique5": "Daily activity tracking"
+          }
+        }
+      }
+    },
+    "practice": {
+      "tag": "Application",
+      "header": "Our individual exercise programs",
+      "desc": "Measurement-based exercise programs, structured around your current condition and goals. Each plan is reshaped as you progress.",
+      "practices": {
+        "prac1": {
+          "header": "Muscle strengthening",
+          "desc": "Strengthens weak muscle groups and improves joint stability.",
+          "tag": "Strengthening"
+        },
+        "prac2": {
+          "header": "Balance & coordination",
+          "desc": "Gradual exercises for safe movement when balance and coordination decline.",
+          "tag": "Balance"
+        },
+        "prac3": {
+          "header": "Flexibility & mobility",
+          "desc": "Improves range of motion by increasing muscle and joint flexibility.",
+          "tag": "Flexibility"
+        },
+        "prac4": {
+          "header": "Pain management",
+          "desc": "Targeted stretching exercises to ease chronic pain and muscle tension.",
+          "tag": "Pain management"
+        },
+        "prac5": {
+          "header": "Posture",
+          "desc": "Exercises to correct poor posture and support spinal health.",
+          "tag": "Posture"
+        },
+        "prac6": {
+          "header": "Functional movement",
+          "desc": "Exercises that build functional movement skills and ease daily activities.",
+          "tag": "Functional"
+        }
+      }
+    },
+    "goal-specific": {
+      "tag": "Goal-Specific",
+      "header": "Exercise programs tailored to your goal",
+      "desc": "Assessment-based program packages, designed around your goal and lifestyle.",
+      "boxes": {
+        "box1": {
+          "header": "Post-surgery rehab",
+          "desc": "A safe program that gradually restores range of motion and strength.",
+          "tags": {
+            "tag1": "Range of motion",
+            "tag2": "Muscle strength",
+            "tag3": "Gradual loading"
+          },
+          "cta": {
+            "cta1": "3-4 days per week",
+            "cta2": "Get Info"
+          }
+        },
+        "box2": {
+          "header": "Strength & balance in aging",
+          "desc": "A program that builds leg strength and balance to reduce fall risk.",
+          "tags": {
+            "tag1": "Balance",
+            "tag2": "Leg strength",
+            "tag3": "Fall prevention"
+          },
+          "cta": {
+            "cta1": "3-4 days per week",
+            "cta2": "Get Info"
+          }
+        },
+        "box3": {
+          "header": "Office & desk work",
+          "desc": "A program to ease posture problems and tension from long sitting.",
+          "tags": {
+            "tag1": "Posture",
+            "tag2": "Neck & back",
+            "tag3": "Mobility"
+          },
+          "cta": {
+            "cta1": "3-4 days per week",
+            "cta2": "Get Info"
+          }
+        },
+        "box4": {
+          "header": "Athletes & performance",
+          "desc": "Boosts athletic performance through strength, endurance, and agility.",
+          "tags": {
+            "tag1": "Strength",
+            "tag2": "Endurance",
+            "tag3": "Agility"
+          },
+          "cta": {
+            "cta1": "3-4 days per week",
+            "cta2": "Get Info"
+          }
+        }
+      }
+    },
+    "for-whom-individual": {
+      "tag": "Who is it for?",
+      "header": "Suitable for these situations",
+      "desc": "From post-surgery rehab and fall risk in aging to office workers and athletes. Exact suitability is confirmed together with a physiotherapist during the free initial assessment.",
+      "medical-issues": {
+        "issues1": "Those with limited mobility after surgery",
+        "issues2": "Those with strength and balance loss in aging",
+        "issues3": "Office workers with desk-related tension",
+        "issues4": "Athletes and those wanting to boost performance",
+        "issues5": "Those with chronic pain and muscle tension",
+        "issues6": "Those with poor posture and postural issues"
+      },
+      "boxes": {
+        "box1": {
+          "header": "When is it used?",
+          "desc": "A program suited to your goal is planned around your condition and lifestyle, and updated with progress measurements.",
+          "tag": "Goal-focused"
+        },
+        "box2": {
+          "header": "When is it postponed?",
+          "desc": "For severe acute injury, infection, or uncontrolled medical conditions, a physiotherapist or doctor is consulted first.",
+          "tag": "Doctor first"
+        },
+        "box3": {
+          "header": "Together with your physiotherapist",
+          "desc": "The program runs in coordination with your physiotherapist; progress and goals are updated together.",
+          "tag": "Teamwork"
+        }
+      }
+    },
+    "session-flow-individual": {
+      "tag": "Session Flow",
+      "header": "How does a session go?",
+      "session": {
+        "step1": {
+          "header": "Free assessment",
+          "desc": "We listen to your condition and goals, run functional and muscle analysis, and set your tailored plan together."
+        },
+        "step2": {
+          "header": "Exercise program",
+          "desc": "Your physiotherapist guides you through the program, ensuring correct form and safe execution."
+        },
+        "step3": {
+          "header": "Home program & follow-up",
+          "desc": "We prepare exercises to do at home, track your progress, and update the plan with you."
+        }
+      }
+    },
+    "hero-cta-individual": {
+      "header": {
+        "title1": "Reach",
+        "title2": "your goal."
+      },
+      "desc": "Want to progress safely at home or in the gym with your personal exercise program? Let's start with a free initial assessment.",
+      "btns": {
+        "btn1": "Book Appointment",
+        "btn2": "Call Now"
+      }
+    }
   }
 }

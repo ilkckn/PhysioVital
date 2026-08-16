@@ -1886,5 +1886,229 @@
         "btn2": "Jetzt anrufen"
       }
     }
+  },
+  "individual-exercise-programs": {
+    "navigation": {
+      "home": "Start",
+      "services": "Leistungen",
+      "individual-exercise-programs": "Individuelle Trainingsprogramme"
+    },
+    "tag": {
+      "tag1": "Individuelle Trainingsprogramme",
+      "tag2": "Heimtraining"
+    },
+    "header": {
+      "title1": "Ihr persönlicher",
+      "title2": "Trainingsplan"
+    },
+    "desc": "Ein Trainingsplan nach Vorgabe Ihres Physiotherapeuten. Sicher zu Hause oder im Studio anwendbar, mit Fortschrittskontrolle.",
+    "list": {
+      "li1": "Individuell vom Physiotherapeuten erstellt",
+      "li2": "Zu Hause oder im Studio anwendbar",
+      "li3": "Fortschritt wird verfolgt und angepasst"
+    },
+    "first-evaluation": "Erstgespräch und Voruntersuchung sind kostenlos",
+    "content-right": {
+      "header": "Sitzungsüberblick",
+      "desc": "Kurzinfos zu Trainingsprogrammen",
+      "summary": {
+        "summary1": {
+          "header": "Dauer",
+          "desc": "4-12 Wochen"
+        },
+        "summary2": {
+          "header": "Häufigkeit",
+          "desc": "3-5 Tage pro Woche"
+        },
+        "summary3": {
+          "header": "Untersuchung",
+          "desc": "Kontrolle und Fortschrittsverfolgung"
+        }
+      },
+      "extra": {
+        "text1": "Individueller Trainingsplan",
+        "text2": "Für zu Hause und Studio"
+      },
+      "button": "Kostenlose Untersuchung anfragen"
+    },
+    "methods": {
+      "tag": "Methode",
+      "header": "Was sind individuelle Trainingsprogramme?",
+      "desc": "Individuelle Trainingsprogramme sind maßgeschneiderte Pläne Ihres Physiotherapeuten, die Sie sicher zu Hause oder im Studio anwenden. Der Plan richtet sich nach Ihrem Zustand, Ihren Zielen und Ihrem Fortschritt.",
+      "methods-content": {
+        "header": "Welche Vorteile bringt es?",
+        "list": {
+          "li1": "Steigert Kraft und Ausdauer",
+          "li2": "Verbessert Gleichgewicht und Koordination",
+          "li3": "Lindert Schmerzen",
+          "li4": "Erleichtert den Alltag"
+        },
+        "methods": {
+          "header": "Untersuchungsmethoden",
+          "techniques": {
+            "technique1": "Funktionelle Bewegungsanalyse",
+            "technique2": "Gleichgewichts- und Koordinationstests",
+            "technique3": "Messung von Kraft und Muskeltonus",
+            "technique4": "Gang- und Transferanalyse",
+            "technique5": "Verfolgung der Alltagsaktivität"
+          }
+        }
+      }
+    },
+    "practice": {
+      "tag": "Anwendung",
+      "header": "Unsere individuellen Programme",
+      "desc": "Messbasierte Trainingsprogramme nach Ihrem Zustand und Ihren Zielen. Jeder Plan wird an Ihren Fortschritt angepasst.",
+      "practices": {
+        "prac1": {
+          "header": "Kräftigung",
+          "desc": "Stärkt schwache Muskelgruppen und verbessert die Gelenkstabilität.",
+          "tag": "Kräftigung"
+        },
+        "prac2": {
+          "header": "Gleichgewicht & Koordination",
+          "desc": "Schrittweise Übungen für sichere Bewegung bei Gleichgewichtsverlust.",
+          "tag": "Gleichgewicht"
+        },
+        "prac3": {
+          "header": "Flexibilität & Mobilität",
+          "desc": "Verbessert die Beweglichkeit durch mehr Muskel- und Gelenkflexibilität.",
+          "tag": "Flexibilität"
+        },
+        "prac4": {
+          "header": "Schmerzmanagement",
+          "desc": "Gezielte Dehnübungen gegen chronische Schmerzen und Verspannung.",
+          "tag": "Schmerzmanagement"
+        },
+        "prac5": {
+          "header": "Haltung",
+          "desc": "Übungen gegen Fehlhaltung und für eine gesunde Wirbelsäule.",
+          "tag": "Haltung"
+        },
+        "prac6": {
+          "header": "Funktionelle Bewegung",
+          "desc": "Übungen, die funktionelle Bewegung und den Alltag erleichtern.",
+          "tag": "Funktionell"
+        }
+      }
+    },
+    "goal-specific": {
+      "tag": "Nach Ziel",
+      "header": "Programme nach Ihrem Ziel",
+      "desc": "Programmpakete nach Untersuchung, abgestimmt auf Ihr Ziel und Ihren Alltag.",
+      "boxes": {
+        "box1": {
+          "header": "Reha nach OP",
+          "desc": "Ein sicheres Programm, das Beweglichkeit und Kraft schrittweise aufbaut.",
+          "tags": {
+            "tag1": "Beweglichkeit",
+            "tag2": "Kraft",
+            "tag3": "Stufenweise Belastung"
+          },
+          "cta": {
+            "cta1": "3-4 Tage pro Woche",
+            "cta2": "Info anfordern"
+          }
+        },
+        "box2": {
+          "header": "Kraft & Balance im Alter",
+          "desc": "Ein Programm für Beinkraft und Balance zur Sturzvermeidung.",
+          "tags": {
+            "tag1": "Balance",
+            "tag2": "Beinkraft",
+            "tag3": "Sturzvermeidung"
+          },
+          "cta": {
+            "cta1": "3-4 Tage pro Woche",
+            "cta2": "Info anfordern"
+          }
+        },
+        "box3": {
+          "header": "Büro & Schreibtisch",
+          "desc": "Ein Programm gegen Fehlhaltung und Verspannung durch langes Sitzen.",
+          "tags": {
+            "tag1": "Haltung",
+            "tag2": "Nacken & Rücken",
+            "tag3": "Mobilität"
+          },
+          "cta": {
+            "cta1": "3-4 Tage pro Woche",
+            "cta2": "Info anfordern"
+          }
+        },
+        "box4": {
+          "header": "Sportler & Leistung",
+          "desc": "Steigert die Leistung durch Kraft, Ausdauer und Beweglichkeit.",
+          "tags": {
+            "tag1": "Kraft",
+            "tag2": "Ausdauer",
+            "tag3": "Agilität"
+          },
+          "cta": {
+            "cta1": "3-4 Tage pro Woche",
+            "cta2": "Info anfordern"
+          }
+        }
+      }
+    },
+    "for-whom-individual": {
+      "tag": "Für wen?",
+      "header": "Geeignet für diese Fälle",
+      "desc": "Von Reha nach OP über Sturzrisiko im Alter bis zu Büroarbeit und Sport. Die genaue Eignung klären wir beim kostenlosen Erstgespräch mit dem Physiotherapeuten.",
+      "medical-issues": {
+        "issues1": "Eingeschränkte Beweglichkeit nach einer OP",
+        "issues2": "Kraft- und Balanceverlust im Alter",
+        "issues3": "Büroarbeit mit Verspannung durch Sitzen",
+        "issues4": "Sportler und alle, die ihre Leistung steigern wollen",
+        "issues5": "Chronische Schmerzen und Verspannung",
+        "issues6": "Fehlhaltung und Haltungsprobleme"
+      },
+      "boxes": {
+        "box1": {
+          "header": "Wann angewendet?",
+          "desc": "Ein zielgerechtes Programm wird nach Zustand und Alltag geplant und mit Messungen angepasst.",
+          "tag": "Zielorientiert"
+        },
+        "box2": {
+          "header": "Wann verschoben?",
+          "desc": "Bei schwerer akuter Verletzung, Infektion oder unkontrollierten Beschwerden zuerst Physiotherapeut oder Arzt.",
+          "tag": "Erst zum Arzt"
+        },
+        "box3": {
+          "header": "Mit Ihrem Physiotherapeuten",
+          "desc": "Das Programm läuft in Abstimmung mit Ihrem Physiotherapeuten; Ziele werden gemeinsam angepasst.",
+          "tag": "Teamarbeit"
+        }
+      }
+    },
+    "session-flow-individual": {
+      "tag": "Sitzungsablauf",
+      "header": "Wie läuft eine Sitzung ab?",
+      "session": {
+        "step1": {
+          "header": "Kostenlose Untersuchung",
+          "desc": "Wir hören Zustand und Ziele an, machen eine funktionelle und muskuläre Analyse und legen Ihren Plan gemeinsam fest."
+        },
+        "step2": {
+          "header": "Trainingsprogramm",
+          "desc": "Ihr Physiotherapeut begleitet das Programm und sorgt für richtige Ausführung und Sicherheit."
+        },
+        "step3": {
+          "header": "Heimprogramm & Nachsorge",
+          "desc": "Wir bereiten Übungen für zu Hause vor, verfolgen Ihren Fortschritt und passen den Plan an."
+        }
+      }
+    },
+    "hero-cta-individual": {
+      "header": {
+        "title1": "Erreichen Sie",
+        "title2": "Ihr Ziel."
+      },
+      "desc": "Möchten Sie mit Ihrem persönlichen Programm sicher zu Hause oder im Studio vorankommen? Starten Sie mit einem kostenlosen Erstgespräch.",
+      "btns": {
+        "btn1": "Termin buchen",
+        "btn2": "Jetzt anrufen"
+      }
+    }
   }
 }
